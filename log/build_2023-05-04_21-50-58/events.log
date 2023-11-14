@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.001205] (autonomous_exploration) JobQueued: {'identifier': 'autonomous_exploration', 'dependencies': OrderedDict()}
+[0.001276] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.001318] (navigation_module) JobQueued: {'identifier': 'navigation_module', 'dependencies': OrderedDict()}
+[0.001358] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.001397] (autonomous_exploration) JobStarted: {'identifier': 'autonomous_exploration'}
+[0.031571] (msgs) JobStarted: {'identifier': 'msgs'}
+[0.099005] (-) TimerEvent: {}
+[0.199453] (-) TimerEvent: {}
+[0.299877] (-) TimerEvent: {}
+[0.400330] (-) TimerEvent: {}
+[0.500803] (-) TimerEvent: {}
+[0.601419] (-) TimerEvent: {}
+[0.702002] (-) TimerEvent: {}
+[0.802498] (-) TimerEvent: {}
+[0.903076] (-) TimerEvent: {}
+[1.003548] (-) TimerEvent: {}
+[1.104013] (-) TimerEvent: {}
+[1.204546] (-) TimerEvent: {}
+[1.304974] (-) TimerEvent: {}
+[1.405412] (-) TimerEvent: {}
+[1.505923] (-) TimerEvent: {}
+[1.606391] (-) TimerEvent: {}
+[1.706876] (-) TimerEvent: {}
+[1.807332] (-) TimerEvent: {}
+[1.907789] (-) TimerEvent: {}
+[2.008227] (-) TimerEvent: {}
+[2.108677] (-) TimerEvent: {}
+[2.209167] (-) TimerEvent: {}
+[2.309680] (-) TimerEvent: {}
+[2.366940] (msgs) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/msgs', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/msgs/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/msgs/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/msgs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1531', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1502,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1502', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a903ca3_5192_4cbe_b35b_1ee21fbff241', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JEAD41', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/msgs/prefix_override:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[2.409879] (-) TimerEvent: {}
+[2.462960] (autonomous_exploration) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/autonomous_exploration', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/autonomous_exploration/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/autonomous_exploration/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/autonomous_exploration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1531', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1502,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1502', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a903ca3_5192_4cbe_b35b_1ee21fbff241', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JEAD41', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/autonomous_exploration', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/autonomous_exploration/prefix_override:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[2.510028] (-) TimerEvent: {}
+[2.610666] (-) TimerEvent: {}
+[2.711084] (-) TimerEvent: {}
+[2.811512] (-) TimerEvent: {}
+[2.912005] (-) TimerEvent: {}
+[3.012485] (-) TimerEvent: {}
+[3.019489] (msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.065361] (msgs) StdoutLine: {'line': b'writing ../../build/msgs/msgs.egg-info/PKG-INFO\n'}
+[3.066850] (msgs) StdoutLine: {'line': b'writing dependency_links to ../../build/msgs/msgs.egg-info/dependency_links.txt\n'}
+[3.068169] (msgs) StdoutLine: {'line': b'writing entry points to ../../build/msgs/msgs.egg-info/entry_points.txt\n'}
+[3.069305] (msgs) StdoutLine: {'line': b'writing requirements to ../../build/msgs/msgs.egg-info/requires.txt\n'}
+[3.070335] (msgs) StdoutLine: {'line': b'writing top-level names to ../../build/msgs/msgs.egg-info/top_level.txt\n'}
+[3.090033] (autonomous_exploration) StdoutLine: {'line': b'running egg_info\n'}
+[3.112633] (-) TimerEvent: {}
+[3.128965] (autonomous_exploration) StdoutLine: {'line': b'writing ../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO\n'}
+[3.129782] (autonomous_exploration) StdoutLine: {'line': b'writing dependency_links to ../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt\n'}
+[3.130620] (autonomous_exploration) StdoutLine: {'line': b'writing entry points to ../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt\n'}
+[3.131419] (autonomous_exploration) StdoutLine: {'line': b'writing requirements to ../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt\n'}
+[3.132012] (autonomous_exploration) StdoutLine: {'line': b'writing top-level names to ../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt\n'}
+[3.161543] (msgs) StdoutLine: {'line': b"reading manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[3.164753] (msgs) StdoutLine: {'line': b"writing manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[3.165761] (msgs) StdoutLine: {'line': b'running build\n'}
+[3.166430] (msgs) StdoutLine: {'line': b'running build_py\n'}
+[3.167852] (msgs) StdoutLine: {'line': b'running install\n'}
+[3.169132] (msgs) StderrLine: {'line': b'/home/tony_stark/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[3.169530] (msgs) StderrLine: {'line': b'!!\n'}
+[3.169764] (msgs) StderrLine: {'line': b'\n'}
+[3.169984] (msgs) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.170210] (msgs) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[3.170459] (msgs) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[3.170718] (msgs) StderrLine: {'line': b'        other standards-based tools.\n'}
+[3.170945] (msgs) StderrLine: {'line': b'\n'}
+[3.171113] (msgs) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[3.171274] (msgs) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.171440] (msgs) StderrLine: {'line': b'\n'}
+[3.171633] (msgs) StderrLine: {'line': b'!!\n'}
+[3.171824] (msgs) StderrLine: {'line': b'  self.initialize_options()\n'}
+[3.189221] (msgs) StdoutLine: {'line': b'running install_lib\n'}
+[3.212778] (-) TimerEvent: {}
+[3.219570] (autonomous_exploration) StdoutLine: {'line': b"reading manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[3.221879] (autonomous_exploration) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[3.222283] (autonomous_exploration) StdoutLine: {'line': b'running build\n'}
+[3.222602] (autonomous_exploration) StdoutLine: {'line': b'running build_py\n'}
+[3.224023] (autonomous_exploration) StdoutLine: {'line': b'running install\n'}
+[3.224522] (autonomous_exploration) StderrLine: {'line': b'/home/tony_stark/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[3.224937] (autonomous_exploration) StderrLine: {'line': b'!!\n'}
+[3.225131] (autonomous_exploration) StderrLine: {'line': b'\n'}
+[3.225294] (autonomous_exploration) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.225474] (autonomous_exploration) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[3.225648] (autonomous_exploration) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[3.225814] (autonomous_exploration) StderrLine: {'line': b'        other standards-based tools.\n'}
+[3.225961] (autonomous_exploration) StderrLine: {'line': b'\n'}
+[3.226112] (autonomous_exploration) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[3.226275] (autonomous_exploration) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.226441] (autonomous_exploration) StderrLine: {'line': b'\n'}
+[3.226591] (autonomous_exploration) StderrLine: {'line': b'!!\n'}
+[3.226835] (autonomous_exploration) StderrLine: {'line': b'  self.initialize_options()\n'}
+[3.235880] (msgs) StdoutLine: {'line': b'running install_data\n'}
+[3.245020] (autonomous_exploration) StdoutLine: {'line': b'running install_lib\n'}
+[3.277452] (msgs) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.287026] (autonomous_exploration) StdoutLine: {'line': b'running install_data\n'}
+[3.312946] (-) TimerEvent: {}
+[3.323148] (msgs) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.324875] (msgs) StdoutLine: {'line': b'Copying ../../build/msgs/msgs.egg-info to /home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info\n'}
+[3.327445] (msgs) StdoutLine: {'line': b'running install_scripts\n'}
+[3.329003] (autonomous_exploration) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.385415] (autonomous_exploration) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.386305] (autonomous_exploration) StdoutLine: {'line': b'Copying ../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info\n'}
+[3.389042] (autonomous_exploration) StdoutLine: {'line': b'running install_scripts\n'}
+[3.413097] (-) TimerEvent: {}
+[3.513554] (-) TimerEvent: {}
+[3.613993] (-) TimerEvent: {}
+[3.714417] (-) TimerEvent: {}
+[3.814896] (-) TimerEvent: {}
+[3.847865] (msgs) StdoutLine: {'line': b'Installing floatlist script to /home/tony_stark/ros2_ws/install/msgs/lib/msgs\n'}
+[3.849318] (msgs) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/msgs/install.log'\n"}
+[3.915055] (-) TimerEvent: {}
+[3.916581] (autonomous_exploration) StdoutLine: {'line': b'Installing control script to /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/autonomous_exploration\n'}
+[3.917759] (autonomous_exploration) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/autonomous_exploration/install.log'\n"}
+[3.953005] (msgs) CommandEnded: {'returncode': 0}
+[3.996987] (msgs) JobEnded: {'identifier': 'msgs', 'rc': 0}
+[4.000167] (navigation_module) JobStarted: {'identifier': 'navigation_module'}
+[4.017528] (-) TimerEvent: {}
+[4.040005] (autonomous_exploration) CommandEnded: {'returncode': 0}
+[4.060523] (autonomous_exploration) JobEnded: {'identifier': 'autonomous_exploration', 'rc': 0}
+[4.066058] (sample_package) JobStarted: {'identifier': 'sample_package'}
+[4.117700] (-) TimerEvent: {}
+[4.218377] (-) TimerEvent: {}
+[4.318912] (-) TimerEvent: {}
+[4.419360] (-) TimerEvent: {}
+[4.519856] (-) TimerEvent: {}
+[4.620518] (-) TimerEvent: {}
+[4.721099] (-) TimerEvent: {}
+[4.822958] (-) TimerEvent: {}
+[4.923534] (-) TimerEvent: {}
+[5.024002] (-) TimerEvent: {}
+[5.124510] (-) TimerEvent: {}
+[5.224973] (-) TimerEvent: {}
+[5.325407] (-) TimerEvent: {}
+[5.425891] (-) TimerEvent: {}
+[5.526348] (-) TimerEvent: {}
+[5.626857] (-) TimerEvent: {}
+[5.727311] (-) TimerEvent: {}
+[5.827789] (-) TimerEvent: {}
+[5.928251] (-) TimerEvent: {}
+[6.028718] (-) TimerEvent: {}
+[6.129180] (-) TimerEvent: {}
+[6.229622] (-) TimerEvent: {}
+[6.330074] (-) TimerEvent: {}
+[6.430584] (-) TimerEvent: {}
+[6.492599] (navigation_module) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation_module', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/navigation_module/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/navigation_module/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/navigation_module', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1531', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1502,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1502', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a903ca3_5192_4cbe_b35b_1ee21fbff241', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JEAD41', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/navigation_module', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/navigation_module/prefix_override:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[6.530756] (-) TimerEvent: {}
+[6.613668] (sample_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sample_package', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/sample_package/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/sample_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/sample_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1531', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1502,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1502', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a903ca3_5192_4cbe_b35b_1ee21fbff241', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JEAD41', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.204', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/sample_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/sample_package/prefix_override:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[6.630892] (-) TimerEvent: {}
+[6.731392] (-) TimerEvent: {}
+[6.831925] (-) TimerEvent: {}
+[6.932384] (-) TimerEvent: {}
+[7.032835] (-) TimerEvent: {}
+[7.133307] (-) TimerEvent: {}
+[7.145980] (navigation_module) StdoutLine: {'line': b'running egg_info\n'}
+[7.193731] (navigation_module) StdoutLine: {'line': b'writing ../../build/navigation_module/navigation_module.egg-info/PKG-INFO\n'}
+[7.194750] (navigation_module) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation_module/navigation_module.egg-info/dependency_links.txt\n'}
+[7.195818] (navigation_module) StdoutLine: {'line': b'writing requirements to ../../build/navigation_module/navigation_module.egg-info/requires.txt\n'}
+[7.196526] (navigation_module) StdoutLine: {'line': b'writing top-level names to ../../build/navigation_module/navigation_module.egg-info/top_level.txt\n'}
+[7.228803] (sample_package) StdoutLine: {'line': b'running egg_info\n'}
+[7.233459] (-) TimerEvent: {}
+[7.268453] (sample_package) StdoutLine: {'line': b'writing ../../build/sample_package/sample_package.egg-info/PKG-INFO\n'}
+[7.269906] (sample_package) StdoutLine: {'line': b'writing dependency_links to ../../build/sample_package/sample_package.egg-info/dependency_links.txt\n'}
+[7.271303] (sample_package) StdoutLine: {'line': b'writing entry points to ../../build/sample_package/sample_package.egg-info/entry_points.txt\n'}
+[7.285857] (navigation_module) StdoutLine: {'line': b"reading manifest file '../../build/navigation_module/navigation_module.egg-info/SOURCES.txt'\n"}
+[7.287196] (sample_package) StdoutLine: {'line': b'writing requirements to ../../build/sample_package/sample_package.egg-info/requires.txt\n'}
+[7.287697] (sample_package) StdoutLine: {'line': b'writing top-level names to ../../build/sample_package/sample_package.egg-info/top_level.txt\n'}
+[7.291250] (navigation_module) StdoutLine: {'line': b"writing manifest file '../../build/navigation_module/navigation_module.egg-info/SOURCES.txt'\n"}
+[7.292318] (navigation_module) StdoutLine: {'line': b'running build\n'}
+[7.293088] (navigation_module) StdoutLine: {'line': b'running build_py\n'}
+[7.294583] (navigation_module) StdoutLine: {'line': b'running install\n'}
+[7.295707] (navigation_module) StderrLine: {'line': b'/home/tony_stark/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[7.296267] (navigation_module) StderrLine: {'line': b'!!\n'}
+[7.296611] (navigation_module) StderrLine: {'line': b'\n'}
+[7.296959] (navigation_module) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.297323] (navigation_module) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[7.297670] (navigation_module) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[7.297999] (navigation_module) StderrLine: {'line': b'        other standards-based tools.\n'}
+[7.298296] (navigation_module) StderrLine: {'line': b'\n'}
+[7.298613] (navigation_module) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[7.299081] (navigation_module) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.299424] (navigation_module) StderrLine: {'line': b'\n'}
+[7.299759] (navigation_module) StderrLine: {'line': b'!!\n'}
+[7.300072] (navigation_module) StderrLine: {'line': b'  self.initialize_options()\n'}
+[7.317362] (navigation_module) StdoutLine: {'line': b'running install_lib\n'}
+[7.333611] (-) TimerEvent: {}
+[7.363699] (navigation_module) StdoutLine: {'line': b'running install_data\n'}
+[7.382886] (sample_package) StdoutLine: {'line': b"reading manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[7.385283] (sample_package) StdoutLine: {'line': b"writing manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[7.385773] (sample_package) StdoutLine: {'line': b'running build\n'}
+[7.386034] (sample_package) StdoutLine: {'line': b'running build_py\n'}
+[7.387274] (sample_package) StdoutLine: {'line': b'running install\n'}
+[7.387802] (sample_package) StderrLine: {'line': b'/home/tony_stark/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[7.388110] (sample_package) StderrLine: {'line': b'!!\n'}
+[7.388275] (sample_package) StderrLine: {'line': b'\n'}
+[7.388438] (sample_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.388612] (sample_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[7.388762] (sample_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[7.388916] (sample_package) StderrLine: {'line': b'        other standards-based tools.\n'}
+[7.389075] (sample_package) StderrLine: {'line': b'\n'}
+[7.389235] (sample_package) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[7.389395] (sample_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.389597] (sample_package) StderrLine: {'line': b'\n'}
+[7.389779] (sample_package) StderrLine: {'line': b'!!\n'}
+[7.389939] (sample_package) StderrLine: {'line': b'  self.initialize_options()\n'}
+[7.403437] (sample_package) StdoutLine: {'line': b'running install_lib\n'}
+[7.410301] (navigation_module) StdoutLine: {'line': b'copying worlds/small_house.world -> /home/tony_stark/ros2_ws/install/navigation_module/share/navigation_module\n'}
+[7.411516] (navigation_module) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.433755] (-) TimerEvent: {}
+[7.442796] (sample_package) StdoutLine: {'line': b'running install_data\n'}
+[7.463589] (navigation_module) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages/navigation_module-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.464916] (navigation_module) StdoutLine: {'line': b'Copying ../../build/navigation_module/navigation_module.egg-info to /home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages/navigation_module-0.0.0-py3.10.egg-info\n'}
+[7.467530] (navigation_module) StdoutLine: {'line': b'running install_scripts\n'}
+[7.485570] (sample_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.532727] (sample_package) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.533591] (sample_package) StdoutLine: {'line': b'Copying ../../build/sample_package/sample_package.egg-info to /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package-0.0.0-py3.10.egg-info\n'}
+[7.533910] (-) TimerEvent: {}
+[7.536153] (sample_package) StdoutLine: {'line': b'running install_scripts\n'}
+[7.634073] (-) TimerEvent: {}
+[7.734728] (-) TimerEvent: {}
+[7.835362] (-) TimerEvent: {}
+[7.935962] (-) TimerEvent: {}
+[7.991771] (navigation_module) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/navigation_module/install.log'\n"}
+[8.036129] (-) TimerEvent: {}
+[8.042268] (sample_package) StdoutLine: {'line': b'Installing fan_sub script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.043021] (sample_package) StdoutLine: {'line': b'Installing process script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.043745] (sample_package) StdoutLine: {'line': b'Installing senpub script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.044381] (sample_package) StdoutLine: {'line': b'Installing talk script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.045821] (sample_package) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/sample_package/install.log'\n"}
+[8.101824] (navigation_module) CommandEnded: {'returncode': 0}
+[8.133799] (navigation_module) JobEnded: {'identifier': 'navigation_module', 'rc': 0}
+[8.136306] (-) TimerEvent: {}
+[8.154088] (sample_package) CommandEnded: {'returncode': 0}
+[8.177447] (sample_package) JobEnded: {'identifier': 'sample_package', 'rc': 0}
+[8.179434] (-) EventReactorShutdown: {}

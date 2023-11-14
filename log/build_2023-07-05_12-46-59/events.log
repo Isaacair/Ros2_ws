@@ -1,0 +1,630 @@
+[0.000000] (-) TimerEvent: {}
+[0.000983] (autonomous_exploration) JobQueued: {'identifier': 'autonomous_exploration', 'dependencies': OrderedDict()}
+[0.002122] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.002214] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.002253] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.002289] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.002326] (autonomous_exploration) JobStarted: {'identifier': 'autonomous_exploration'}
+[0.024069] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.099295] (-) TimerEvent: {}
+[0.199804] (-) TimerEvent: {}
+[0.300378] (-) TimerEvent: {}
+[0.400827] (-) TimerEvent: {}
+[0.501288] (-) TimerEvent: {}
+[0.601735] (-) TimerEvent: {}
+[0.702180] (-) TimerEvent: {}
+[0.705805] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.706176] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/diffdrive_arduino', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/diffdrive_arduino'], 'cwd': '/home/tony_stark/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5G5N71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.498'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.802336] (-) TimerEvent: {}
+[0.902908] (-) TimerEvent: {}
+[0.970074] (diffdrive_arduino) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.008413] (-) TimerEvent: {}
+[1.008803] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.108569] (-) TimerEvent: {}
+[1.192455] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.208695] (-) TimerEvent: {}
+[1.211236] (diffdrive_arduino) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.212225] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.213961] (diffdrive_arduino) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.219478] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.308841] (-) TimerEvent: {}
+[1.409317] (-) TimerEvent: {}
+[1.509780] (-) TimerEvent: {}
+[1.610260] (-) TimerEvent: {}
+[1.671772] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.710417] (-) TimerEvent: {}
+[1.811107] (-) TimerEvent: {}
+[1.911915] (-) TimerEvent: {}
+[1.912621] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.988654] (autonomous_exploration) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/autonomous_exploration', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/autonomous_exploration/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/autonomous_exploration/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/autonomous_exploration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5G5N71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/autonomous_exploration', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/autonomous_exploration/prefix_override:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.012076] (-) TimerEvent: {}
+[2.062188] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.073221] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.092237] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.112216] (-) TimerEvent: {}
+[2.125489] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.177429] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.212360] (-) TimerEvent: {}
+[2.312789] (-) TimerEvent: {}
+[2.413212] (-) TimerEvent: {}
+[2.513647] (-) TimerEvent: {}
+[2.614064] (-) TimerEvent: {}
+[2.714497] (-) TimerEvent: {}
+[2.715494] (autonomous_exploration) StdoutLine: {'line': b'running egg_info\n'}
+[2.717550] (autonomous_exploration) StdoutLine: {'line': b'creating ../../build/autonomous_exploration/autonomous_exploration.egg-info\n'}
+[2.718376] (autonomous_exploration) StdoutLine: {'line': b'writing ../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO\n'}
+[2.719199] (autonomous_exploration) StdoutLine: {'line': b'writing dependency_links to ../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt\n'}
+[2.719814] (autonomous_exploration) StdoutLine: {'line': b'writing entry points to ../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt\n'}
+[2.720476] (autonomous_exploration) StdoutLine: {'line': b'writing requirements to ../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt\n'}
+[2.721112] (autonomous_exploration) StdoutLine: {'line': b'writing top-level names to ../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt\n'}
+[2.722324] (autonomous_exploration) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[2.726622] (autonomous_exploration) StdoutLine: {'line': b"reading manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[2.728617] (autonomous_exploration) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[2.729195] (autonomous_exploration) StdoutLine: {'line': b'running build\n'}
+[2.729462] (autonomous_exploration) StdoutLine: {'line': b'running build_py\n'}
+[2.730137] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/autonomous_exploration/build\n'}
+[2.730649] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/autonomous_exploration/build/lib\n'}
+[2.731069] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/autonomous_exploration/build/lib/autonomous_exploration\n'}
+[2.731556] (autonomous_exploration) StdoutLine: {'line': b'copying autonomous_exploration/control.py -> /home/tony_stark/ros2_ws/build/autonomous_exploration/build/lib/autonomous_exploration\n'}
+[2.780012] (autonomous_exploration) StdoutLine: {'line': b'copying autonomous_exploration/__init__.py -> /home/tony_stark/ros2_ws/build/autonomous_exploration/build/lib/autonomous_exploration\n'}
+[2.781355] (autonomous_exploration) StdoutLine: {'line': b'running install\n'}
+[2.782996] (autonomous_exploration) StdoutLine: {'line': b'running install_lib\n'}
+[2.783322] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration\n'}
+[2.783627] (autonomous_exploration) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/autonomous_exploration/build/lib/autonomous_exploration/control.py -> /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration\n'}
+[2.783957] (autonomous_exploration) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/autonomous_exploration/build/lib/autonomous_exploration/__init__.py -> /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration\n'}
+[2.785312] (autonomous_exploration) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/control.py to control.cpython-310.pyc\n'}
+[2.792741] (autonomous_exploration) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/__init__.py to __init__.cpython-310.pyc\n'}
+[2.793305] (autonomous_exploration) StdoutLine: {'line': b'running install_data\n'}
+[2.794909] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/autonomous_exploration/share/ament_index\n'}
+[2.795265] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/autonomous_exploration/share/ament_index/resource_index\n'}
+[2.795524] (autonomous_exploration) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/autonomous_exploration/share/ament_index/resource_index/packages\n'}
+[2.795771] (autonomous_exploration) StdoutLine: {'line': b'copying resource/autonomous_exploration -> /home/tony_stark/ros2_ws/install/autonomous_exploration/share/ament_index/resource_index/packages\n'}
+[2.796066] (autonomous_exploration) StdoutLine: {'line': b'copying package.xml -> /home/tony_stark/ros2_ws/install/autonomous_exploration/share/autonomous_exploration\n'}
+[2.796404] (autonomous_exploration) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.800699] (autonomous_exploration) StdoutLine: {'line': b'Copying ../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info\n'}
+[2.802511] (autonomous_exploration) StdoutLine: {'line': b'running install_scripts\n'}
+[2.814643] (-) TimerEvent: {}
+[2.851623] (autonomous_exploration) StdoutLine: {'line': b'Installing control script to /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/autonomous_exploration\n'}
+[2.852584] (autonomous_exploration) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/autonomous_exploration/install.log'\n"}
+[2.914836] (-) TimerEvent: {}
+[2.940437] (autonomous_exploration) CommandEnded: {'returncode': 0}
+[2.971284] (autonomous_exploration) JobEnded: {'identifier': 'autonomous_exploration', 'rc': 0}
+[2.972679] (msgs) JobStarted: {'identifier': 'msgs'}
+[3.014965] (-) TimerEvent: {}
+[3.115474] (-) TimerEvent: {}
+[3.216032] (-) TimerEvent: {}
+[3.316633] (-) TimerEvent: {}
+[3.417184] (-) TimerEvent: {}
+[3.517731] (-) TimerEvent: {}
+[3.618313] (-) TimerEvent: {}
+[3.718919] (-) TimerEvent: {}
+[3.820246] (-) TimerEvent: {}
+[3.920871] (-) TimerEvent: {}
+[3.959893] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.965509] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.021023] (-) TimerEvent: {}
+[4.050194] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.109556] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[4.121145] (-) TimerEvent: {}
+[4.221692] (-) TimerEvent: {}
+[4.334789] (-) TimerEvent: {}
+[4.435397] (-) TimerEvent: {}
+[4.442939] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[4.443625] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.535558] (-) TimerEvent: {}
+[4.617942] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.619810] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.635701] (-) TimerEvent: {}
+[4.736306] (-) TimerEvent: {}
+[4.836858] (-) TimerEvent: {}
+[4.937484] (-) TimerEvent: {}
+[5.010855] (msgs) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/msgs', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/msgs/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/msgs/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/msgs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5G5N71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/msgs/prefix_override:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.037629] (-) TimerEvent: {}
+[5.138292] (-) TimerEvent: {}
+[5.238864] (-) TimerEvent: {}
+[5.288641] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[5.339019] (-) TimerEvent: {}
+[5.439633] (-) TimerEvent: {}
+[5.535451] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.539780] (-) TimerEvent: {}
+[5.640413] (-) TimerEvent: {}
+[5.690181] (msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.691509] (msgs) StdoutLine: {'line': b'creating ../../build/msgs/msgs.egg-info\n'}
+[5.691972] (msgs) StdoutLine: {'line': b'writing ../../build/msgs/msgs.egg-info/PKG-INFO\n'}
+[5.692534] (msgs) StdoutLine: {'line': b'writing dependency_links to ../../build/msgs/msgs.egg-info/dependency_links.txt\n'}
+[5.692936] (msgs) StdoutLine: {'line': b'writing entry points to ../../build/msgs/msgs.egg-info/entry_points.txt\n'}
+[5.693206] (msgs) StdoutLine: {'line': b'writing requirements to ../../build/msgs/msgs.egg-info/requires.txt\n'}
+[5.693430] (msgs) StdoutLine: {'line': b'writing top-level names to ../../build/msgs/msgs.egg-info/top_level.txt\n'}
+[5.693947] (msgs) StdoutLine: {'line': b"writing manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[5.697219] (msgs) StdoutLine: {'line': b"reading manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[5.698430] (msgs) StdoutLine: {'line': b"writing manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[5.724438] (msgs) StdoutLine: {'line': b'running build\n'}
+[5.724976] (msgs) StdoutLine: {'line': b'running build_py\n'}
+[5.725702] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/msgs/build\n'}
+[5.726081] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/msgs/build/lib\n'}
+[5.726313] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/msgs/build/lib/msgs\n'}
+[5.726837] (msgs) StdoutLine: {'line': b'copying msgs/__init__.py -> /home/tony_stark/ros2_ws/build/msgs/build/lib/msgs\n'}
+[5.727022] (msgs) StdoutLine: {'line': b'running install\n'}
+[5.727242] (msgs) StdoutLine: {'line': b'running install_lib\n'}
+[5.728666] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs\n'}
+[5.729047] (msgs) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/msgs/build/lib/msgs/__init__.py -> /home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs\n'}
+[5.730063] (msgs) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs/__init__.py to __init__.cpython-310.pyc\n'}
+[5.730658] (msgs) StdoutLine: {'line': b'running install_data\n'}
+[5.732169] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/msgs/share/ament_index\n'}
+[5.732859] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/msgs/share/ament_index/resource_index\n'}
+[5.733099] (msgs) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/msgs/share/ament_index/resource_index/packages\n'}
+[5.733230] (msgs) StdoutLine: {'line': b'copying resource/msgs -> /home/tony_stark/ros2_ws/install/msgs/share/ament_index/resource_index/packages\n'}
+[5.733366] (msgs) StdoutLine: {'line': b'copying package.xml -> /home/tony_stark/ros2_ws/install/msgs/share/msgs\n'}
+[5.733502] (msgs) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.736894] (msgs) StdoutLine: {'line': b'Copying ../../build/msgs/msgs.egg-info to /home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info\n'}
+[5.738234] (msgs) StdoutLine: {'line': b'running install_scripts\n'}
+[5.740540] (-) TimerEvent: {}
+[5.773381] (msgs) StdoutLine: {'line': b'Installing floatlist script to /home/tony_stark/ros2_ws/install/msgs/lib/msgs\n'}
+[5.774047] (msgs) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/msgs/install.log'\n"}
+[5.840728] (-) TimerEvent: {}
+[5.852343] (msgs) CommandEnded: {'returncode': 0}
+[5.871762] (msgs) JobEnded: {'identifier': 'msgs', 'rc': 0}
+[5.872900] (sample_package) JobStarted: {'identifier': 'sample_package'}
+[5.894723] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[5.903384] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/tony_stark/ros2_ws/build/diffdrive_arduino\n'}
+[5.940858] (-) TimerEvent: {}
+[6.041419] (-) TimerEvent: {}
+[6.142000] (-) TimerEvent: {}
+[6.242457] (-) TimerEvent: {}
+[6.342947] (-) TimerEvent: {}
+[6.443407] (-) TimerEvent: {}
+[6.536349] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[6.539063] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[6.539172] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/diffdrive_arduino', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5G5N71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.498'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.543549] (-) TimerEvent: {}
+[6.633264] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[6.643692] (-) TimerEvent: {}
+[6.744242] (-) TimerEvent: {}
+[6.844977] (-) TimerEvent: {}
+[6.945619] (-) TimerEvent: {}
+[7.046214] (-) TimerEvent: {}
+[7.146826] (-) TimerEvent: {}
+[7.247427] (-) TimerEvent: {}
+[7.348031] (-) TimerEvent: {}
+[7.448672] (-) TimerEvent: {}
+[7.534519] (sample_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sample_package', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/sample_package/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/sample_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/sample_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1587', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5G5N71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.498', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/sample_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/sample_package/prefix_override:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.548825] (-) TimerEvent: {}
+[7.649524] (-) TimerEvent: {}
+[7.750164] (-) TimerEvent: {}
+[7.850695] (-) TimerEvent: {}
+[7.951316] (-) TimerEvent: {}
+[8.051935] (-) TimerEvent: {}
+[8.151760] (sample_package) StdoutLine: {'line': b'running egg_info\n'}
+[8.152105] (-) TimerEvent: {}
+[8.152993] (sample_package) StdoutLine: {'line': b'creating ../../build/sample_package/sample_package.egg-info\n'}
+[8.153536] (sample_package) StdoutLine: {'line': b'writing ../../build/sample_package/sample_package.egg-info/PKG-INFO\n'}
+[8.154101] (sample_package) StdoutLine: {'line': b'writing dependency_links to ../../build/sample_package/sample_package.egg-info/dependency_links.txt\n'}
+[8.154461] (sample_package) StdoutLine: {'line': b'writing entry points to ../../build/sample_package/sample_package.egg-info/entry_points.txt\n'}
+[8.154811] (sample_package) StdoutLine: {'line': b'writing requirements to ../../build/sample_package/sample_package.egg-info/requires.txt\n'}
+[8.155102] (sample_package) StdoutLine: {'line': b'writing top-level names to ../../build/sample_package/sample_package.egg-info/top_level.txt\n'}
+[8.155860] (sample_package) StdoutLine: {'line': b"writing manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[8.159279] (sample_package) StdoutLine: {'line': b"reading manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[8.160920] (sample_package) StdoutLine: {'line': b"writing manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[8.161294] (sample_package) StdoutLine: {'line': b'running build\n'}
+[8.161584] (sample_package) StdoutLine: {'line': b'running build_py\n'}
+[8.161882] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/sample_package/build\n'}
+[8.162163] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/sample_package/build/lib\n'}
+[8.162429] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package\n'}
+[8.162948] (sample_package) StdoutLine: {'line': b'copying sample_package/sensor_publish.py -> /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package\n'}
+[8.171519] (sample_package) StdoutLine: {'line': b'copying sample_package/fan_subscriber.py -> /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package\n'}
+[8.196860] (sample_package) StdoutLine: {'line': b'copying sample_package/talker_nod.py -> /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package\n'}
+[8.201720] (sample_package) StdoutLine: {'line': b'copying sample_package/processing.py -> /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package\n'}
+[8.225672] (sample_package) StdoutLine: {'line': b'copying sample_package/__init__.py -> /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package\n'}
+[8.226298] (sample_package) StdoutLine: {'line': b'running install\n'}
+[8.227371] (sample_package) StdoutLine: {'line': b'running install_lib\n'}
+[8.230914] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package\n'}
+[8.231434] (sample_package) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package/sensor_publish.py -> /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package\n'}
+[8.231696] (sample_package) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package/fan_subscriber.py -> /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package\n'}
+[8.232015] (sample_package) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package/talker_nod.py -> /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package\n'}
+[8.232468] (sample_package) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package/processing.py -> /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package\n'}
+[8.232852] (sample_package) StdoutLine: {'line': b'copying /home/tony_stark/ros2_ws/build/sample_package/build/lib/sample_package/__init__.py -> /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package\n'}
+[8.235053] (sample_package) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package/sensor_publish.py to sensor_publish.cpython-310.pyc\n'}
+[8.236088] (sample_package) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package/fan_subscriber.py to fan_subscriber.cpython-310.pyc\n'}
+[8.237077] (sample_package) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package/talker_nod.py to talker_nod.cpython-310.pyc\n'}
+[8.237991] (sample_package) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package/processing.py to processing.cpython-310.pyc\n'}
+[8.239286] (sample_package) StdoutLine: {'line': b'byte-compiling /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package/__init__.py to __init__.cpython-310.pyc\n'}
+[8.239666] (sample_package) StdoutLine: {'line': b'running install_data\n'}
+[8.241266] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/sample_package/share/ament_index\n'}
+[8.241652] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/sample_package/share/ament_index/resource_index\n'}
+[8.241873] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/sample_package/share/ament_index/resource_index/packages\n'}
+[8.242050] (sample_package) StdoutLine: {'line': b'copying resource/sample_package -> /home/tony_stark/ros2_ws/install/sample_package/share/ament_index/resource_index/packages\n'}
+[8.242314] (sample_package) StdoutLine: {'line': b'copying package.xml -> /home/tony_stark/ros2_ws/install/sample_package/share/sample_package\n'}
+[8.242537] (sample_package) StdoutLine: {'line': b'creating /home/tony_stark/ros2_ws/install/sample_package/share/sample_package/models\n'}
+[8.242792] (sample_package) StdoutLine: {'line': b'copying models/final_model.pkl -> /home/tony_stark/ros2_ws/install/sample_package/share/sample_package/models\n'}
+[8.252494] (-) TimerEvent: {}
+[8.343728] (sample_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.349669] (sample_package) StdoutLine: {'line': b'Copying ../../build/sample_package/sample_package.egg-info to /home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package-0.0.0-py3.10.egg-info\n'}
+[8.352651] (-) TimerEvent: {}
+[8.353441] (sample_package) StdoutLine: {'line': b'running install_scripts\n'}
+[8.409675] (sample_package) StdoutLine: {'line': b'Installing fan_sub script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.410167] (sample_package) StdoutLine: {'line': b'Installing process script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.410571] (sample_package) StdoutLine: {'line': b'Installing senpub script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.410930] (sample_package) StdoutLine: {'line': b'Installing talk script to /home/tony_stark/ros2_ws/install/sample_package/lib/sample_package\n'}
+[8.411876] (sample_package) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/sample_package/install.log'\n"}
+[8.452828] (-) TimerEvent: {}
+[8.495568] (sample_package) CommandEnded: {'returncode': 0}
+[8.518136] (sample_package) JobEnded: {'identifier': 'sample_package', 'rc': 0}
+[8.519545] (serial) JobStarted: {'identifier': 'serial'}
+[8.540754] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[8.541423] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/serial', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/serial'], 'cwd': '/home/tony_stark/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5G5N71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.498'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.552989] (-) TimerEvent: {}
+[8.653501] (-) TimerEvent: {}
+[8.754190] (-) TimerEvent: {}
+[8.854843] (-) TimerEvent: {}
+[8.955515] (-) TimerEvent: {}
+[9.056192] (-) TimerEvent: {}
+[9.153153] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[9.156396] (-) TimerEvent: {}
+[9.257101] (-) TimerEvent: {}
+[9.322220] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[9.339298] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.357261] (-) TimerEvent: {}
+[9.457955] (-) TimerEvent: {}
+[9.499734] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.523668] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.524986] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.526671] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.534945] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.558108] (-) TimerEvent: {}
+[9.658690] (-) TimerEvent: {}
+[9.731755] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.756483] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.757808] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.758845] (-) TimerEvent: {}
+[9.760516] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.766882] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.858997] (-) TimerEvent: {}
+[9.959509] (-) TimerEvent: {}
+[10.060091] (-) TimerEvent: {}
+[10.160652] (-) TimerEvent: {}
+[10.261200] (-) TimerEvent: {}
+[10.282425] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[10.361558] (-) TimerEvent: {}
+[10.462238] (-) TimerEvent: {}
+[10.562869] (-) TimerEvent: {}
+[10.663567] (-) TimerEvent: {}
+[10.764222] (-) TimerEvent: {}
+[10.801026] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[10.864394] (-) TimerEvent: {}
+[10.965083] (-) TimerEvent: {}
+[10.999609] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[11.042017] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[11.065244] (-) TimerEvent: {}
+[11.165919] (-) TimerEvent: {}
+[11.187435] (serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.266085] (-) TimerEvent: {}
+[11.350151] (serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.351329] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.366226] (-) TimerEvent: {}
+[11.466910] (-) TimerEvent: {}
+[11.506095] (serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.508604] (serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.567056] (-) TimerEvent: {}
+[11.667721] (-) TimerEvent: {}
+[11.769503] (-) TimerEvent: {}
+[11.801474] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.833621] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[11.838333] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/tony_stark/ros2_ws/build/serial\n'}
+[11.852801] (serial) CommandEnded: {'returncode': 0}
+[11.854226] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[11.855851] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/serial', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5G5N71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.498'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.869679] (-) TimerEvent: {}
+[11.970374] (-) TimerEvent: {}
+[11.971823] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[11.990717] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[12.072448] (-) TimerEvent: {}
+[12.180440] (-) TimerEvent: {}
+[12.281148] (-) TimerEvent: {}
+[12.381792] (-) TimerEvent: {}
+[12.482474] (-) TimerEvent: {}
+[12.583122] (-) TimerEvent: {}
+[12.683817] (-) TimerEvent: {}
+[12.784799] (-) TimerEvent: {}
+[12.885304] (-) TimerEvent: {}
+[12.985866] (-) TimerEvent: {}
+[13.086620] (-) TimerEvent: {}
+[13.188452] (-) TimerEvent: {}
+[13.289190] (-) TimerEvent: {}
+[13.389906] (-) TimerEvent: {}
+[13.490629] (-) TimerEvent: {}
+[13.591351] (-) TimerEvent: {}
+[13.692060] (-) TimerEvent: {}
+[13.792782] (-) TimerEvent: {}
+[13.893494] (-) TimerEvent: {}
+[13.994190] (-) TimerEvent: {}
+[14.094914] (-) TimerEvent: {}
+[14.195638] (-) TimerEvent: {}
+[14.296390] (-) TimerEvent: {}
+[14.400403] (-) TimerEvent: {}
+[14.481610] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[14.500547] (-) TimerEvent: {}
+[14.601233] (-) TimerEvent: {}
+[14.704605] (-) TimerEvent: {}
+[14.805080] (-) TimerEvent: {}
+[14.905651] (-) TimerEvent: {}
+[15.006240] (-) TimerEvent: {}
+[15.106816] (-) TimerEvent: {}
+[15.207370] (-) TimerEvent: {}
+[15.307899] (-) TimerEvent: {}
+[15.408480] (-) TimerEvent: {}
+[15.509066] (-) TimerEvent: {}
+[15.609610] (-) TimerEvent: {}
+[15.710192] (-) TimerEvent: {}
+[15.810763] (-) TimerEvent: {}
+[15.911334] (-) TimerEvent: {}
+[16.011907] (-) TimerEvent: {}
+[16.112487] (-) TimerEvent: {}
+[16.213096] (-) TimerEvent: {}
+[16.313696] (-) TimerEvent: {}
+[16.414265] (-) TimerEvent: {}
+[16.514850] (-) TimerEvent: {}
+[16.534156] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[16.615026] (-) TimerEvent: {}
+[16.715732] (-) TimerEvent: {}
+[16.816379] (-) TimerEvent: {}
+[16.917077] (-) TimerEvent: {}
+[17.017834] (-) TimerEvent: {}
+[17.118548] (-) TimerEvent: {}
+[17.235218] (-) TimerEvent: {}
+[17.335805] (-) TimerEvent: {}
+[17.436392] (-) TimerEvent: {}
+[17.536968] (-) TimerEvent: {}
+[17.637557] (-) TimerEvent: {}
+[17.738134] (-) TimerEvent: {}
+[17.844133] (-) TimerEvent: {}
+[17.952122] (-) TimerEvent: {}
+[18.052749] (-) TimerEvent: {}
+[18.153327] (-) TimerEvent: {}
+[18.253885] (-) TimerEvent: {}
+[18.354440] (-) TimerEvent: {}
+[18.454990] (-) TimerEvent: {}
+[18.555493] (-) TimerEvent: {}
+[18.656322] (-) TimerEvent: {}
+[18.734139] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[18.756419] (-) TimerEvent: {}
+[18.856943] (-) TimerEvent: {}
+[18.957547] (-) TimerEvent: {}
+[19.058124] (-) TimerEvent: {}
+[19.158664] (-) TimerEvent: {}
+[19.259216] (-) TimerEvent: {}
+[19.359784] (-) TimerEvent: {}
+[19.460378] (-) TimerEvent: {}
+[19.570151] (-) TimerEvent: {}
+[19.670741] (-) TimerEvent: {}
+[19.771575] (-) TimerEvent: {}
+[19.872154] (-) TimerEvent: {}
+[19.972744] (-) TimerEvent: {}
+[20.073481] (-) TimerEvent: {}
+[20.174007] (-) TimerEvent: {}
+[20.274593] (-) TimerEvent: {}
+[20.375126] (-) TimerEvent: {}
+[20.475621] (-) TimerEvent: {}
+[20.576163] (-) TimerEvent: {}
+[20.635588] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[20.676360] (-) TimerEvent: {}
+[20.777019] (-) TimerEvent: {}
+[20.877702] (-) TimerEvent: {}
+[20.978360] (-) TimerEvent: {}
+[21.079032] (-) TimerEvent: {}
+[21.179773] (-) TimerEvent: {}
+[21.280399] (-) TimerEvent: {}
+[21.381039] (-) TimerEvent: {}
+[21.481708] (-) TimerEvent: {}
+[21.582360] (-) TimerEvent: {}
+[21.683034] (-) TimerEvent: {}
+[21.783704] (-) TimerEvent: {}
+[21.884477] (-) TimerEvent: {}
+[21.985172] (-) TimerEvent: {}
+[22.085897] (-) TimerEvent: {}
+[22.186614] (-) TimerEvent: {}
+[22.287333] (-) TimerEvent: {}
+[22.388459] (-) TimerEvent: {}
+[22.489258] (-) TimerEvent: {}
+[22.589978] (-) TimerEvent: {}
+[22.690715] (-) TimerEvent: {}
+[22.791446] (-) TimerEvent: {}
+[22.892187] (-) TimerEvent: {}
+[22.992934] (-) TimerEvent: {}
+[23.093682] (-) TimerEvent: {}
+[23.194483] (-) TimerEvent: {}
+[23.295240] (-) TimerEvent: {}
+[23.395916] (-) TimerEvent: {}
+[23.473659] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[23.496077] (-) TimerEvent: {}
+[23.596800] (-) TimerEvent: {}
+[23.697656] (-) TimerEvent: {}
+[23.698907] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[23.705429] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[23.718087] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[23.827834] (-) TimerEvent: {}
+[23.828905] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[23.830672] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[23.899339] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[23.914332] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony_stark/ros2_ws/build/diffdrive_arduino'], 'cwd': '/home/tony_stark/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5G5N71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.498'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.927963] (-) TimerEvent: {}
+[23.928754] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.929147] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml\n'}
+[23.929567] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino\n'}
+[23.929906] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino\n'}
+[23.930132] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[23.930396] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[23.930596] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[23.930876] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[23.931118] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[23.931407] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[23.931690] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control\n'}
+[23.931984] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/ros2_control.xacro\n'}
+[23.932334] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf\n'}
+[23.932620] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/inertial_macros.xacro\n'}
+[23.932886] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/lidar.xacro\n'}
+[23.933165] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/robot_core.xacro\n'}
+[23.933481] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/ros2_control.xacro\n'}
+[23.933701] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[23.933980] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz\n'}
+[23.934246] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[23.934569] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[23.934812] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[23.934957] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/rplidar.launch.py\n'}
+[23.935088] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[23.935207] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config\n'}
+[23.935326] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[23.960245] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[23.962262] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/tony_stark/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[23.962634] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[23.963418] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[23.964589] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[23.965509] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[23.966365] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[23.966906] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[23.967849] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[23.968371] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[23.969262] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[23.970019] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[23.970736] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[23.971455] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[23.972150] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[23.973026] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[23.973530] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[23.974387] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[23.975236] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[23.975936] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.976672] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.977457] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[23.978047] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[23.978766] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[23.991227] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[24.028115] (-) TimerEvent: {}
+[24.130613] (-) TimerEvent: {}
+[24.156312] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[24.230805] (-) TimerEvent: {}
+[24.331427] (-) TimerEvent: {}
+[24.431976] (-) TimerEvent: {}
+[24.532513] (-) TimerEvent: {}
+[24.633014] (-) TimerEvent: {}
+[24.733494] (-) TimerEvent: {}
+[24.833993] (-) TimerEvent: {}
+[24.934495] (-) TimerEvent: {}
+[25.035078] (-) TimerEvent: {}
+[25.135657] (-) TimerEvent: {}
+[25.236251] (-) TimerEvent: {}
+[25.336855] (-) TimerEvent: {}
+[25.437437] (-) TimerEvent: {}
+[25.538151] (-) TimerEvent: {}
+[25.638663] (-) TimerEvent: {}
+[25.739177] (-) TimerEvent: {}
+[25.808748] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[25.839390] (-) TimerEvent: {}
+[25.899604] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[25.926941] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[25.939723] (-) TimerEvent: {}
+[26.040220] (-) TimerEvent: {}
+[26.140938] (-) TimerEvent: {}
+[26.241575] (-) TimerEvent: {}
+[26.342109] (-) TimerEvent: {}
+[26.442649] (-) TimerEvent: {}
+[26.519794] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[26.542993] (-) TimerEvent: {}
+[26.643690] (-) TimerEvent: {}
+[26.744663] (-) TimerEvent: {}
+[26.782040] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[26.810284] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[26.844838] (-) TimerEvent: {}
+[26.945486] (-) TimerEvent: {}
+[27.046274] (-) TimerEvent: {}
+[27.147088] (-) TimerEvent: {}
+[27.248247] (-) TimerEvent: {}
+[27.348853] (-) TimerEvent: {}
+[27.449369] (-) TimerEvent: {}
+[27.549858] (-) TimerEvent: {}
+[27.650372] (-) TimerEvent: {}
+[27.750845] (-) TimerEvent: {}
+[27.851325] (-) TimerEvent: {}
+[27.951840] (-) TimerEvent: {}
+[28.052390] (-) TimerEvent: {}
+[28.152902] (-) TimerEvent: {}
+[28.253408] (-) TimerEvent: {}
+[28.353919] (-) TimerEvent: {}
+[28.454462] (-) TimerEvent: {}
+[28.555030] (-) TimerEvent: {}
+[28.655626] (-) TimerEvent: {}
+[28.756186] (-) TimerEvent: {}
+[28.857039] (-) TimerEvent: {}
+[28.957823] (-) TimerEvent: {}
+[29.058544] (-) TimerEvent: {}
+[29.159265] (-) TimerEvent: {}
+[29.259855] (-) TimerEvent: {}
+[29.360657] (-) TimerEvent: {}
+[29.363139] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[29.363808] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[29.364214] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[29.364676] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[29.365024] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.460818] (-) TimerEvent: {}
+[29.561328] (-) TimerEvent: {}
+[29.661854] (-) TimerEvent: {}
+[29.742216] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[29.762040] (-) TimerEvent: {}
+[29.862733] (-) TimerEvent: {}
+[29.963466] (-) TimerEvent: {}
+[30.003424] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test\n'}
+[30.032369] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[30.063719] (-) TimerEvent: {}
+[30.164597] (-) TimerEvent: {}
+[30.265226] (-) TimerEvent: {}
+[30.365926] (-) TimerEvent: {}
+[30.466461] (-) TimerEvent: {}
+[30.566973] (-) TimerEvent: {}
+[30.667471] (-) TimerEvent: {}
+[30.767973] (-) TimerEvent: {}
+[30.868423] (-) TimerEvent: {}
+[30.968914] (-) TimerEvent: {}
+[31.069420] (-) TimerEvent: {}
+[31.169976] (-) TimerEvent: {}
+[31.270543] (-) TimerEvent: {}
+[31.371080] (-) TimerEvent: {}
+[31.471638] (-) TimerEvent: {}
+[31.572144] (-) TimerEvent: {}
+[31.672679] (-) TimerEvent: {}
+[31.773179] (-) TimerEvent: {}
+[31.873685] (-) TimerEvent: {}
+[31.974191] (-) TimerEvent: {}
+[32.015901] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[32.074412] (-) TimerEvent: {}
+[32.175033] (-) TimerEvent: {}
+[32.258367] (serial) StdoutLine: {'line': b'[100%] Built target serial-test-timer\n'}
+[32.274315] (serial) CommandEnded: {'returncode': 0}
+[32.292549] (-) TimerEvent: {}
+[32.331689] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[32.332080] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony_stark/ros2_ws/build/serial'], 'cwd': '/home/tony_stark/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1587'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1561,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1561'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7d9788fb_e7dc_4745_80bd_5adcc16c9967'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5G5N71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.498'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.344149] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.345045] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/lib/libserial.a\n'}
+[32.346661] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/include/serial/serial.h\n'}
+[32.347296] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[32.348054] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[32.348792] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[32.349520] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[32.350243] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[32.350832] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[32.351422] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[32.351993] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[32.352664] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[32.353268] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[32.353834] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[32.354435] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[32.355012] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[32.355382] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/package.dsv\n'}
+[32.355696] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[32.356101] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[32.356512] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[32.356811] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[32.357110] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[32.357430] (serial) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/serial/share/serial/package.xml\n'}
+[32.360609] (serial) CommandEnded: {'returncode': 0}
+[32.392669] (-) TimerEvent: {}
+[32.455479] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[32.456989] (-) EventReactorShutdown: {}

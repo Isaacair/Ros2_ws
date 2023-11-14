@@ -1,0 +1,415 @@
+[0.000000] (-) TimerEvent: {}
+[0.002207] (autonomous_exploration) JobQueued: {'identifier': 'autonomous_exploration', 'dependencies': OrderedDict()}
+[0.004906] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.005119] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.005396] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.005551] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.005642] (autonomous_exploration) JobStarted: {'identifier': 'autonomous_exploration'}
+[0.080213] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.098349] (-) TimerEvent: {}
+[0.109610] (msgs) JobStarted: {'identifier': 'msgs'}
+[0.150832] (sample_package) JobStarted: {'identifier': 'sample_package'}
+[0.200683] (-) TimerEvent: {}
+[0.301447] (-) TimerEvent: {}
+[0.402124] (-) TimerEvent: {}
+[0.502866] (-) TimerEvent: {}
+[0.603840] (-) TimerEvent: {}
+[0.704828] (-) TimerEvent: {}
+[0.806256] (-) TimerEvent: {}
+[0.907042] (-) TimerEvent: {}
+[1.007971] (-) TimerEvent: {}
+[1.108797] (-) TimerEvent: {}
+[1.209648] (-) TimerEvent: {}
+[1.311811] (-) TimerEvent: {}
+[1.412614] (-) TimerEvent: {}
+[1.513439] (-) TimerEvent: {}
+[1.614214] (-) TimerEvent: {}
+[1.716685] (-) TimerEvent: {}
+[1.738645] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[1.749184] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[1.753008] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Isaac/ros2_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/Isaac/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Isaac'), ('SSH_CLIENT', '192.168.16.43 54628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Isaac'), ('OLDPWD', '/home/Isaac'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Isaac'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/Isaac/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.16.43 54628 192.168.16.205 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.816884] (-) TimerEvent: {}
+[1.917825] (-) TimerEvent: {}
+[2.018874] (-) TimerEvent: {}
+[2.119838] (-) TimerEvent: {}
+[2.221900] (-) TimerEvent: {}
+[2.323531] (-) TimerEvent: {}
+[2.428441] (-) TimerEvent: {}
+[2.531097] (-) TimerEvent: {}
+[2.632040] (-) TimerEvent: {}
+[2.733142] (-) TimerEvent: {}
+[2.834048] (-) TimerEvent: {}
+[2.935182] (-) TimerEvent: {}
+[3.035970] (-) TimerEvent: {}
+[3.136861] (-) TimerEvent: {}
+[3.238647] (-) TimerEvent: {}
+[3.340726] (-) TimerEvent: {}
+[3.441573] (-) TimerEvent: {}
+[3.542570] (-) TimerEvent: {}
+[3.644398] (-) TimerEvent: {}
+[3.666413] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[3.744661] (-) TimerEvent: {}
+[3.846008] (-) TimerEvent: {}
+[3.946877] (-) TimerEvent: {}
+[4.047759] (-) TimerEvent: {}
+[4.148607] (-) TimerEvent: {}
+[4.249382] (-) TimerEvent: {}
+[4.350244] (-) TimerEvent: {}
+[4.451157] (-) TimerEvent: {}
+[4.552114] (-) TimerEvent: {}
+[4.652914] (-) TimerEvent: {}
+[4.753701] (-) TimerEvent: {}
+[4.854494] (-) TimerEvent: {}
+[4.955584] (-) TimerEvent: {}
+[5.058311] (-) TimerEvent: {}
+[5.159344] (-) TimerEvent: {}
+[5.260741] (-) TimerEvent: {}
+[5.362081] (-) TimerEvent: {}
+[5.462975] (-) TimerEvent: {}
+[5.564090] (-) TimerEvent: {}
+[5.665070] (-) TimerEvent: {}
+[5.766935] (-) TimerEvent: {}
+[5.868595] (-) TimerEvent: {}
+[5.970257] (-) TimerEvent: {}
+[6.072151] (-) TimerEvent: {}
+[6.174086] (-) TimerEvent: {}
+[6.275970] (-) TimerEvent: {}
+[6.376871] (-) TimerEvent: {}
+[6.477688] (-) TimerEvent: {}
+[6.578548] (-) TimerEvent: {}
+[6.679497] (-) TimerEvent: {}
+[6.780395] (-) TimerEvent: {}
+[6.881510] (-) TimerEvent: {}
+[6.982416] (-) TimerEvent: {}
+[7.083975] (-) TimerEvent: {}
+[7.185153] (-) TimerEvent: {}
+[7.286041] (-) TimerEvent: {}
+[7.386755] (-) TimerEvent: {}
+[7.487522] (-) TimerEvent: {}
+[7.588397] (-) TimerEvent: {}
+[7.690046] (-) TimerEvent: {}
+[7.792183] (-) TimerEvent: {}
+[7.893596] (-) TimerEvent: {}
+[7.995292] (-) TimerEvent: {}
+[8.099079] (-) TimerEvent: {}
+[8.202862] (-) TimerEvent: {}
+[8.306462] (-) TimerEvent: {}
+[8.332077] (autonomous_exploration) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/autonomous_exploration', 'build', '--build-base', '/home/Isaac/ros2_ws/build/autonomous_exploration/build', 'install', '--record', '/home/Isaac/ros2_ws/build/autonomous_exploration/install.log', '--single-version-externally-managed'], 'cwd': '/home/Isaac/ros2_ws/src/autonomous_exploration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Isaac', 'SSH_CLIENT': '192.168.16.43 54628 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Isaac', 'OLDPWD': '/home/Isaac', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Isaac', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Isaac/ros2_ws/build/autonomous_exploration', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.16.43 54628 192.168.16.205 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/Isaac/ros2_ws/build/autonomous_exploration/prefix_override:/home/Isaac/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.354378] (sample_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sample_package', 'build', '--build-base', '/home/Isaac/ros2_ws/build/sample_package/build', 'install', '--record', '/home/Isaac/ros2_ws/build/sample_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/Isaac/ros2_ws/src/sample_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Isaac', 'SSH_CLIENT': '192.168.16.43 54628 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Isaac', 'OLDPWD': '/home/Isaac', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Isaac', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Isaac/ros2_ws/build/sample_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.16.43 54628 192.168.16.205 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/Isaac/ros2_ws/build/sample_package/prefix_override:/home/Isaac/ros2_ws/install/sample_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.375851] (msgs) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/msgs', 'build', '--build-base', '/home/Isaac/ros2_ws/build/msgs/build', 'install', '--record', '/home/Isaac/ros2_ws/build/msgs/install.log', '--single-version-externally-managed'], 'cwd': '/home/Isaac/ros2_ws/src/msgs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Isaac', 'SSH_CLIENT': '192.168.16.43 54628 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Isaac', 'OLDPWD': '/home/Isaac', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Isaac', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Isaac/ros2_ws/build/msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.16.43 54628 192.168.16.205 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/Isaac/ros2_ws/build/msgs/prefix_override:/home/Isaac/ros2_ws/install/msgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.406643] (-) TimerEvent: {}
+[8.508013] (-) TimerEvent: {}
+[8.609965] (-) TimerEvent: {}
+[8.712583] (-) TimerEvent: {}
+[8.814412] (-) TimerEvent: {}
+[8.916073] (-) TimerEvent: {}
+[9.017858] (-) TimerEvent: {}
+[9.119391] (-) TimerEvent: {}
+[9.220984] (-) TimerEvent: {}
+[9.322625] (-) TimerEvent: {}
+[9.424605] (-) TimerEvent: {}
+[9.526088] (-) TimerEvent: {}
+[9.627682] (-) TimerEvent: {}
+[9.729329] (-) TimerEvent: {}
+[9.831070] (-) TimerEvent: {}
+[9.932714] (-) TimerEvent: {}
+[10.034963] (-) TimerEvent: {}
+[10.134042] (autonomous_exploration) StdoutLine: {'line': b'running egg_info\n'}
+[10.134987] (-) TimerEvent: {}
+[10.139599] (autonomous_exploration) StdoutLine: {'line': b'writing ../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO\n'}
+[10.145163] (autonomous_exploration) StdoutLine: {'line': b'writing dependency_links to ../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt\n'}
+[10.148320] (autonomous_exploration) StdoutLine: {'line': b'writing entry points to ../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt\n'}
+[10.151165] (autonomous_exploration) StdoutLine: {'line': b'writing requirements to ../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt\n'}
+[10.152259] (msgs) StdoutLine: {'line': b'running egg_info\n'}
+[10.155298] (autonomous_exploration) StdoutLine: {'line': b'writing top-level names to ../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt\n'}
+[10.158612] (msgs) StdoutLine: {'line': b'writing ../../build/msgs/msgs.egg-info/PKG-INFO\n'}
+[10.161808] (msgs) StdoutLine: {'line': b'writing dependency_links to ../../build/msgs/msgs.egg-info/dependency_links.txt\n'}
+[10.164668] (msgs) StdoutLine: {'line': b'writing entry points to ../../build/msgs/msgs.egg-info/entry_points.txt\n'}
+[10.167099] (msgs) StdoutLine: {'line': b'writing requirements to ../../build/msgs/msgs.egg-info/requires.txt\n'}
+[10.169541] (msgs) StdoutLine: {'line': b'writing top-level names to ../../build/msgs/msgs.egg-info/top_level.txt\n'}
+[10.170270] (autonomous_exploration) StdoutLine: {'line': b"reading manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[10.175531] (autonomous_exploration) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[10.177181] (autonomous_exploration) StdoutLine: {'line': b'running build\n'}
+[10.177930] (autonomous_exploration) StdoutLine: {'line': b'running build_py\n'}
+[10.182058] (autonomous_exploration) StdoutLine: {'line': b'running install\n'}
+[10.184783] (autonomous_exploration) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.185956] (autonomous_exploration) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.186982] (msgs) StdoutLine: {'line': b"reading manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[10.189759] (autonomous_exploration) StdoutLine: {'line': b'running install_lib\n'}
+[10.191621] (sample_package) StdoutLine: {'line': b'running egg_info\n'}
+[10.192935] (msgs) StdoutLine: {'line': b"writing manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[10.193721] (msgs) StdoutLine: {'line': b'running build\n'}
+[10.194299] (msgs) StdoutLine: {'line': b'running build_py\n'}
+[10.195939] (sample_package) StdoutLine: {'line': b'writing ../../build/sample_package/sample_package.egg-info/PKG-INFO\n'}
+[10.197585] (msgs) StdoutLine: {'line': b'running install\n'}
+[10.198915] (msgs) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.200204] (msgs) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.201562] (sample_package) StdoutLine: {'line': b'writing dependency_links to ../../build/sample_package/sample_package.egg-info/dependency_links.txt\n'}
+[10.202570] (msgs) StdoutLine: {'line': b'running install_lib\n'}
+[10.206448] (sample_package) StdoutLine: {'line': b'writing entry points to ../../build/sample_package/sample_package.egg-info/entry_points.txt\n'}
+[10.210815] (sample_package) StdoutLine: {'line': b'writing requirements to ../../build/sample_package/sample_package.egg-info/requires.txt\n'}
+[10.211423] (sample_package) StdoutLine: {'line': b'writing top-level names to ../../build/sample_package/sample_package.egg-info/top_level.txt\n'}
+[10.212009] (msgs) StdoutLine: {'line': b'running install_data\n'}
+[10.213105] (msgs) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.215787] (sample_package) StdoutLine: {'line': b"reading manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[10.217016] (autonomous_exploration) StdoutLine: {'line': b'running install_data\n'}
+[10.221384] (msgs) StdoutLine: {'line': b"removing '/home/Isaac/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.222435] (autonomous_exploration) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.223480] (msgs) StdoutLine: {'line': b'Copying ../../build/msgs/msgs.egg-info to /home/Isaac/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info\n'}
+[10.227067] (sample_package) StdoutLine: {'line': b"writing manifest file '../../build/sample_package/sample_package.egg-info/SOURCES.txt'\n"}
+[10.229284] (sample_package) StdoutLine: {'line': b'running build\n'}
+[10.230875] (sample_package) StdoutLine: {'line': b'running build_py\n'}
+[10.231689] (autonomous_exploration) StdoutLine: {'line': b"removing '/home/Isaac/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.233325] (msgs) StdoutLine: {'line': b'running install_scripts\n'}
+[10.234034] (autonomous_exploration) StdoutLine: {'line': b'Copying ../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/Isaac/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info\n'}
+[10.235535] (-) TimerEvent: {}
+[10.241963] (sample_package) StdoutLine: {'line': b'running install\n'}
+[10.244023] (sample_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[10.245157] (sample_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[10.245834] (autonomous_exploration) StdoutLine: {'line': b'running install_scripts\n'}
+[10.246914] (sample_package) StdoutLine: {'line': b'running install_lib\n'}
+[10.260468] (sample_package) StdoutLine: {'line': b'running install_data\n'}
+[10.268583] (sample_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.277436] (sample_package) StdoutLine: {'line': b"removing '/home/Isaac/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.280389] (sample_package) StdoutLine: {'line': b'Copying ../../build/sample_package/sample_package.egg-info to /home/Isaac/ros2_ws/install/sample_package/lib/python3.10/site-packages/sample_package-0.0.0-py3.10.egg-info\n'}
+[10.291947] (sample_package) StdoutLine: {'line': b'running install_scripts\n'}
+[10.335890] (-) TimerEvent: {}
+[10.363681] (autonomous_exploration) StdoutLine: {'line': b'Installing control script to /home/Isaac/ros2_ws/install/autonomous_exploration/lib/autonomous_exploration\n'}
+[10.365292] (msgs) StdoutLine: {'line': b'Installing floatlist script to /home/Isaac/ros2_ws/install/msgs/lib/msgs\n'}
+[10.369525] (msgs) StdoutLine: {'line': b"writing list of installed files to '/home/Isaac/ros2_ws/build/msgs/install.log'\n"}
+[10.370604] (autonomous_exploration) StdoutLine: {'line': b"writing list of installed files to '/home/Isaac/ros2_ws/build/autonomous_exploration/install.log'\n"}
+[10.436301] (-) TimerEvent: {}
+[10.450515] (sample_package) StdoutLine: {'line': b'Installing fan_sub script to /home/Isaac/ros2_ws/install/sample_package/lib/sample_package\n'}
+[10.454973] (sample_package) StdoutLine: {'line': b'Installing process script to /home/Isaac/ros2_ws/install/sample_package/lib/sample_package\n'}
+[10.457731] (sample_package) StdoutLine: {'line': b'Installing senpub script to /home/Isaac/ros2_ws/install/sample_package/lib/sample_package\n'}
+[10.459953] (sample_package) StdoutLine: {'line': b'Installing talk script to /home/Isaac/ros2_ws/install/sample_package/lib/sample_package\n'}
+[10.464588] (sample_package) StdoutLine: {'line': b"writing list of installed files to '/home/Isaac/ros2_ws/build/sample_package/install.log'\n"}
+[10.536781] (-) TimerEvent: {}
+[10.640550] (-) TimerEvent: {}
+[10.658159] (autonomous_exploration) CommandEnded: {'returncode': 0}
+[10.740727] (-) TimerEvent: {}
+[10.785173] (autonomous_exploration) JobEnded: {'identifier': 'autonomous_exploration', 'rc': 0}
+[10.804241] (serial) JobStarted: {'identifier': 'serial'}
+[10.826240] (msgs) CommandEnded: {'returncode': 0}
+[10.841106] (-) TimerEvent: {}
+[10.882340] (msgs) JobEnded: {'identifier': 'msgs', 'rc': 0}
+[10.889884] (sample_package) CommandEnded: {'returncode': 0}
+[10.935577] (sample_package) JobEnded: {'identifier': 'sample_package', 'rc': 0}
+[10.941446] (-) TimerEvent: {}
+[10.942381] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[10.947577] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[10.948961] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Isaac/ros2_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/Isaac/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Isaac'), ('SSH_CLIENT', '192.168.16.43 54628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Isaac'), ('OLDPWD', '/home/Isaac'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Isaac'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/Isaac/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.16.43 54628 192.168.16.205 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.041660] (-) TimerEvent: {}
+[11.138757] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[11.141969] (-) TimerEvent: {}
+[11.142807] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[11.143873] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[11.217110] (serial) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[11.222738] (serial) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[11.228527] (serial) StdoutLine: {'line': b'[ 57%] Built target serial\n'}
+[11.242180] (-) TimerEvent: {}
+[11.280806] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_example\x1b[0m\n'}
+[11.282745] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test\x1b[0m\n'}
+[11.283581] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test-timer\x1b[0m\n'}
+[11.340084] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[11.343845] (-) TimerEvent: {}
+[11.357771] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[11.394762] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[11.434823] (serial) CommandEnded: {'returncode': 0}
+[11.444077] (-) TimerEvent: {}
+[11.545168] (-) TimerEvent: {}
+[11.616076] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[11.645416] (-) TimerEvent: {}
+[11.649020] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/Isaac/ros2_ws/build/serial'], 'cwd': '/home/Isaac/ros2_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Isaac'), ('SSH_CLIENT', '192.168.16.43 54628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Isaac'), ('OLDPWD', '/home/Isaac'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Isaac'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/Isaac/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.16.43 54628 192.168.16.205 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.682571] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.683587] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/lib/libserial.a\n'}
+[11.695525] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/include/serial/serial.h\n'}
+[11.698002] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[11.700214] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[11.702069] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[11.704432] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[11.706661] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[11.708591] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[11.710520] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[11.712330] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[11.714168] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[11.715835] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[11.717657] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[11.719492] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[11.721249] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[11.722946] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/package.dsv\n'}
+[11.725083] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[11.726648] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.728614] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.730570] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[11.732081] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[11.733904] (serial) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/serial/share/serial/package.xml\n'}
+[11.745671] (-) TimerEvent: {}
+[11.748288] (serial) CommandEnded: {'returncode': 0}
+[11.845855] (-) TimerEvent: {}
+[11.946608] (-) TimerEvent: {}
+[12.019624] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[12.046812] (-) TimerEvent: {}
+[12.147690] (-) TimerEvent: {}
+[12.248609] (-) TimerEvent: {}
+[12.349496] (-) TimerEvent: {}
+[12.450419] (-) TimerEvent: {}
+[12.551200] (-) TimerEvent: {}
+[12.652343] (-) TimerEvent: {}
+[12.753256] (-) TimerEvent: {}
+[12.854138] (-) TimerEvent: {}
+[12.955044] (-) TimerEvent: {}
+[13.055840] (-) TimerEvent: {}
+[13.156748] (-) TimerEvent: {}
+[13.257612] (-) TimerEvent: {}
+[13.358417] (-) TimerEvent: {}
+[13.459297] (-) TimerEvent: {}
+[13.560075] (-) TimerEvent: {}
+[13.661004] (-) TimerEvent: {}
+[13.761871] (-) TimerEvent: {}
+[13.862728] (-) TimerEvent: {}
+[13.963499] (-) TimerEvent: {}
+[14.064375] (-) TimerEvent: {}
+[14.165239] (-) TimerEvent: {}
+[14.266011] (-) TimerEvent: {}
+[14.366884] (-) TimerEvent: {}
+[14.467791] (-) TimerEvent: {}
+[14.568626] (-) TimerEvent: {}
+[14.669486] (-) TimerEvent: {}
+[14.770355] (-) TimerEvent: {}
+[14.871217] (-) TimerEvent: {}
+[14.972094] (-) TimerEvent: {}
+[15.072975] (-) TimerEvent: {}
+[15.173824] (-) TimerEvent: {}
+[15.274567] (-) TimerEvent: {}
+[15.375393] (-) TimerEvent: {}
+[15.476285] (-) TimerEvent: {}
+[15.577087] (-) TimerEvent: {}
+[15.677955] (-) TimerEvent: {}
+[15.778950] (-) TimerEvent: {}
+[15.879757] (-) TimerEvent: {}
+[15.980598] (-) TimerEvent: {}
+[16.081448] (-) TimerEvent: {}
+[16.182305] (-) TimerEvent: {}
+[16.283182] (-) TimerEvent: {}
+[16.384048] (-) TimerEvent: {}
+[16.484929] (-) TimerEvent: {}
+[16.585745] (-) TimerEvent: {}
+[16.686640] (-) TimerEvent: {}
+[16.787495] (-) TimerEvent: {}
+[16.888300] (-) TimerEvent: {}
+[16.989074] (-) TimerEvent: {}
+[17.089892] (-) TimerEvent: {}
+[17.190690] (-) TimerEvent: {}
+[17.291465] (-) TimerEvent: {}
+[17.392288] (-) TimerEvent: {}
+[17.493125] (-) TimerEvent: {}
+[17.593960] (-) TimerEvent: {}
+[17.694832] (-) TimerEvent: {}
+[17.795574] (-) TimerEvent: {}
+[17.896403] (-) TimerEvent: {}
+[17.997218] (-) TimerEvent: {}
+[18.098050] (-) TimerEvent: {}
+[18.198898] (-) TimerEvent: {}
+[18.299726] (-) TimerEvent: {}
+[18.400567] (-) TimerEvent: {}
+[18.501613] (-) TimerEvent: {}
+[18.602375] (-) TimerEvent: {}
+[18.703241] (-) TimerEvent: {}
+[18.804049] (-) TimerEvent: {}
+[18.904789] (-) TimerEvent: {}
+[19.005646] (-) TimerEvent: {}
+[19.106506] (-) TimerEvent: {}
+[19.207399] (-) TimerEvent: {}
+[19.308308] (-) TimerEvent: {}
+[19.409122] (-) TimerEvent: {}
+[19.510005] (-) TimerEvent: {}
+[19.610868] (-) TimerEvent: {}
+[19.711780] (-) TimerEvent: {}
+[19.812567] (-) TimerEvent: {}
+[19.913403] (-) TimerEvent: {}
+[20.014133] (-) TimerEvent: {}
+[20.114989] (-) TimerEvent: {}
+[20.215840] (-) TimerEvent: {}
+[20.316710] (-) TimerEvent: {}
+[20.417477] (-) TimerEvent: {}
+[20.518416] (-) TimerEvent: {}
+[20.619210] (-) TimerEvent: {}
+[20.720005] (-) TimerEvent: {}
+[20.820851] (-) TimerEvent: {}
+[20.919658] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[20.920972] (-) TimerEvent: {}
+[21.021769] (-) TimerEvent: {}
+[21.122551] (-) TimerEvent: {}
+[21.223463] (-) TimerEvent: {}
+[21.324520] (-) TimerEvent: {}
+[21.425390] (-) TimerEvent: {}
+[21.526238] (-) TimerEvent: {}
+[21.627403] (-) TimerEvent: {}
+[21.728429] (-) TimerEvent: {}
+[21.829596] (-) TimerEvent: {}
+[21.930701] (-) TimerEvent: {}
+[22.031530] (-) TimerEvent: {}
+[22.132269] (-) TimerEvent: {}
+[22.199887] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[22.232529] (-) TimerEvent: {}
+[22.238528] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[22.332670] (-) TimerEvent: {}
+[22.361554] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[22.362789] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/Isaac/ros2_ws/build/diffdrive_arduino'], 'cwd': '/home/Isaac/ros2_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Isaac'), ('SSH_CLIENT', '192.168.16.43 54628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Isaac'), ('OLDPWD', '/home/Isaac'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Isaac'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/Isaac/ros2_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.16.43 54628 192.168.16.205 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.400043] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.401635] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml\n'}
+[22.403363] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino\n'}
+[22.404000] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino\n'}
+[22.404883] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[22.406165] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[22.407347] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[22.408553] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[22.410692] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[22.411822] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[22.413549] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control\n'}
+[22.414653] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/ros2_control.xacro\n'}
+[22.416116] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf\n'}
+[22.417275] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/robot_core.xacro\n'}
+[22.418859] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/lidar.xacro\n'}
+[22.420321] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[22.421742] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/ros2_control.xacro\n'}
+[22.423204] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/inertial_macros.xacro\n'}
+[22.424657] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz\n'}
+[22.425834] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[22.427491] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[22.429579] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[22.430393] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/rplidar.launch.py\n'}
+[22.431995] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[22.432770] (-) TimerEvent: {}
+[22.433608] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config\n'}
+[22.434821] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[22.437154] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[22.444930] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/Isaac/ros2_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[22.445656] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[22.447117] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[22.449594] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[22.451661] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[22.453456] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[22.454673] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[22.456330] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[22.457471] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[22.459118] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[22.460702] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[22.462544] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[22.464173] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[22.465853] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[22.467895] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[22.469583] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[22.473096] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[22.475451] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[22.477275] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.479118] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.481083] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[22.482718] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[22.484676] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/Isaac/ros2_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[22.490807] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[22.535388] (-) TimerEvent: {}
+[22.636326] (-) TimerEvent: {}
+[22.732690] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[22.735868] (-) EventReactorShutdown: {}

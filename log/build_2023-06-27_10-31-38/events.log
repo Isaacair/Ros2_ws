@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (autonomous_exploration) JobQueued: {'identifier': 'autonomous_exploration', 'dependencies': OrderedDict()}
+[0.000615] (controller_manager_msgs) JobQueued: {'identifier': 'controller_manager_msgs', 'dependencies': OrderedDict()}
+[0.000656] (joint_limits) JobQueued: {'identifier': 'joint_limits', 'dependencies': OrderedDict()}
+[0.000694] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.000731] (navigation_module) JobQueued: {'identifier': 'navigation_module', 'dependencies': OrderedDict()}
+[0.000770] (ros2_control_test_assets) JobQueued: {'identifier': 'ros2_control_test_assets', 'dependencies': OrderedDict()}
+[0.000807] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.000843] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict([('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets')])}
+[0.000886] (rqt_controller_manager) JobQueued: {'identifier': 'rqt_controller_manager', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs')])}
+[0.000925] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict([('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface')])}
+[0.000965] (transmission_interface) JobQueued: {'identifier': 'transmission_interface', 'dependencies': OrderedDict([('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface')])}
+[0.001005] (controller_manager) JobQueued: {'identifier': 'controller_manager', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tony_stark/ros2_ws/install/controller_interface')])}
+[0.001076] (ros2controlcli) JobQueued: {'identifier': 'ros2controlcli', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tony_stark/ros2_ws/install/controller_interface'), ('controller_manager', '/home/tony_stark/ros2_ws/install/controller_manager')])}
+[0.001122] (ros2_control) JobQueued: {'identifier': 'ros2_control', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs'), ('joint_limits', '/home/tony_stark/ros2_ws/install/joint_limits'), ('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tony_stark/ros2_ws/install/controller_interface'), ('transmission_interface', '/home/tony_stark/ros2_ws/install/transmission_interface'), ('controller_manager', '/home/tony_stark/ros2_ws/install/controller_manager'), ('ros2controlcli', '/home/tony_stark/ros2_ws/install/ros2controlcli')])}
+[0.001839] (controller_manager_msgs) JobStarted: {'identifier': 'controller_manager_msgs'}
+[0.023536] (ros2_control_test_assets) JobStarted: {'identifier': 'ros2_control_test_assets'}
+[0.043328] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'cmake'}
+[0.044644] (controller_manager_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/ros2_control/controller_manager_msgs', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/controller_manager_msgs'], 'cwd': '/home/tony_stark/ros2_ws/build/controller_manager_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark/ros2_ws/ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7945965a_ea76_4455_827d_dbdfc0079d66'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.986'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/controller_manager_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.053448] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'cmake'}
+[0.056545] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'build'}
+[0.057145] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/ros2_control_test_assets', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark/ros2_ws/ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7945965a_ea76_4455_827d_dbdfc0079d66'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.986'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.099495] (-) TimerEvent: {}
+[0.124867] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[0.174761] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'install'}
+[0.192665] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets'], 'cwd': '/home/tony_stark/ros2_ws/build/ros2_control_test_assets', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark/ros2_ws/ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7945965a_ea76_4455_827d_dbdfc0079d66'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.986'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.199646] (-) TimerEvent: {}
+[0.209106] (controller_manager_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.211527] (ros2_control_test_assets) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.212979] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets\n'}
+[0.214341] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets\n'}
+[0.215285] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp\n'}
+[0.223937] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp\n'}
+[0.224837] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh\n'}
+[0.225679] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv\n'}
+[0.226409] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets\n'}
+[0.229725] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets\n'}
+[0.229928] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh\n'}
+[0.230076] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv\n'}
+[0.230274] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh\n'}
+[0.230421] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv\n'}
+[0.230556] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash\n'}
+[0.230682] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh\n'}
+[0.230813] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh\n'}
+[0.230943] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv\n'}
+[0.231071] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv\n'}
+[0.231253] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets\n'}
+[0.231389] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake\n'}
+[0.231551] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.231700] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake\n'}
+[0.231832] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake\n'}
+[0.231959] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml\n'}
+[0.232090] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[0.299777] (-) TimerEvent: {}
+[0.398405] (ros2_control_test_assets) JobEnded: {'identifier': 'ros2_control_test_assets', 'rc': 0}
+[0.399560] (controller_manager_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.399840] (-) TimerEvent: {}
+[0.400667] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.417920] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.469867] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'cmake'}
+[0.477521] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/ros2_control/hardware_interface', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/hardware_interface'], 'cwd': '/home/tony_stark/ros2_ws/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark/ros2_ws/ros2_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7945965a_ea76_4455_827d_dbdfc0079d66'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.986'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/hardware_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.500311] (-) TimerEvent: {}
+[0.600889] (-) TimerEvent: {}
+[0.616700] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.670602] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.672828] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.674751] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.684223] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.692917] (hardware_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.701650] (-) TimerEvent: {}
+[0.712346] (hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801807] (-) TimerEvent: {}
+[0.902501] (-) TimerEvent: {}
+[0.938400] (hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.973323] (hardware_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.975429] (hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.977870] (hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.002463] (hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002794] (-) TimerEvent: {}
+[1.003091] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.019115] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.019423] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.019558] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.020072] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102960] (-) TimerEvent: {}
+[1.203626] (-) TimerEvent: {}
+[1.304387] (-) TimerEvent: {}
+[1.405040] (-) TimerEvent: {}
+[1.505694] (-) TimerEvent: {}
+[1.552140] (controller_manager_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.572229] (hardware_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.605848] (-) TimerEvent: {}
+[1.706560] (-) TimerEvent: {}
+[1.807272] (-) TimerEvent: {}
+[1.838522] (controller_manager_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.851627] (hardware_interface) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.852707] (hardware_interface) StderrLine: {'line': b'  By not providing "Findcontrol_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.853659] (hardware_interface) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.854466] (hardware_interface) StderrLine: {'line': b'  "control_msgs", but CMake did not find one.\n'}
+[1.855302] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.856076] (hardware_interface) StderrLine: {'line': b'  Could not find a package configuration file provided by "control_msgs" with\n'}
+[1.856813] (hardware_interface) StderrLine: {'line': b'  any of the following names:\n'}
+[1.857701] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.858696] (hardware_interface) StderrLine: {'line': b'    control_msgsConfig.cmake\n'}
+[1.859504] (hardware_interface) StderrLine: {'line': b'    control_msgs-config.cmake\n'}
+[1.860217] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.860961] (hardware_interface) StderrLine: {'line': b'  Add the installation prefix of "control_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[1.861697] (hardware_interface) StderrLine: {'line': b'  "control_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[1.862653] (hardware_interface) StderrLine: {'line': b'  "control_msgs" provides a separate development package or SDK, be sure it\n'}
+[1.863470] (hardware_interface) StderrLine: {'line': b'  has been installed.\n'}
+[1.864287] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.865285] (hardware_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.866801] (hardware_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.867990] (hardware_interface) StdoutLine: {'line': b'See also "/home/tony_stark/ros2_ws/build/hardware_interface/CMakeFiles/CMakeOutput.log".\n'}
+[1.877785] (hardware_interface) CommandEnded: {'returncode': 1}
+[1.907553] (-) TimerEvent: {}
+[1.910358] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 1}
+[2.007750] (-) TimerEvent: {}
+[2.108548] (-) TimerEvent: {}
+[2.209353] (-) TimerEvent: {}
+[2.310112] (-) TimerEvent: {}
+[2.411700] (-) TimerEvent: {}
+[2.497736] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.512040] (-) TimerEvent: {}
+[2.612725] (-) TimerEvent: {}
+[2.713489] (-) TimerEvent: {}
+[2.814124] (-) TimerEvent: {}
+[2.870447] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.914483] (-) TimerEvent: {}
+[3.015330] (-) TimerEvent: {}
+[3.116428] (-) TimerEvent: {}
+[3.217241] (-) TimerEvent: {}
+[3.318248] (-) TimerEvent: {}
+[3.334892] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.418451] (-) TimerEvent: {}
+[3.519157] (-) TimerEvent: {}
+[3.620134] (-) TimerEvent: {}
+[3.720857] (-) TimerEvent: {}
+[3.821580] (-) TimerEvent: {}
+[3.902311] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.921904] (-) TimerEvent: {}
+[4.022820] (-) TimerEvent: {}
+[4.123512] (-) TimerEvent: {}
+[4.224155] (-) TimerEvent: {}
+[4.323448] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.324266] (-) TimerEvent: {}
+[4.424881] (-) TimerEvent: {}
+[4.525730] (-) TimerEvent: {}
+[4.626452] (-) TimerEvent: {}
+[4.727287] (-) TimerEvent: {}
+[4.828133] (-) TimerEvent: {}
+[4.899806] (controller_manager_msgs) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)\n'}
+[4.928476] (-) TimerEvent: {}
+[5.029118] (-) TimerEvent: {}
+[5.086272] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.129332] (-) TimerEvent: {}
+[5.230284] (-) TimerEvent: {}
+[5.331104] (-) TimerEvent: {}
+[5.431760] (-) TimerEvent: {}
+[5.532295] (-) TimerEvent: {}
+[5.633021] (-) TimerEvent: {}
+[5.733950] (-) TimerEvent: {}
+[5.834560] (-) TimerEvent: {}
+[5.935155] (-) TimerEvent: {}
+[6.036074] (-) TimerEvent: {}
+[6.136787] (-) TimerEvent: {}
+[6.238398] (-) TimerEvent: {}
+[6.338915] (-) TimerEvent: {}
+[6.439572] (-) TimerEvent: {}
+[6.540366] (-) TimerEvent: {}
+[6.641270] (-) TimerEvent: {}
+[6.741943] (-) TimerEvent: {}
+[6.843008] (-) TimerEvent: {}
+[6.943851] (-) TimerEvent: {}
+[6.965990] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[6.988470] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[7.044180] (-) TimerEvent: {}
+[7.145013] (-) TimerEvent: {}
+[7.245900] (-) TimerEvent: {}
+[7.277945] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[7.346241] (-) TimerEvent: {}
+[7.446978] (-) TimerEvent: {}
+[7.547668] (-) TimerEvent: {}
+[7.548265] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.647991] (-) TimerEvent: {}
+[7.748708] (-) TimerEvent: {}
+[7.849598] (-) TimerEvent: {}
+[7.950426] (-) TimerEvent: {}
+[8.051255] (-) TimerEvent: {}
+[8.151976] (-) TimerEvent: {}
+[8.252768] (-) TimerEvent: {}
+[8.353515] (-) TimerEvent: {}
+[8.454276] (-) TimerEvent: {}
+[8.554882] (-) TimerEvent: {}
+[8.655671] (-) TimerEvent: {}
+[8.756588] (-) TimerEvent: {}
+[8.857185] (-) TimerEvent: {}
+[8.957925] (-) TimerEvent: {}
+[9.058570] (-) TimerEvent: {}
+[9.159385] (-) TimerEvent: {}
+[9.260202] (-) TimerEvent: {}
+[9.361027] (-) TimerEvent: {}
+[9.461944] (-) TimerEvent: {}
+[9.562738] (-) TimerEvent: {}
+[9.616552] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.663087] (-) TimerEvent: {}
+[9.763901] (-) TimerEvent: {}
+[9.864930] (-) TimerEvent: {}
+[9.965926] (-) TimerEvent: {}
+[10.066480] (-) TimerEvent: {}
+[10.167297] (-) TimerEvent: {}
+[10.180854] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.267512] (-) TimerEvent: {}
+[10.333109] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[10.367847] (-) TimerEvent: {}
+[10.468586] (-) TimerEvent: {}
+[10.513213] (controller_manager_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.568777] (-) TimerEvent: {}
+[10.669666] (-) TimerEvent: {}
+[10.771042] (-) TimerEvent: {}
+[10.871978] (-) TimerEvent: {}
+[10.972983] (-) TimerEvent: {}
+[11.052427] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[11.053234] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.053564] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.054039] (controller_manager_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[11.073151] (-) TimerEvent: {}
+[11.124946] (controller_manager_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.173749] (-) TimerEvent: {}
+[11.274785] (-) TimerEvent: {}
+[11.375509] (-) TimerEvent: {}
+[11.476354] (-) TimerEvent: {}
+[11.531480] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[11.576566] (-) TimerEvent: {}
+[11.607717] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[11.676904] (-) TimerEvent: {}
+[11.777734] (-) TimerEvent: {}
+[11.832574] (controller_manager_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.877893] (-) TimerEvent: {}
+[11.978434] (-) TimerEvent: {}
+[12.002350] (controller_manager_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[12.009433] (controller_manager_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/tony_stark/ros2_ws/build/controller_manager_msgs\n'}
+[12.023509] (controller_manager_msgs) JobEnded: {'identifier': 'controller_manager_msgs', 'rc': 'SIGINT'}
+[12.034879] (autonomous_exploration) JobSkipped: {'identifier': 'autonomous_exploration'}
+[12.035787] (joint_limits) JobSkipped: {'identifier': 'joint_limits'}
+[12.035892] (msgs) JobSkipped: {'identifier': 'msgs'}
+[12.035932] (navigation_module) JobSkipped: {'identifier': 'navigation_module'}
+[12.035969] (sample_package) JobSkipped: {'identifier': 'sample_package'}
+[12.036015] (rqt_controller_manager) JobSkipped: {'identifier': 'rqt_controller_manager'}
+[12.036087] (controller_interface) JobSkipped: {'identifier': 'controller_interface'}
+[12.036159] (transmission_interface) JobSkipped: {'identifier': 'transmission_interface'}
+[12.036223] (controller_manager) JobSkipped: {'identifier': 'controller_manager'}
+[12.036289] (ros2controlcli) JobSkipped: {'identifier': 'ros2controlcli'}
+[12.036342] (ros2_control) JobSkipped: {'identifier': 'ros2_control'}
+[12.036400] (-) EventReactorShutdown: {}

@@ -1,0 +1,945 @@
+[0.000000] (-) TimerEvent: {}
+[0.000946] (autonomous_exploration) JobQueued: {'identifier': 'autonomous_exploration', 'dependencies': OrderedDict()}
+[0.001914] (lidarbot) JobQueued: {'identifier': 'lidarbot', 'dependencies': OrderedDict()}
+[0.002023] (lidarbot_base) JobQueued: {'identifier': 'lidarbot_base', 'dependencies': OrderedDict()}
+[0.002065] (lidarbot_bringup) JobQueued: {'identifier': 'lidarbot_bringup', 'dependencies': OrderedDict()}
+[0.002103] (lidarbot_description) JobQueued: {'identifier': 'lidarbot_description', 'dependencies': OrderedDict()}
+[0.002142] (lidarbot_gazebo) JobQueued: {'identifier': 'lidarbot_gazebo', 'dependencies': OrderedDict()}
+[0.002179] (lidarbot_navigation) JobQueued: {'identifier': 'lidarbot_navigation', 'dependencies': OrderedDict()}
+[0.002215] (lidarbot_slam) JobQueued: {'identifier': 'lidarbot_slam', 'dependencies': OrderedDict()}
+[0.002251] (lidarbot_teleop) JobQueued: {'identifier': 'lidarbot_teleop', 'dependencies': OrderedDict()}
+[0.002286] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.002321] (navigation_module) JobQueued: {'identifier': 'navigation_module', 'dependencies': OrderedDict()}
+[0.002357] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.002394] (autonomous_exploration) JobStarted: {'identifier': 'autonomous_exploration'}
+[0.099433] (-) TimerEvent: {}
+[0.200275] (-) TimerEvent: {}
+[0.303935] (-) TimerEvent: {}
+[0.356879] (lidarbot) JobStarted: {'identifier': 'lidarbot'}
+[0.404367] (-) TimerEvent: {}
+[0.504905] (-) TimerEvent: {}
+[0.605357] (-) TimerEvent: {}
+[0.705795] (-) TimerEvent: {}
+[0.806231] (-) TimerEvent: {}
+[0.906652] (-) TimerEvent: {}
+[1.007328] (-) TimerEvent: {}
+[1.108111] (-) TimerEvent: {}
+[1.208775] (-) TimerEvent: {}
+[1.309660] (-) TimerEvent: {}
+[1.410372] (-) TimerEvent: {}
+[1.460130] (lidarbot) JobProgress: {'identifier': 'lidarbot', 'progress': 'cmake'}
+[1.460733] (lidarbot) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/lidarbot/lidarbot', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/lidarbot'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[1.521702] (-) TimerEvent: {}
+[1.622388] (-) TimerEvent: {}
+[1.723299] (-) TimerEvent: {}
+[1.824379] (-) TimerEvent: {}
+[1.925262] (-) TimerEvent: {}
+[2.025903] (-) TimerEvent: {}
+[2.126858] (-) TimerEvent: {}
+[2.227470] (-) TimerEvent: {}
+[2.328063] (-) TimerEvent: {}
+[2.428536] (-) TimerEvent: {}
+[2.529213] (-) TimerEvent: {}
+[2.629881] (-) TimerEvent: {}
+[2.730799] (-) TimerEvent: {}
+[2.831610] (-) TimerEvent: {}
+[2.932417] (-) TimerEvent: {}
+[3.033555] (-) TimerEvent: {}
+[3.134544] (-) TimerEvent: {}
+[3.235434] (-) TimerEvent: {}
+[3.336337] (-) TimerEvent: {}
+[3.437188] (-) TimerEvent: {}
+[3.538053] (-) TimerEvent: {}
+[3.638860] (-) TimerEvent: {}
+[3.739738] (-) TimerEvent: {}
+[3.840633] (-) TimerEvent: {}
+[3.941530] (-) TimerEvent: {}
+[4.042434] (-) TimerEvent: {}
+[4.143324] (-) TimerEvent: {}
+[4.244189] (-) TimerEvent: {}
+[4.344841] (-) TimerEvent: {}
+[4.445398] (-) TimerEvent: {}
+[4.546286] (-) TimerEvent: {}
+[4.647193] (-) TimerEvent: {}
+[4.748233] (-) TimerEvent: {}
+[4.849174] (-) TimerEvent: {}
+[4.949914] (-) TimerEvent: {}
+[5.050811] (-) TimerEvent: {}
+[5.151716] (-) TimerEvent: {}
+[5.252633] (-) TimerEvent: {}
+[5.353617] (-) TimerEvent: {}
+[5.454470] (-) TimerEvent: {}
+[5.555346] (-) TimerEvent: {}
+[5.656202] (-) TimerEvent: {}
+[5.757063] (-) TimerEvent: {}
+[5.857908] (-) TimerEvent: {}
+[5.958783] (-) TimerEvent: {}
+[6.059449] (-) TimerEvent: {}
+[6.160256] (-) TimerEvent: {}
+[6.261115] (-) TimerEvent: {}
+[6.361818] (-) TimerEvent: {}
+[6.462675] (-) TimerEvent: {}
+[6.563413] (-) TimerEvent: {}
+[6.664297] (-) TimerEvent: {}
+[6.765228] (-) TimerEvent: {}
+[6.866051] (-) TimerEvent: {}
+[6.966897] (-) TimerEvent: {}
+[7.067767] (-) TimerEvent: {}
+[7.168609] (-) TimerEvent: {}
+[7.269461] (-) TimerEvent: {}
+[7.370312] (-) TimerEvent: {}
+[7.471040] (-) TimerEvent: {}
+[7.855905] (-) TimerEvent: {}
+[7.956777] (-) TimerEvent: {}
+[8.057648] (-) TimerEvent: {}
+[8.158495] (-) TimerEvent: {}
+[8.259169] (-) TimerEvent: {}
+[8.360025] (-) TimerEvent: {}
+[8.460881] (-) TimerEvent: {}
+[8.561731] (-) TimerEvent: {}
+[8.662573] (-) TimerEvent: {}
+[8.763312] (-) TimerEvent: {}
+[8.864165] (-) TimerEvent: {}
+[8.964915] (-) TimerEvent: {}
+[9.065770] (-) TimerEvent: {}
+[9.166623] (-) TimerEvent: {}
+[9.267289] (-) TimerEvent: {}
+[9.367916] (-) TimerEvent: {}
+[9.468600] (-) TimerEvent: {}
+[9.569479] (-) TimerEvent: {}
+[9.670358] (-) TimerEvent: {}
+[9.771248] (-) TimerEvent: {}
+[9.872111] (-) TimerEvent: {}
+[9.972850] (-) TimerEvent: {}
+[10.073703] (-) TimerEvent: {}
+[10.174551] (-) TimerEvent: {}
+[10.275435] (-) TimerEvent: {}
+[10.376273] (-) TimerEvent: {}
+[10.477144] (-) TimerEvent: {}
+[10.577907] (-) TimerEvent: {}
+[10.678907] (-) TimerEvent: {}
+[10.779843] (-) TimerEvent: {}
+[10.880649] (-) TimerEvent: {}
+[10.981498] (-) TimerEvent: {}
+[11.082340] (-) TimerEvent: {}
+[11.183220] (-) TimerEvent: {}
+[11.284056] (-) TimerEvent: {}
+[11.384914] (-) TimerEvent: {}
+[11.485757] (-) TimerEvent: {}
+[11.586474] (-) TimerEvent: {}
+[11.687318] (-) TimerEvent: {}
+[11.788147] (-) TimerEvent: {}
+[11.888931] (-) TimerEvent: {}
+[11.989789] (-) TimerEvent: {}
+[12.090637] (-) TimerEvent: {}
+[12.191431] (-) TimerEvent: {}
+[12.292269] (-) TimerEvent: {}
+[12.393104] (-) TimerEvent: {}
+[12.493942] (-) TimerEvent: {}
+[12.594812] (-) TimerEvent: {}
+[13.288974] (-) TimerEvent: {}
+[13.389831] (-) TimerEvent: {}
+[13.490739] (-) TimerEvent: {}
+[13.591428] (-) TimerEvent: {}
+[13.692267] (-) TimerEvent: {}
+[13.793128] (-) TimerEvent: {}
+[13.893968] (-) TimerEvent: {}
+[13.994685] (-) TimerEvent: {}
+[14.095434] (-) TimerEvent: {}
+[14.196276] (-) TimerEvent: {}
+[14.297124] (-) TimerEvent: {}
+[14.397930] (-) TimerEvent: {}
+[14.498724] (-) TimerEvent: {}
+[14.599443] (-) TimerEvent: {}
+[14.700116] (-) TimerEvent: {}
+[14.801004] (-) TimerEvent: {}
+[14.901902] (-) TimerEvent: {}
+[15.002878] (-) TimerEvent: {}
+[15.103766] (-) TimerEvent: {}
+[15.204671] (-) TimerEvent: {}
+[15.305552] (-) TimerEvent: {}
+[15.406292] (-) TimerEvent: {}
+[15.507130] (-) TimerEvent: {}
+[15.607981] (-) TimerEvent: {}
+[15.708900] (-) TimerEvent: {}
+[15.809715] (-) TimerEvent: {}
+[15.831467] (lidarbot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[15.909885] (-) TimerEvent: {}
+[16.010605] (-) TimerEvent: {}
+[16.111349] (-) TimerEvent: {}
+[16.212119] (-) TimerEvent: {}
+[16.312982] (-) TimerEvent: {}
+[16.413755] (-) TimerEvent: {}
+[16.514756] (-) TimerEvent: {}
+[16.615540] (-) TimerEvent: {}
+[16.716375] (-) TimerEvent: {}
+[16.817155] (-) TimerEvent: {}
+[16.917916] (-) TimerEvent: {}
+[17.018753] (-) TimerEvent: {}
+[17.119553] (-) TimerEvent: {}
+[17.220430] (-) TimerEvent: {}
+[17.321298] (-) TimerEvent: {}
+[17.422040] (-) TimerEvent: {}
+[17.522885] (-) TimerEvent: {}
+[17.623774] (-) TimerEvent: {}
+[17.724664] (-) TimerEvent: {}
+[17.825546] (-) TimerEvent: {}
+[17.926399] (-) TimerEvent: {}
+[18.027294] (-) TimerEvent: {}
+[18.128224] (-) TimerEvent: {}
+[18.229080] (-) TimerEvent: {}
+[18.330046] (-) TimerEvent: {}
+[18.430882] (-) TimerEvent: {}
+[18.531764] (-) TimerEvent: {}
+[18.632608] (-) TimerEvent: {}
+[18.733455] (-) TimerEvent: {}
+[18.834314] (-) TimerEvent: {}
+[18.935039] (-) TimerEvent: {}
+[19.035913] (-) TimerEvent: {}
+[19.136790] (-) TimerEvent: {}
+[19.237636] (-) TimerEvent: {}
+[19.338500] (-) TimerEvent: {}
+[19.439351] (-) TimerEvent: {}
+[19.540211] (-) TimerEvent: {}
+[19.641055] (-) TimerEvent: {}
+[19.741896] (-) TimerEvent: {}
+[19.842654] (-) TimerEvent: {}
+[19.943434] (-) TimerEvent: {}
+[20.044274] (-) TimerEvent: {}
+[20.145136] (-) TimerEvent: {}
+[20.245977] (-) TimerEvent: {}
+[20.346839] (-) TimerEvent: {}
+[20.447719] (-) TimerEvent: {}
+[20.548468] (-) TimerEvent: {}
+[20.649319] (-) TimerEvent: {}
+[20.750195] (-) TimerEvent: {}
+[20.851040] (-) TimerEvent: {}
+[20.951904] (-) TimerEvent: {}
+[21.052835] (-) TimerEvent: {}
+[21.153561] (-) TimerEvent: {}
+[21.254335] (-) TimerEvent: {}
+[21.355028] (-) TimerEvent: {}
+[21.455944] (-) TimerEvent: {}
+[21.556803] (-) TimerEvent: {}
+[21.657744] (-) TimerEvent: {}
+[21.758626] (-) TimerEvent: {}
+[21.859419] (-) TimerEvent: {}
+[21.960266] (-) TimerEvent: {}
+[22.061113] (-) TimerEvent: {}
+[22.161968] (-) TimerEvent: {}
+[23.403157] (-) TimerEvent: {}
+[23.503941] (-) TimerEvent: {}
+[23.604790] (-) TimerEvent: {}
+[23.705639] (-) TimerEvent: {}
+[23.806477] (-) TimerEvent: {}
+[23.907339] (-) TimerEvent: {}
+[24.008172] (-) TimerEvent: {}
+[24.109025] (-) TimerEvent: {}
+[24.209873] (-) TimerEvent: {}
+[24.310948] (-) TimerEvent: {}
+[24.411895] (-) TimerEvent: {}
+[24.512746] (-) TimerEvent: {}
+[24.613578] (-) TimerEvent: {}
+[24.714186] (-) TimerEvent: {}
+[24.815026] (-) TimerEvent: {}
+[24.915920] (-) TimerEvent: {}
+[25.016794] (-) TimerEvent: {}
+[25.117718] (-) TimerEvent: {}
+[25.218577] (-) TimerEvent: {}
+[25.319355] (-) TimerEvent: {}
+[25.420593] (-) TimerEvent: {}
+[25.521630] (-) TimerEvent: {}
+[25.577301] (lidarbot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[25.621985] (-) TimerEvent: {}
+[25.722788] (-) TimerEvent: {}
+[25.823763] (-) TimerEvent: {}
+[25.924472] (-) TimerEvent: {}
+[26.025526] (-) TimerEvent: {}
+[26.126612] (-) TimerEvent: {}
+[26.227365] (-) TimerEvent: {}
+[26.304073] (lidarbot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[26.327710] (-) TimerEvent: {}
+[26.428536] (-) TimerEvent: {}
+[26.529235] (-) TimerEvent: {}
+[26.630134] (-) TimerEvent: {}
+[26.731187] (-) TimerEvent: {}
+[26.831947] (-) TimerEvent: {}
+[26.932598] (-) TimerEvent: {}
+[27.033338] (-) TimerEvent: {}
+[27.134112] (-) TimerEvent: {}
+[27.234936] (-) TimerEvent: {}
+[27.335669] (-) TimerEvent: {}
+[27.436500] (-) TimerEvent: {}
+[27.537281] (-) TimerEvent: {}
+[27.638131] (-) TimerEvent: {}
+[27.739023] (-) TimerEvent: {}
+[27.839938] (-) TimerEvent: {}
+[27.940763] (-) TimerEvent: {}
+[28.041589] (-) TimerEvent: {}
+[28.142422] (-) TimerEvent: {}
+[28.243284] (-) TimerEvent: {}
+[28.344107] (-) TimerEvent: {}
+[28.444935] (-) TimerEvent: {}
+[28.545753] (-) TimerEvent: {}
+[28.646590] (-) TimerEvent: {}
+[28.747428] (-) TimerEvent: {}
+[28.848239] (-) TimerEvent: {}
+[28.948941] (-) TimerEvent: {}
+[29.049692] (-) TimerEvent: {}
+[29.128966] (lidarbot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.142611] (lidarbot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[29.143325] (lidarbot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[29.150023] (-) TimerEvent: {}
+[29.250823] (-) TimerEvent: {}
+[29.351673] (-) TimerEvent: {}
+[29.452509] (-) TimerEvent: {}
+[29.553291] (-) TimerEvent: {}
+[29.654046] (-) TimerEvent: {}
+[29.737514] (lidarbot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[29.754372] (-) TimerEvent: {}
+[29.855259] (-) TimerEvent: {}
+[29.866823] (lidarbot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[29.955435] (-) TimerEvent: {}
+[30.056201] (-) TimerEvent: {}
+[30.180091] (-) TimerEvent: {}
+[30.183153] (autonomous_exploration) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/autonomous_exploration', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/autonomous_exploration/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/autonomous_exploration/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/autonomous_exploration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'OPENAI_API_KEY': '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', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1546', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J61C71', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1145', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/autonomous_exploration', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/autonomous_exploration/prefix_override:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets'}, 'shell': False}
+[30.280212] (-) TimerEvent: {}
+[30.380770] (-) TimerEvent: {}
+[30.411086] (lidarbot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[30.442091] (lidarbot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[30.443907] (lidarbot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[30.446165] (lidarbot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[30.480900] (-) TimerEvent: {}
+[30.581600] (-) TimerEvent: {}
+[30.682426] (-) TimerEvent: {}
+[30.782868] (-) TimerEvent: {}
+[30.869976] (autonomous_exploration) StdoutLine: {'line': b'running egg_info\n'}
+[30.872243] (autonomous_exploration) StdoutLine: {'line': b'writing ../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO\n'}
+[30.883240] (-) TimerEvent: {}
+[30.983796] (-) TimerEvent: {}
+[30.987373] (autonomous_exploration) StdoutLine: {'line': b'writing dependency_links to ../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt\n'}
+[30.987944] (autonomous_exploration) StdoutLine: {'line': b'writing entry points to ../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt\n'}
+[30.988263] (autonomous_exploration) StdoutLine: {'line': b'writing requirements to ../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt\n'}
+[30.988531] (autonomous_exploration) StdoutLine: {'line': b'writing top-level names to ../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt\n'}
+[31.035518] (autonomous_exploration) StdoutLine: {'line': b"reading manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[31.058470] (autonomous_exploration) StdoutLine: {'line': b"writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'\n"}
+[31.059453] (autonomous_exploration) StdoutLine: {'line': b'running build\n'}
+[31.059888] (autonomous_exploration) StdoutLine: {'line': b'running build_py\n'}
+[31.063659] (autonomous_exploration) StdoutLine: {'line': b'running install\n'}
+[31.065231] (autonomous_exploration) StdoutLine: {'line': b'running install_lib\n'}
+[31.070396] (autonomous_exploration) StdoutLine: {'line': b'running install_data\n'}
+[31.084133] (-) TimerEvent: {}
+[31.115855] (autonomous_exploration) StdoutLine: {'line': b'running install_egg_info\n'}
+[31.122606] (autonomous_exploration) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[31.184358] (-) TimerEvent: {}
+[31.208158] (autonomous_exploration) StdoutLine: {'line': b'Copying ../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info\n'}
+[31.240596] (lidarbot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.249041] (autonomous_exploration) StdoutLine: {'line': b'running install_scripts\n'}
+[31.284487] (-) TimerEvent: {}
+[31.285450] (autonomous_exploration) StdoutLine: {'line': b'Installing control script to /home/tony_stark/ros2_ws/install/autonomous_exploration/lib/autonomous_exploration\n'}
+[31.286509] (autonomous_exploration) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/autonomous_exploration/install.log'\n"}
+[31.364613] (autonomous_exploration) CommandEnded: {'returncode': 0}
+[31.384854] (-) TimerEvent: {}
+[31.485553] (-) TimerEvent: {}
+[31.586408] (-) TimerEvent: {}
+[31.687264] (-) TimerEvent: {}
+[31.787930] (-) TimerEvent: {}
+[31.888926] (-) TimerEvent: {}
+[31.989607] (-) TimerEvent: {}
+[32.090261] (-) TimerEvent: {}
+[32.191213] (-) TimerEvent: {}
+[32.225959] (lidarbot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[32.291431] (-) TimerEvent: {}
+[32.388772] (autonomous_exploration) JobEnded: {'identifier': 'autonomous_exploration', 'rc': 0}
+[32.397224] (-) TimerEvent: {}
+[32.397589] (lidarbot_base) JobStarted: {'identifier': 'lidarbot_base'}
+[32.430800] (lidarbot_base) JobProgress: {'identifier': 'lidarbot_base', 'progress': 'cmake'}
+[32.432716] (lidarbot_base) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/lidarbot_base'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[32.497413] (-) TimerEvent: {}
+[32.540830] (lidarbot_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[32.597541] (-) TimerEvent: {}
+[32.638315] (lidarbot_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[32.649846] (lidarbot_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.697780] (-) TimerEvent: {}
+[32.777377] (lidarbot_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.797916] (-) TimerEvent: {}
+[32.811183] (lidarbot_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.812176] (lidarbot_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.813550] (lidarbot_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.820819] (lidarbot_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.898109] (-) TimerEvent: {}
+[32.995209] (lidarbot_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[32.998288] (-) TimerEvent: {}
+[33.007153] (lidarbot_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.008135] (lidarbot_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.009424] (lidarbot_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.014812] (lidarbot_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[33.098441] (-) TimerEvent: {}
+[33.199060] (-) TimerEvent: {}
+[33.299558] (-) TimerEvent: {}
+[33.380016] (lidarbot_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[33.399694] (-) TimerEvent: {}
+[33.500480] (-) TimerEvent: {}
+[33.601189] (-) TimerEvent: {}
+[33.702152] (-) TimerEvent: {}
+[33.803334] (-) TimerEvent: {}
+[33.904176] (-) TimerEvent: {}
+[34.005078] (-) TimerEvent: {}
+[34.105942] (-) TimerEvent: {}
+[34.206686] (-) TimerEvent: {}
+[34.307871] (-) TimerEvent: {}
+[34.408910] (-) TimerEvent: {}
+[34.459830] (lidarbot_base) StdoutLine: {'line': b'-- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[34.509043] (-) TimerEvent: {}
+[34.609786] (-) TimerEvent: {}
+[34.710529] (-) TimerEvent: {}
+[34.724141] (lidarbot) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.734476] (lidarbot) StdoutLine: {'line': b'-- Generating done\n'}
+[34.739733] (lidarbot) StdoutLine: {'line': b'-- Build files have been written to: /home/tony_stark/ros2_ws/build/lidarbot\n'}
+[34.755302] (lidarbot) CommandEnded: {'returncode': 0}
+[34.758628] (lidarbot) JobProgress: {'identifier': 'lidarbot', 'progress': 'build'}
+[34.758721] (lidarbot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/lidarbot', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[34.810680] (-) TimerEvent: {}
+[34.816828] (lidarbot) CommandEnded: {'returncode': 0}
+[34.855445] (lidarbot) JobProgress: {'identifier': 'lidarbot', 'progress': 'install'}
+[34.869501] (lidarbot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony_stark/ros2_ws/build/lidarbot'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[34.881566] (lidarbot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.882683] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/ament_index/resource_index/package_run_dependencies/lidarbot\n'}
+[34.883121] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/ament_index/resource_index/parent_prefix_path/lidarbot\n'}
+[34.883741] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/environment/ament_prefix_path.sh\n'}
+[34.884107] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/environment/ament_prefix_path.dsv\n'}
+[34.884391] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/environment/path.sh\n'}
+[34.884683] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/environment/path.dsv\n'}
+[34.885186] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/local_setup.bash\n'}
+[34.885561] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/local_setup.sh\n'}
+[34.885935] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/local_setup.zsh\n'}
+[34.886233] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/local_setup.dsv\n'}
+[34.886547] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/package.dsv\n'}
+[34.886804] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/ament_index/resource_index/packages/lidarbot\n'}
+[34.887223] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/cmake/lidarbotConfig.cmake\n'}
+[34.887579] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/cmake/lidarbotConfig-version.cmake\n'}
+[34.887924] (lidarbot) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/lidarbot/share/lidarbot/package.xml\n'}
+[34.901236] (lidarbot) CommandEnded: {'returncode': 0}
+[34.910822] (-) TimerEvent: {}
+[34.974996] (lidarbot) JobEnded: {'identifier': 'lidarbot', 'rc': 0}
+[34.978831] (lidarbot_bringup) JobStarted: {'identifier': 'lidarbot_bringup'}
+[34.995042] (lidarbot_bringup) JobProgress: {'identifier': 'lidarbot_bringup', 'progress': 'cmake'}
+[34.995752] (lidarbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/lidarbot_bringup'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[35.011032] (-) TimerEvent: {}
+[35.102089] (lidarbot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[35.111219] (-) TimerEvent: {}
+[35.204562] (lidarbot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[35.211371] (-) TimerEvent: {}
+[35.215948] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[35.315767] (-) TimerEvent: {}
+[35.341628] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[35.357530] (lidarbot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[35.358138] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[35.359192] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[35.364968] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[35.415911] (-) TimerEvent: {}
+[35.518505] (-) TimerEvent: {}
+[35.543333] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[35.564279] (lidarbot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[35.564746] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[35.565772] (lidarbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[35.572198] (lidarbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[35.618658] (-) TimerEvent: {}
+[35.719243] (-) TimerEvent: {}
+[35.819682] (-) TimerEvent: {}
+[35.920650] (-) TimerEvent: {}
+[35.946314] (lidarbot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[36.020921] (-) TimerEvent: {}
+[36.122076] (-) TimerEvent: {}
+[36.182976] (lidarbot_bringup) StdoutLine: {'line': b'-- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[36.222226] (-) TimerEvent: {}
+[36.323248] (-) TimerEvent: {}
+[36.424054] (-) TimerEvent: {}
+[36.524893] (-) TimerEvent: {}
+[36.626020] (-) TimerEvent: {}
+[36.726912] (-) TimerEvent: {}
+[36.827661] (-) TimerEvent: {}
+[36.928489] (-) TimerEvent: {}
+[36.995741] (lidarbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[36.999009] (lidarbot_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[37.028836] (-) TimerEvent: {}
+[37.129748] (-) TimerEvent: {}
+[37.230689] (-) TimerEvent: {}
+[37.331645] (-) TimerEvent: {}
+[37.432387] (-) TimerEvent: {}
+[37.533285] (-) TimerEvent: {}
+[37.634222] (-) TimerEvent: {}
+[37.702411] (lidarbot_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[37.703018] (lidarbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[37.734513] (-) TimerEvent: {}
+[37.835494] (-) TimerEvent: {}
+[37.936487] (-) TimerEvent: {}
+[38.010613] (lidarbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[38.011683] (lidarbot_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[38.036814] (-) TimerEvent: {}
+[38.137940] (-) TimerEvent: {}
+[38.238972] (-) TimerEvent: {}
+[38.339760] (-) TimerEvent: {}
+[38.440905] (-) TimerEvent: {}
+[38.504192] (lidarbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[38.504653] (lidarbot_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[38.541316] (-) TimerEvent: {}
+[38.641996] (-) TimerEvent: {}
+[38.742631] (-) TimerEvent: {}
+[38.843569] (-) TimerEvent: {}
+[38.910893] (lidarbot_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[38.911515] (lidarbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[38.943922] (-) TimerEvent: {}
+[39.044860] (-) TimerEvent: {}
+[39.145719] (-) TimerEvent: {}
+[39.246668] (-) TimerEvent: {}
+[39.347559] (-) TimerEvent: {}
+[39.448226] (-) TimerEvent: {}
+[39.548699] (-) TimerEvent: {}
+[39.649243] (-) TimerEvent: {}
+[39.750602] (-) TimerEvent: {}
+[39.851208] (-) TimerEvent: {}
+[39.951809] (-) TimerEvent: {}
+[40.052625] (-) TimerEvent: {}
+[40.153460] (-) TimerEvent: {}
+[40.254357] (-) TimerEvent: {}
+[40.355461] (-) TimerEvent: {}
+[40.456308] (-) TimerEvent: {}
+[40.556985] (-) TimerEvent: {}
+[40.657752] (-) TimerEvent: {}
+[40.758325] (-) TimerEvent: {}
+[40.859089] (-) TimerEvent: {}
+[40.959988] (-) TimerEvent: {}
+[41.060691] (-) TimerEvent: {}
+[41.161467] (-) TimerEvent: {}
+[41.262398] (-) TimerEvent: {}
+[41.363136] (-) TimerEvent: {}
+[41.463823] (-) TimerEvent: {}
+[41.564453] (-) TimerEvent: {}
+[41.665105] (-) TimerEvent: {}
+[41.765763] (-) TimerEvent: {}
+[41.866801] (-) TimerEvent: {}
+[41.967486] (-) TimerEvent: {}
+[42.068346] (-) TimerEvent: {}
+[42.168992] (-) TimerEvent: {}
+[42.269649] (-) TimerEvent: {}
+[42.370258] (-) TimerEvent: {}
+[42.471078] (-) TimerEvent: {}
+[42.571918] (-) TimerEvent: {}
+[42.673118] (-) TimerEvent: {}
+[42.773951] (-) TimerEvent: {}
+[42.874498] (-) TimerEvent: {}
+[42.976650] (-) TimerEvent: {}
+[43.077485] (-) TimerEvent: {}
+[43.178222] (-) TimerEvent: {}
+[43.278994] (-) TimerEvent: {}
+[43.379778] (-) TimerEvent: {}
+[43.480688] (-) TimerEvent: {}
+[43.581733] (-) TimerEvent: {}
+[43.682592] (-) TimerEvent: {}
+[43.783425] (-) TimerEvent: {}
+[43.884323] (-) TimerEvent: {}
+[43.985251] (-) TimerEvent: {}
+[44.086094] (-) TimerEvent: {}
+[44.186936] (-) TimerEvent: {}
+[44.287632] (-) TimerEvent: {}
+[44.388969] (-) TimerEvent: {}
+[44.489829] (-) TimerEvent: {}
+[44.590686] (-) TimerEvent: {}
+[44.691561] (-) TimerEvent: {}
+[44.792219] (-) TimerEvent: {}
+[44.892757] (-) TimerEvent: {}
+[44.993217] (-) TimerEvent: {}
+[45.093927] (-) TimerEvent: {}
+[45.194710] (-) TimerEvent: {}
+[45.295632] (-) TimerEvent: {}
+[45.396539] (-) TimerEvent: {}
+[45.497398] (-) TimerEvent: {}
+[45.598392] (-) TimerEvent: {}
+[45.699431] (-) TimerEvent: {}
+[45.800410] (-) TimerEvent: {}
+[45.901905] (-) TimerEvent: {}
+[46.002728] (-) TimerEvent: {}
+[46.103627] (-) TimerEvent: {}
+[46.204758] (-) TimerEvent: {}
+[46.305835] (-) TimerEvent: {}
+[46.406844] (-) TimerEvent: {}
+[46.507752] (-) TimerEvent: {}
+[46.608557] (-) TimerEvent: {}
+[46.709558] (-) TimerEvent: {}
+[46.810447] (-) TimerEvent: {}
+[46.911352] (-) TimerEvent: {}
+[47.012339] (-) TimerEvent: {}
+[47.113249] (-) TimerEvent: {}
+[47.214308] (-) TimerEvent: {}
+[47.315240] (-) TimerEvent: {}
+[47.415956] (-) TimerEvent: {}
+[47.518771] (-) TimerEvent: {}
+[47.619676] (-) TimerEvent: {}
+[47.720779] (-) TimerEvent: {}
+[47.821765] (-) TimerEvent: {}
+[47.873509] (lidarbot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[47.874151] (lidarbot_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[47.922099] (-) TimerEvent: {}
+[48.022839] (-) TimerEvent: {}
+[48.062198] (lidarbot_base) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[48.062950] (lidarbot_bringup) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[48.123205] (-) TimerEvent: {}
+[48.224265] (-) TimerEvent: {}
+[48.325366] (-) TimerEvent: {}
+[48.426441] (-) TimerEvent: {}
+[48.527479] (-) TimerEvent: {}
+[48.628413] (-) TimerEvent: {}
+[48.729628] (-) TimerEvent: {}
+[48.830595] (-) TimerEvent: {}
+[48.931512] (-) TimerEvent: {}
+[49.032272] (-) TimerEvent: {}
+[49.100585] (lidarbot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[49.101325] (lidarbot_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[49.132599] (-) TimerEvent: {}
+[49.233477] (-) TimerEvent: {}
+[49.334210] (-) TimerEvent: {}
+[49.435023] (-) TimerEvent: {}
+[49.536050] (-) TimerEvent: {}
+[49.636910] (-) TimerEvent: {}
+[49.737759] (-) TimerEvent: {}
+[49.785406] (lidarbot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[49.790914] (lidarbot_base) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[49.838084] (-) TimerEvent: {}
+[49.938737] (-) TimerEvent: {}
+[50.039417] (-) TimerEvent: {}
+[50.140137] (-) TimerEvent: {}
+[50.240972] (-) TimerEvent: {}
+[50.341753] (-) TimerEvent: {}
+[50.442646] (-) TimerEvent: {}
+[50.543488] (-) TimerEvent: {}
+[50.644223] (-) TimerEvent: {}
+[50.745092] (-) TimerEvent: {}
+[50.823309] (lidarbot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[50.823626] (lidarbot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[50.828600] (lidarbot_base) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[50.839310] (lidarbot_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[50.845254] (-) TimerEvent: {}
+[50.946528] (-) TimerEvent: {}
+[51.039831] (lidarbot_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[51.042277] (lidarbot_base) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[51.046677] (-) TimerEvent: {}
+[51.063740] (lidarbot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[51.065985] (lidarbot_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[51.147012] (-) TimerEvent: {}
+[51.247911] (-) TimerEvent: {}
+[51.348756] (-) TimerEvent: {}
+[51.449440] (-) TimerEvent: {}
+[51.550442] (-) TimerEvent: {}
+[51.651435] (-) TimerEvent: {}
+[51.752279] (-) TimerEvent: {}
+[51.852950] (-) TimerEvent: {}
+[51.953543] (-) TimerEvent: {}
+[52.054179] (-) TimerEvent: {}
+[52.154881] (-) TimerEvent: {}
+[52.255758] (-) TimerEvent: {}
+[52.356603] (-) TimerEvent: {}
+[52.457519] (-) TimerEvent: {}
+[52.558397] (-) TimerEvent: {}
+[52.659086] (-) TimerEvent: {}
+[52.759815] (-) TimerEvent: {}
+[52.860587] (-) TimerEvent: {}
+[52.961281] (-) TimerEvent: {}
+[53.062132] (-) TimerEvent: {}
+[53.162965] (-) TimerEvent: {}
+[53.263470] (-) TimerEvent: {}
+[53.364171] (-) TimerEvent: {}
+[53.414810] (lidarbot_base) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[53.464347] (-) TimerEvent: {}
+[53.565171] (-) TimerEvent: {}
+[53.596262] (lidarbot_base) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[53.621064] (lidarbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[53.665320] (-) TimerEvent: {}
+[53.766234] (-) TimerEvent: {}
+[53.784395] (lidarbot_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[53.866559] (-) TimerEvent: {}
+[53.967402] (-) TimerEvent: {}
+[54.068249] (-) TimerEvent: {}
+[54.169243] (-) TimerEvent: {}
+[54.270088] (-) TimerEvent: {}
+[54.370943] (-) TimerEvent: {}
+[54.472006] (-) TimerEvent: {}
+[54.572846] (-) TimerEvent: {}
+[54.673712] (-) TimerEvent: {}
+[54.774566] (-) TimerEvent: {}
+[54.875431] (-) TimerEvent: {}
+[54.976514] (-) TimerEvent: {}
+[55.077360] (-) TimerEvent: {}
+[55.178200] (-) TimerEvent: {}
+[55.279054] (-) TimerEvent: {}
+[55.379835] (-) TimerEvent: {}
+[55.480580] (-) TimerEvent: {}
+[55.581203] (-) TimerEvent: {}
+[55.682000] (-) TimerEvent: {}
+[55.782846] (-) TimerEvent: {}
+[55.883713] (-) TimerEvent: {}
+[55.984583] (-) TimerEvent: {}
+[56.085458] (-) TimerEvent: {}
+[56.186336] (-) TimerEvent: {}
+[56.287258] (-) TimerEvent: {}
+[56.388111] (-) TimerEvent: {}
+[56.489005] (-) TimerEvent: {}
+[56.589902] (-) TimerEvent: {}
+[56.690754] (-) TimerEvent: {}
+[56.791649] (-) TimerEvent: {}
+[56.892496] (-) TimerEvent: {}
+[56.993367] (-) TimerEvent: {}
+[57.094053] (-) TimerEvent: {}
+[57.103417] (lidarbot_base) StdoutLine: {'line': b'-- Generating done\n'}
+[57.104157] (lidarbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[57.115400] (lidarbot_base) StdoutLine: {'line': b'-- Build files have been written to: /home/tony_stark/ros2_ws/build/lidarbot_base\n'}
+[57.132426] (lidarbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/tony_stark/ros2_ws/build/lidarbot_bringup\n'}
+[57.157663] (lidarbot_base) CommandEnded: {'returncode': 0}
+[57.158490] (lidarbot_base) JobProgress: {'identifier': 'lidarbot_base', 'progress': 'build'}
+[57.158564] (lidarbot_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/lidarbot_base', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[57.173961] (lidarbot_bringup) CommandEnded: {'returncode': 0}
+[57.174978] (lidarbot_bringup) JobProgress: {'identifier': 'lidarbot_bringup', 'progress': 'build'}
+[57.175062] (lidarbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/lidarbot_bringup', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/lidarbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2156d03b_9105_478a_9599_d1a47dca63ca'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1145'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/lidarbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[57.194200] (-) TimerEvent: {}
+[57.256764] (lidarbot_base) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/lidarbot_hardware.dir/src/lidarbot_hardware.cpp.o\x1b[0m\n'}
+[57.270762] (lidarbot_bringup) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/mpu6050_hardware_interface.dir/src/mpu6050_hardware_interface.cpp.o\x1b[0m\n'}
+[57.294554] (-) TimerEvent: {}
+[57.395290] (-) TimerEvent: {}
+[57.496373] (-) TimerEvent: {}
+[57.597208] (-) TimerEvent: {}
+[57.698079] (-) TimerEvent: {}
+[57.798755] (-) TimerEvent: {}
+[57.899626] (-) TimerEvent: {}
+[58.000474] (-) TimerEvent: {}
+[58.101324] (-) TimerEvent: {}
+[58.202268] (-) TimerEvent: {}
+[58.303151] (-) TimerEvent: {}
+[58.404078] (-) TimerEvent: {}
+[58.504815] (-) TimerEvent: {}
+[58.605717] (-) TimerEvent: {}
+[58.706356] (-) TimerEvent: {}
+[58.807317] (-) TimerEvent: {}
+[58.908179] (-) TimerEvent: {}
+[59.008933] (-) TimerEvent: {}
+[59.109669] (-) TimerEvent: {}
+[59.211000] (-) TimerEvent: {}
+[59.311937] (-) TimerEvent: {}
+[59.413043] (-) TimerEvent: {}
+[59.513910] (-) TimerEvent: {}
+[59.614804] (-) TimerEvent: {}
+[59.715754] (-) TimerEvent: {}
+[59.816601] (-) TimerEvent: {}
+[59.917451] (-) TimerEvent: {}
+[60.018336] (-) TimerEvent: {}
+[60.119445] (-) TimerEvent: {}
+[60.220183] (-) TimerEvent: {}
+[60.321074] (-) TimerEvent: {}
+[60.421933] (-) TimerEvent: {}
+[60.522818] (-) TimerEvent: {}
+[60.623715] (-) TimerEvent: {}
+[60.724560] (-) TimerEvent: {}
+[60.825563] (-) TimerEvent: {}
+[60.926456] (-) TimerEvent: {}
+[61.027419] (-) TimerEvent: {}
+[61.128131] (-) TimerEvent: {}
+[61.228990] (-) TimerEvent: {}
+[61.329838] (-) TimerEvent: {}
+[61.430704] (-) TimerEvent: {}
+[61.531489] (-) TimerEvent: {}
+[61.632337] (-) TimerEvent: {}
+[61.733218] (-) TimerEvent: {}
+[61.834089] (-) TimerEvent: {}
+[61.935069] (-) TimerEvent: {}
+[62.036126] (-) TimerEvent: {}
+[62.137068] (-) TimerEvent: {}
+[62.237919] (-) TimerEvent: {}
+[62.338778] (-) TimerEvent: {}
+[62.439726] (-) TimerEvent: {}
+[62.540371] (-) TimerEvent: {}
+[62.641256] (-) TimerEvent: {}
+[62.742332] (-) TimerEvent: {}
+[62.843411] (-) TimerEvent: {}
+[62.944250] (-) TimerEvent: {}
+[63.045103] (-) TimerEvent: {}
+[63.146106] (-) TimerEvent: {}
+[63.246977] (-) TimerEvent: {}
+[63.347868] (-) TimerEvent: {}
+[63.448743] (-) TimerEvent: {}
+[63.549576] (-) TimerEvent: {}
+[63.650309] (-) TimerEvent: {}
+[63.751198] (-) TimerEvent: {}
+[63.851880] (-) TimerEvent: {}
+[63.952684] (-) TimerEvent: {}
+[64.053542] (-) TimerEvent: {}
+[64.154298] (-) TimerEvent: {}
+[64.255226] (-) TimerEvent: {}
+[64.440112] (-) TimerEvent: {}
+[64.540980] (-) TimerEvent: {}
+[64.641830] (-) TimerEvent: {}
+[64.742695] (-) TimerEvent: {}
+[64.843455] (-) TimerEvent: {}
+[64.944428] (-) TimerEvent: {}
+[65.045292] (-) TimerEvent: {}
+[65.146091] (-) TimerEvent: {}
+[65.246944] (-) TimerEvent: {}
+[65.348043] (-) TimerEvent: {}
+[65.449039] (-) TimerEvent: {}
+[65.549850] (-) TimerEvent: {}
+[65.650562] (-) TimerEvent: {}
+[65.751492] (-) TimerEvent: {}
+[65.852489] (-) TimerEvent: {}
+[65.953493] (-) TimerEvent: {}
+[66.054299] (-) TimerEvent: {}
+[66.154826] (-) TimerEvent: {}
+[66.255515] (-) TimerEvent: {}
+[66.356362] (-) TimerEvent: {}
+[66.457392] (-) TimerEvent: {}
+[66.558301] (-) TimerEvent: {}
+[66.659024] (-) TimerEvent: {}
+[66.759805] (-) TimerEvent: {}
+[66.860756] (-) TimerEvent: {}
+[66.961958] (-) TimerEvent: {}
+[67.062682] (-) TimerEvent: {}
+[67.163443] (-) TimerEvent: {}
+[67.264493] (-) TimerEvent: {}
+[67.365431] (-) TimerEvent: {}
+[67.466531] (-) TimerEvent: {}
+[67.567463] (-) TimerEvent: {}
+[67.668086] (-) TimerEvent: {}
+[67.769546] (-) TimerEvent: {}
+[67.870639] (-) TimerEvent: {}
+[67.971579] (-) TimerEvent: {}
+[68.072449] (-) TimerEvent: {}
+[68.173328] (-) TimerEvent: {}
+[68.274180] (-) TimerEvent: {}
+[68.375077] (-) TimerEvent: {}
+[68.475878] (-) TimerEvent: {}
+[68.576778] (-) TimerEvent: {}
+[68.677638] (-) TimerEvent: {}
+[68.778494] (-) TimerEvent: {}
+[68.879242] (-) TimerEvent: {}
+[68.980162] (-) TimerEvent: {}
+[69.081003] (-) TimerEvent: {}
+[69.181943] (-) TimerEvent: {}
+[69.282845] (-) TimerEvent: {}
+[69.383745] (-) TimerEvent: {}
+[69.484671] (-) TimerEvent: {}
+[69.585435] (-) TimerEvent: {}
+[69.686520] (-) TimerEvent: {}
+[69.787445] (-) TimerEvent: {}
+[69.888350] (-) TimerEvent: {}
+[69.989049] (-) TimerEvent: {}
+[70.089998] (-) TimerEvent: {}
+[70.190854] (-) TimerEvent: {}
+[70.291744] (-) TimerEvent: {}
+[70.392619] (-) TimerEvent: {}
+[70.493553] (-) TimerEvent: {}
+[70.594425] (-) TimerEvent: {}
+[70.695346] (-) TimerEvent: {}
+[70.796185] (-) TimerEvent: {}
+[70.897269] (-) TimerEvent: {}
+[70.998480] (-) TimerEvent: {}
+[71.099496] (-) TimerEvent: {}
+[71.200356] (-) TimerEvent: {}
+[71.301385] (-) TimerEvent: {}
+[71.402242] (-) TimerEvent: {}
+[71.503145] (-) TimerEvent: {}
+[71.604037] (-) TimerEvent: {}
+[71.704931] (-) TimerEvent: {}
+[71.805798] (-) TimerEvent: {}
+[71.907016] (-) TimerEvent: {}
+[72.007913] (-) TimerEvent: {}
+[72.108816] (-) TimerEvent: {}
+[72.209915] (-) TimerEvent: {}
+[72.310847] (-) TimerEvent: {}
+[72.411520] (-) TimerEvent: {}
+[72.512326] (-) TimerEvent: {}
+[72.613233] (-) TimerEvent: {}
+[72.714240] (-) TimerEvent: {}
+[72.815218] (-) TimerEvent: {}
+[72.916386] (-) TimerEvent: {}
+[73.017410] (-) TimerEvent: {}
+[73.118391] (-) TimerEvent: {}
+[73.219339] (-) TimerEvent: {}
+[73.320495] (-) TimerEvent: {}
+[73.421530] (-) TimerEvent: {}
+[73.522435] (-) TimerEvent: {}
+[73.623338] (-) TimerEvent: {}
+[73.724192] (-) TimerEvent: {}
+[73.825040] (-) TimerEvent: {}
+[73.925802] (-) TimerEvent: {}
+[74.026708] (-) TimerEvent: {}
+[74.127654] (-) TimerEvent: {}
+[74.228505] (-) TimerEvent: {}
+[74.329367] (-) TimerEvent: {}
+[74.430211] (-) TimerEvent: {}
+[74.531090] (-) TimerEvent: {}
+[74.632003] (-) TimerEvent: {}
+[74.732847] (-) TimerEvent: {}
+[74.833688] (-) TimerEvent: {}
+[74.934397] (-) TimerEvent: {}
+[75.035317] (-) TimerEvent: {}
+[75.136008] (-) TimerEvent: {}
+[75.236855] (-) TimerEvent: {}
+[75.337715] (-) TimerEvent: {}
+[75.438620] (-) TimerEvent: {}
+[75.539488] (-) TimerEvent: {}
+[75.640396] (-) TimerEvent: {}
+[75.741250] (-) TimerEvent: {}
+[75.842120] (-) TimerEvent: {}
+[75.943253] (-) TimerEvent: {}
+[76.044158] (-) TimerEvent: {}
+[76.145256] (-) TimerEvent: {}
+[76.245981] (-) TimerEvent: {}
+[76.346818] (-) TimerEvent: {}
+[76.447704] (-) TimerEvent: {}
+[76.548564] (-) TimerEvent: {}
+[76.649470] (-) TimerEvent: {}
+[76.750574] (-) TimerEvent: {}
+[76.851876] (-) TimerEvent: {}
+[76.952774] (-) TimerEvent: {}
+[77.053673] (-) TimerEvent: {}
+[77.154765] (-) TimerEvent: {}
+[77.255809] (-) TimerEvent: {}
+[77.356666] (-) TimerEvent: {}
+[77.457519] (-) TimerEvent: {}
+[77.558048] (-) TimerEvent: {}
+[77.658726] (-) TimerEvent: {}
+[77.759473] (-) TimerEvent: {}
+[77.779662] (lidarbot_base) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base/include/lidarbot_base/lidarbot_hardware.hpp:20\x1b[m\x1b[K,\n'}
+[77.781564] (lidarbot_base) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base/src/lidarbot_hardware.cpp:1\x1b[m\x1b[K:\n'}
+[77.783466] (lidarbot_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base/include/lidarbot_base/motor_encoder.h:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KwiringPi.h: No such file or directory\n'}
+[77.785414] (lidarbot_base) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K<wiringPi.h>\x1b[m\x1b[K\n'}
+[77.790337] (lidarbot_base) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[77.792033] (lidarbot_base) StderrLine: {'line': b'compilation terminated.\n'}
+[77.793969] (lidarbot_base) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidarbot_hardware.dir/build.make:76: CMakeFiles/lidarbot_hardware.dir/src/lidarbot_hardware.cpp.o] Error 1\n'}
+[77.795774] (lidarbot_base) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidarbot_hardware.dir/all] Error 2\n'}
+[77.796374] (lidarbot_base) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[77.801241] (lidarbot_base) CommandEnded: {'returncode': 2}
+[77.859806] (-) TimerEvent: {}
+[77.960783] (-) TimerEvent: {}
+[78.061824] (-) TimerEvent: {}
+[78.162719] (-) TimerEvent: {}
+[78.263451] (-) TimerEvent: {}
+[78.345909] (lidarbot_base) JobEnded: {'identifier': 'lidarbot_base', 'rc': 2}
+[78.363641] (-) TimerEvent: {}
+[78.460264] (lidarbot_bringup) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_bringup/include/lidarbot_bringup/mpu6050_hardware_interface.hpp:18\x1b[m\x1b[K,\n'}
+[78.460962] (lidarbot_bringup) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_bringup/src/mpu6050_hardware_interface.cpp:1\x1b[m\x1b[K:\n'}
+[78.461371] (lidarbot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_bringup/include/lidarbot_bringup/mpu6050_lib.h:47:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ki2c/smbus.h: No such file or directory\n'}
+[78.461800] (lidarbot_bringup) StderrLine: {'line': b'   47 |         #include \x1b[01;31m\x1b[K<i2c/smbus.h>\x1b[m\x1b[K\n'}
+[78.462249] (lidarbot_bringup) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.462836] (lidarbot_bringup) StderrLine: {'line': b'compilation terminated.\n'}
+[78.469719] (-) TimerEvent: {}
+[78.478391] (lidarbot_bringup) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpu6050_hardware_interface.dir/build.make:76: CMakeFiles/mpu6050_hardware_interface.dir/src/mpu6050_hardware_interface.cpp.o] Error 1\n'}
+[78.481451] (lidarbot_bringup) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mpu6050_hardware_interface.dir/all] Error 2\n'}
+[78.483491] (lidarbot_bringup) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[78.485895] (lidarbot_bringup) JobEnded: {'identifier': 'lidarbot_bringup', 'rc': 'SIGINT'}
+[78.498221] (lidarbot_description) JobSkipped: {'identifier': 'lidarbot_description'}
+[78.498374] (lidarbot_gazebo) JobSkipped: {'identifier': 'lidarbot_gazebo'}
+[78.498447] (lidarbot_navigation) JobSkipped: {'identifier': 'lidarbot_navigation'}
+[78.498513] (lidarbot_slam) JobSkipped: {'identifier': 'lidarbot_slam'}
+[78.498579] (lidarbot_teleop) JobSkipped: {'identifier': 'lidarbot_teleop'}
+[78.498643] (msgs) JobSkipped: {'identifier': 'msgs'}
+[78.498706] (navigation_module) JobSkipped: {'identifier': 'navigation_module'}
+[78.498769] (sample_package) JobSkipped: {'identifier': 'sample_package'}
+[78.498830] (-) EventReactorShutdown: {}

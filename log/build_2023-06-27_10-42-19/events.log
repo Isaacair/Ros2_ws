@@ -1,0 +1,971 @@
+[0.000000] (-) TimerEvent: {}
+[0.000553] (autonomous_exploration) JobQueued: {'identifier': 'autonomous_exploration', 'dependencies': OrderedDict()}
+[0.000623] (controller_manager_msgs) JobQueued: {'identifier': 'controller_manager_msgs', 'dependencies': OrderedDict()}
+[0.000664] (joint_limits) JobQueued: {'identifier': 'joint_limits', 'dependencies': OrderedDict()}
+[0.000702] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.000740] (navigation_module) JobQueued: {'identifier': 'navigation_module', 'dependencies': OrderedDict()}
+[0.000778] (ros2_control_test_assets) JobQueued: {'identifier': 'ros2_control_test_assets', 'dependencies': OrderedDict()}
+[0.000815] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.000851] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict([('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets')])}
+[0.000893] (rqt_controller_manager) JobQueued: {'identifier': 'rqt_controller_manager', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs')])}
+[0.000933] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict([('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface')])}
+[0.000973] (transmission_interface) JobQueued: {'identifier': 'transmission_interface', 'dependencies': OrderedDict([('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface')])}
+[0.001013] (controller_manager) JobQueued: {'identifier': 'controller_manager', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tony_stark/ros2_ws/install/controller_interface')])}
+[0.001085] (ros2controlcli) JobQueued: {'identifier': 'ros2controlcli', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs'), ('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tony_stark/ros2_ws/install/controller_interface'), ('controller_manager', '/home/tony_stark/ros2_ws/install/controller_manager')])}
+[0.001131] (ros2_control) JobQueued: {'identifier': 'ros2_control', 'dependencies': OrderedDict([('controller_manager_msgs', '/home/tony_stark/ros2_ws/install/controller_manager_msgs'), ('joint_limits', '/home/tony_stark/ros2_ws/install/joint_limits'), ('ros2_control_test_assets', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets'), ('hardware_interface', '/home/tony_stark/ros2_ws/install/hardware_interface'), ('controller_interface', '/home/tony_stark/ros2_ws/install/controller_interface'), ('transmission_interface', '/home/tony_stark/ros2_ws/install/transmission_interface'), ('controller_manager', '/home/tony_stark/ros2_ws/install/controller_manager'), ('ros2controlcli', '/home/tony_stark/ros2_ws/install/ros2controlcli')])}
+[0.001848] (controller_manager_msgs) JobStarted: {'identifier': 'controller_manager_msgs'}
+[0.025016] (ros2_control_test_assets) JobStarted: {'identifier': 'ros2_control_test_assets'}
+[0.044806] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'cmake'}
+[0.046291] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'build'}
+[0.050779] (controller_manager_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/controller_manager_msgs', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/controller_manager_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc3ecb6a_cde4_43f0_a068_283fa14540b5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1007'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/controller_manager_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.057797] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'cmake'}
+[0.058927] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'build'}
+[0.059659] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets', '--', '-j2', '-l2'], 'cwd': '/home/tony_stark/ros2_ws/build/ros2_control_test_assets', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc3ecb6a_cde4_43f0_a068_283fa14540b5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1007'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.099543] (-) TimerEvent: {}
+[0.200235] (-) TimerEvent: {}
+[0.306963] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[0.307810] (-) TimerEvent: {}
+[0.309027] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.368756] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.387437] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'install'}
+[0.407983] (-) TimerEvent: {}
+[0.422232] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets'], 'cwd': '/home/tony_stark/ros2_ws/build/ros2_control_test_assets', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc3ecb6a_cde4_43f0_a068_283fa14540b5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1007'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/ros2_control_test_assets'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.446558] (ros2_control_test_assets) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.446917] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets\n'}
+[0.447949] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets\n'}
+[0.448979] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp\n'}
+[0.449754] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp\n'}
+[0.452185] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh\n'}
+[0.452405] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv\n'}
+[0.452535] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets\n'}
+[0.452657] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets\n'}
+[0.452776] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh\n'}
+[0.452891] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv\n'}
+[0.453004] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh\n'}
+[0.453116] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv\n'}
+[0.453227] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash\n'}
+[0.453367] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh\n'}
+[0.453552] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh\n'}
+[0.453663] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv\n'}
+[0.453772] (ros2_control_test_assets) StdoutLine: {'line': b'-- Installing: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv\n'}
+[0.458346] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets\n'}
+[0.458783] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake\n'}
+[0.459085] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.459354] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake\n'}
+[0.459520] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake\n'}
+[0.459729] (ros2_control_test_assets) StdoutLine: {'line': b'-- Up-to-date: /home/tony_stark/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml\n'}
+[0.465351] (ros2_control_test_assets) CommandEnded: {'returncode': 0}
+[0.508116] (-) TimerEvent: {}
+[0.587145] (ros2_control_test_assets) JobEnded: {'identifier': 'ros2_control_test_assets', 'rc': 0}
+[0.588725] (hardware_interface) JobStarted: {'identifier': 'hardware_interface'}
+[0.611150] (-) TimerEvent: {}
+[0.661923] (hardware_interface) JobProgress: {'identifier': 'hardware_interface', 'progress': 'cmake'}
+[0.663387] (hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/ros2_control/hardware_interface', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/hardware_interface'], 'cwd': '/home/tony_stark/ros2_ws/build/hardware_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('OPENAI_API_KEY', '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'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1524,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc3ecb6a_cde4_43f0_a068_283fa14540b5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J61C71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1007'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/hardware_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/rosgpt/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/navigation_module/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/ros2_control_test_assets:/home/tony_stark/ros2_ws/install/turtlebot3_simulations:/home/tony_stark/ros2_ws/install/turtlebot3_gazebo:/home/tony_stark/ros2_ws/install/turtlebot3_fake_node:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble')]), 'shell': False}
+[0.685837] (hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.711287] (-) TimerEvent: {}
+[0.811763] (-) TimerEvent: {}
+[0.912251] (-) TimerEvent: {}
+[1.012753] (-) TimerEvent: {}
+[1.113266] (-) TimerEvent: {}
+[1.213745] (-) TimerEvent: {}
+[1.314228] (-) TimerEvent: {}
+[1.350794] (hardware_interface) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.351866] (hardware_interface) StderrLine: {'line': b'  By not providing "Findcontrol_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.352578] (hardware_interface) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.353271] (hardware_interface) StderrLine: {'line': b'  "control_msgs", but CMake did not find one.\n'}
+[1.353962] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.354735] (hardware_interface) StderrLine: {'line': b'  Could not find a package configuration file provided by "control_msgs" with\n'}
+[1.355580] (hardware_interface) StderrLine: {'line': b'  any of the following names:\n'}
+[1.356319] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.357015] (hardware_interface) StderrLine: {'line': b'    control_msgsConfig.cmake\n'}
+[1.357705] (hardware_interface) StderrLine: {'line': b'    control_msgs-config.cmake\n'}
+[1.358558] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.361689] (hardware_interface) StderrLine: {'line': b'  Add the installation prefix of "control_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[1.362000] (hardware_interface) StderrLine: {'line': b'  "control_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[1.362148] (hardware_interface) StderrLine: {'line': b'  "control_msgs" provides a separate development package or SDK, be sure it\n'}
+[1.362273] (hardware_interface) StderrLine: {'line': b'  has been installed.\n'}
+[1.362392] (hardware_interface) StderrLine: {'line': b'\n'}
+[1.362719] (hardware_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[1.365913] (hardware_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.366203] (hardware_interface) StdoutLine: {'line': b'See also "/home/tony_stark/ros2_ws/build/hardware_interface/CMakeFiles/CMakeOutput.log".\n'}
+[1.379827] (hardware_interface) CommandEnded: {'returncode': 1}
+[1.414388] (-) TimerEvent: {}
+[1.462801] (hardware_interface) JobEnded: {'identifier': 'hardware_interface', 'rc': 1}
+[1.514506] (-) TimerEvent: {}
+[1.615122] (-) TimerEvent: {}
+[1.715850] (-) TimerEvent: {}
+[1.816621] (-) TimerEvent: {}
+[1.917355] (-) TimerEvent: {}
+[2.018070] (-) TimerEvent: {}
+[2.118900] (-) TimerEvent: {}
+[2.219470] (-) TimerEvent: {}
+[2.320043] (-) TimerEvent: {}
+[2.420614] (-) TimerEvent: {}
+[2.521227] (-) TimerEvent: {}
+[2.621788] (-) TimerEvent: {}
+[2.722340] (-) TimerEvent: {}
+[2.824527] (-) TimerEvent: {}
+[2.925220] (-) TimerEvent: {}
+[3.025778] (-) TimerEvent: {}
+[3.126348] (-) TimerEvent: {}
+[3.227685] (-) TimerEvent: {}
+[3.329182] (-) TimerEvent: {}
+[3.429744] (-) TimerEvent: {}
+[3.530900] (-) TimerEvent: {}
+[3.632901] (-) TimerEvent: {}
+[3.734125] (-) TimerEvent: {}
+[3.834726] (-) TimerEvent: {}
+[3.935325] (-) TimerEvent: {}
+[4.035906] (-) TimerEvent: {}
+[4.136676] (-) TimerEvent: {}
+[4.237225] (-) TimerEvent: {}
+[4.338438] (-) TimerEvent: {}
+[4.439105] (-) TimerEvent: {}
+[4.539717] (-) TimerEvent: {}
+[4.640361] (-) TimerEvent: {}
+[4.740993] (-) TimerEvent: {}
+[4.841702] (-) TimerEvent: {}
+[4.942336] (-) TimerEvent: {}
+[5.042965] (-) TimerEvent: {}
+[5.143567] (-) TimerEvent: {}
+[5.169583] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] Built target controller_manager_msgs__cpp\n'}
+[5.243730] (-) TimerEvent: {}
+[5.318284] (controller_manager_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_controller_manager_msgs\n'}
+[5.340862] (controller_manager_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.343918] (-) TimerEvent: {}
+[5.444709] (-) TimerEvent: {}
+[5.545346] (-) TimerEvent: {}
+[5.646025] (-) TimerEvent: {}
+[5.717878] (controller_manager_msgs) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o\x1b[0m\n'}
+[5.746156] (-) TimerEvent: {}
+[5.846629] (-) TimerEvent: {}
+[5.947096] (-) TimerEvent: {}
+[6.047906] (-) TimerEvent: {}
+[6.148876] (-) TimerEvent: {}
+[6.249760] (-) TimerEvent: {}
+[6.350445] (-) TimerEvent: {}
+[6.451260] (-) TimerEvent: {}
+[6.551854] (-) TimerEvent: {}
+[6.652611] (-) TimerEvent: {}
+[6.753053] (-) TimerEvent: {}
+[6.853616] (-) TimerEvent: {}
+[6.954059] (-) TimerEvent: {}
+[7.054646] (-) TimerEvent: {}
+[7.155228] (-) TimerEvent: {}
+[7.259037] (-) TimerEvent: {}
+[7.360588] (-) TimerEvent: {}
+[7.461089] (-) TimerEvent: {}
+[7.561670] (-) TimerEvent: {}
+[7.662165] (-) TimerEvent: {}
+[7.750959] (controller_manager_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__functions.c.o\x1b[0m\n'}
+[7.763211] (-) TimerEvent: {}
+[7.777130] (controller_manager_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o\x1b[0m\n'}
+[7.863594] (-) TimerEvent: {}
+[7.880672] (controller_manager_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__functions.c.o\x1b[0m\n'}
+[7.963931] (-) TimerEvent: {}
+[8.064930] (-) TimerEvent: {}
+[8.165721] (-) TimerEvent: {}
+[8.227261] (controller_manager_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o\x1b[0m\n'}
+[8.265874] (-) TimerEvent: {}
+[8.366680] (-) TimerEvent: {}
+[8.385472] (controller_manager_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o\x1b[0m\n'}
+[8.466895] (-) TimerEvent: {}
+[8.492082] (controller_manager_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o\x1b[0m\n'}
+[8.567026] (-) TimerEvent: {}
+[8.586152] (controller_manager_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o\x1b[0m\n'}
+[8.667181] (-) TimerEvent: {}
+[8.688279] (controller_manager_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__functions.c.o\x1b[0m\n'}
+[8.767336] (-) TimerEvent: {}
+[8.781436] (controller_manager_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o\x1b[0m\n'}
+[8.867482] (-) TimerEvent: {}
+[8.879224] (controller_manager_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o\x1b[0m\n'}
+[8.967630] (-) TimerEvent: {}
+[8.975696] (controller_manager_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o\x1b[0m\n'}
+[9.067811] (-) TimerEvent: {}
+[9.068188] (controller_manager_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c.o\x1b[0m\n'}
+[9.165098] (controller_manager_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o\x1b[0m\n'}
+[9.167980] (-) TimerEvent: {}
+[9.268445] (-) TimerEvent: {}
+[9.334411] (controller_manager_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o\x1b[0m\n'}
+[9.368619] (-) TimerEvent: {}
+[9.427134] (controller_manager_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[9.468816] (-) TimerEvent: {}
+[9.569999] (-) TimerEvent: {}
+[9.670856] (-) TimerEvent: {}
+[9.771873] (-) TimerEvent: {}
+[9.782411] (controller_manager_msgs) StdoutLine: {'line': b'[ 14%] Built target controller_manager_msgs__rosidl_generator_c\n'}
+[9.808476] (controller_manager_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.872037] (-) TimerEvent: {}
+[9.972900] (-) TimerEvent: {}
+[10.073498] (-) TimerEvent: {}
+[10.173942] (-) TimerEvent: {}
+[10.274376] (-) TimerEvent: {}
+[10.375003] (-) TimerEvent: {}
+[10.475402] (-) TimerEvent: {}
+[10.575930] (-) TimerEvent: {}
+[10.676337] (-) TimerEvent: {}
+[10.776984] (-) TimerEvent: {}
+[10.877858] (-) TimerEvent: {}
+[10.978305] (-) TimerEvent: {}
+[11.078883] (-) TimerEvent: {}
+[11.190748] (-) TimerEvent: {}
+[11.291409] (-) TimerEvent: {}
+[11.392166] (-) TimerEvent: {}
+[11.492938] (-) TimerEvent: {}
+[11.593718] (-) TimerEvent: {}
+[11.694180] (-) TimerEvent: {}
+[11.794935] (-) TimerEvent: {}
+[11.895706] (-) TimerEvent: {}
+[11.996454] (-) TimerEvent: {}
+[12.097059] (-) TimerEvent: {}
+[12.207025] (-) TimerEvent: {}
+[12.308002] (-) TimerEvent: {}
+[12.408980] (-) TimerEvent: {}
+[12.474986] (controller_manager_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/chain_connection__type_support.cpp.o\x1b[0m\n'}
+[12.509153] (-) TimerEvent: {}
+[12.609864] (-) TimerEvent: {}
+[12.710546] (-) TimerEvent: {}
+[12.792216] (controller_manager_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o\x1b[0m\n'}
+[12.810738] (-) TimerEvent: {}
+[12.911582] (-) TimerEvent: {}
+[13.012244] (-) TimerEvent: {}
+[13.112945] (-) TimerEvent: {}
+[13.213604] (-) TimerEvent: {}
+[13.314121] (-) TimerEvent: {}
+[13.322460] (controller_manager_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[13.414293] (-) TimerEvent: {}
+[13.514764] (-) TimerEvent: {}
+[13.615407] (-) TimerEvent: {}
+[13.715940] (-) TimerEvent: {}
+[13.816837] (-) TimerEvent: {}
+[13.917419] (-) TimerEvent: {}
+[13.990224] (controller_manager_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[14.017526] (-) TimerEvent: {}
+[14.118104] (-) TimerEvent: {}
+[14.218570] (-) TimerEvent: {}
+[14.319088] (-) TimerEvent: {}
+[14.419761] (-) TimerEvent: {}
+[14.500657] (controller_manager_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[14.519919] (-) TimerEvent: {}
+[14.620631] (-) TimerEvent: {}
+[14.721449] (-) TimerEvent: {}
+[14.822368] (-) TimerEvent: {}
+[14.923156] (-) TimerEvent: {}
+[15.023831] (-) TimerEvent: {}
+[15.125318] (-) TimerEvent: {}
+[15.226983] (-) TimerEvent: {}
+[15.289201] (controller_manager_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[15.327131] (-) TimerEvent: {}
+[15.427801] (-) TimerEvent: {}
+[15.528409] (-) TimerEvent: {}
+[15.629105] (-) TimerEvent: {}
+[15.729808] (-) TimerEvent: {}
+[15.830473] (-) TimerEvent: {}
+[15.935430] (-) TimerEvent: {}
+[16.036632] (-) TimerEvent: {}
+[16.137730] (-) TimerEvent: {}
+[16.238505] (-) TimerEvent: {}
+[16.279049] (controller_manager_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[16.338674] (-) TimerEvent: {}
+[16.444926] (-) TimerEvent: {}
+[16.549444] (-) TimerEvent: {}
+[16.650254] (-) TimerEvent: {}
+[16.751079] (-) TimerEvent: {}
+[16.821604] (controller_manager_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o\x1b[0m\n'}
+[16.851228] (-) TimerEvent: {}
+[16.918787] (controller_manager_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/chain_connection__type_support.cpp.o\x1b[0m\n'}
+[16.951386] (-) TimerEvent: {}
+[17.053214] (-) TimerEvent: {}
+[17.153825] (-) TimerEvent: {}
+[17.256121] (-) TimerEvent: {}
+[17.356821] (-) TimerEvent: {}
+[17.457526] (-) TimerEvent: {}
+[17.558246] (-) TimerEvent: {}
+[17.616722] (controller_manager_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[17.661549] (-) TimerEvent: {}
+[17.762369] (-) TimerEvent: {}
+[17.870969] (-) TimerEvent: {}
+[17.971643] (-) TimerEvent: {}
+[18.072315] (-) TimerEvent: {}
+[18.162737] (controller_manager_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[18.172496] (-) TimerEvent: {}
+[18.273192] (-) TimerEvent: {}
+[18.373866] (-) TimerEvent: {}
+[18.458116] (controller_manager_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o\x1b[0m\n'}
+[18.474070] (-) TimerEvent: {}
+[18.578972] (-) TimerEvent: {}
+[18.686541] (-) TimerEvent: {}
+[18.794975] (-) TimerEvent: {}
+[18.895601] (-) TimerEvent: {}
+[19.000522] (-) TimerEvent: {}
+[19.101214] (-) TimerEvent: {}
+[19.201906] (-) TimerEvent: {}
+[19.302624] (-) TimerEvent: {}
+[19.396118] (controller_manager_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[19.403136] (-) TimerEvent: {}
+[19.504207] (-) TimerEvent: {}
+[19.569868] (controller_manager_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[19.604375] (-) TimerEvent: {}
+[19.705145] (-) TimerEvent: {}
+[19.806035] (-) TimerEvent: {}
+[19.906925] (-) TimerEvent: {}
+[20.007864] (-) TimerEvent: {}
+[20.109818] (-) TimerEvent: {}
+[20.210584] (-) TimerEvent: {}
+[20.215814] (controller_manager_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[20.310749] (-) TimerEvent: {}
+[20.411372] (-) TimerEvent: {}
+[20.512041] (-) TimerEvent: {}
+[20.612727] (-) TimerEvent: {}
+[20.713428] (-) TimerEvent: {}
+[20.748747] (controller_manager_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[20.813605] (-) TimerEvent: {}
+[20.914265] (-) TimerEvent: {}
+[21.014982] (-) TimerEvent: {}
+[21.048630] (controller_manager_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[21.115122] (-) TimerEvent: {}
+[21.215957] (-) TimerEvent: {}
+[21.316854] (-) TimerEvent: {}
+[21.417754] (-) TimerEvent: {}
+[21.518703] (-) TimerEvent: {}
+[21.619681] (-) TimerEvent: {}
+[21.720624] (-) TimerEvent: {}
+[21.821555] (-) TimerEvent: {}
+[21.922499] (-) TimerEvent: {}
+[22.024679] (-) TimerEvent: {}
+[22.071231] (controller_manager_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[22.091742] (controller_manager_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[22.124842] (-) TimerEvent: {}
+[22.225655] (-) TimerEvent: {}
+[22.326520] (-) TimerEvent: {}
+[22.427375] (-) TimerEvent: {}
+[22.528319] (-) TimerEvent: {}
+[22.629262] (-) TimerEvent: {}
+[22.730229] (-) TimerEvent: {}
+[22.831195] (-) TimerEvent: {}
+[22.901459] (controller_manager_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.938983] (-) TimerEvent: {}
+[23.039737] (-) TimerEvent: {}
+[23.140462] (-) TimerEvent: {}
+[23.241303] (-) TimerEvent: {}
+[23.293573] (controller_manager_msgs) StdoutLine: {'line': b'[ 30%] Built target controller_manager_msgs__rosidl_typesupport_cpp\n'}
+[23.342992] (-) TimerEvent: {}
+[23.358878] (controller_manager_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.443171] (-) TimerEvent: {}
+[23.500872] (controller_manager_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[23.551017] (-) TimerEvent: {}
+[23.657948] (-) TimerEvent: {}
+[23.758695] (-) TimerEvent: {}
+[23.859625] (-) TimerEvent: {}
+[23.960464] (-) TimerEvent: {}
+[24.061278] (-) TimerEvent: {}
+[24.162140] (-) TimerEvent: {}
+[24.262950] (-) TimerEvent: {}
+[24.363747] (-) TimerEvent: {}
+[24.464578] (-) TimerEvent: {}
+[24.565398] (-) TimerEvent: {}
+[24.666201] (-) TimerEvent: {}
+[24.770964] (-) TimerEvent: {}
+[24.871675] (-) TimerEvent: {}
+[24.972461] (-) TimerEvent: {}
+[25.073271] (-) TimerEvent: {}
+[25.174079] (-) TimerEvent: {}
+[25.274944] (-) TimerEvent: {}
+[25.375722] (-) TimerEvent: {}
+[25.476527] (-) TimerEvent: {}
+[25.483950] (controller_manager_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_components__type_support.cpp.o\x1b[0m\n'}
+[25.576685] (-) TimerEvent: {}
+[25.677461] (-) TimerEvent: {}
+[25.778374] (-) TimerEvent: {}
+[25.879239] (-) TimerEvent: {}
+[25.980101] (-) TimerEvent: {}
+[26.080977] (-) TimerEvent: {}
+[26.181829] (-) TimerEvent: {}
+[26.286970] (-) TimerEvent: {}
+[26.390955] (-) TimerEvent: {}
+[26.494961] (-) TimerEvent: {}
+[26.595875] (-) TimerEvent: {}
+[26.696513] (-) TimerEvent: {}
+[26.798974] (-) TimerEvent: {}
+[26.854332] (controller_manager_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[26.899119] (-) TimerEvent: {}
+[26.999900] (-) TimerEvent: {}
+[27.100560] (-) TimerEvent: {}
+[27.201235] (-) TimerEvent: {}
+[27.301946] (-) TimerEvent: {}
+[27.402673] (-) TimerEvent: {}
+[27.503382] (-) TimerEvent: {}
+[27.604065] (-) TimerEvent: {}
+[27.704768] (-) TimerEvent: {}
+[27.805452] (-) TimerEvent: {}
+[27.906136] (-) TimerEvent: {}
+[28.006866] (-) TimerEvent: {}
+[28.107584] (-) TimerEvent: {}
+[28.208356] (-) TimerEvent: {}
+[28.309127] (-) TimerEvent: {}
+[28.414964] (-) TimerEvent: {}
+[28.522962] (-) TimerEvent: {}
+[28.564469] (controller_manager_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o\x1b[0m\n'}
+[28.623124] (-) TimerEvent: {}
+[28.723588] (-) TimerEvent: {}
+[28.768564] (controller_manager_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o\x1b[0m\n'}
+[28.826972] (-) TimerEvent: {}
+[28.857841] (controller_manager_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/chain_connection__type_support.c.o\x1b[0m\n'}
+[28.930974] (-) TimerEvent: {}
+[29.031421] (-) TimerEvent: {}
+[29.031909] (controller_manager_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c.o\x1b[0m\n'}
+[29.134955] (-) TimerEvent: {}
+[29.227443] (controller_manager_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o\x1b[0m\n'}
+[29.235125] (-) TimerEvent: {}
+[29.295064] (controller_manager_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o\x1b[0m\n'}
+[29.335275] (-) TimerEvent: {}
+[29.427653] (controller_manager_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o\x1b[0m\n'}
+[29.435447] (-) TimerEvent: {}
+[29.536160] (-) TimerEvent: {}
+[29.627443] (controller_manager_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o\x1b[0m\n'}
+[29.636328] (-) TimerEvent: {}
+[29.737045] (-) TimerEvent: {}
+[29.837780] (-) TimerEvent: {}
+[29.881084] (controller_manager_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c.o\x1b[0m\n'}
+[29.937935] (-) TimerEvent: {}
+[30.038701] (-) TimerEvent: {}
+[30.094556] (controller_manager_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o\x1b[0m\n'}
+[30.138920] (-) TimerEvent: {}
+[30.239664] (-) TimerEvent: {}
+[30.328066] (controller_manager_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o\x1b[0m\n'}
+[30.339829] (-) TimerEvent: {}
+[30.440648] (-) TimerEvent: {}
+[30.507110] (controller_manager_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o\x1b[0m\n'}
+[30.540812] (-) TimerEvent: {}
+[30.641548] (-) TimerEvent: {}
+[30.679074] (controller_manager_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c.o\x1b[0m\n'}
+[30.741717] (-) TimerEvent: {}
+[30.835073] (controller_manager_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o\x1b[0m\n'}
+[30.841883] (-) TimerEvent: {}
+[30.846707] (controller_manager_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[30.942067] (-) TimerEvent: {}
+[31.041872] (controller_manager_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o\x1b[0m\n'}
+[31.043013] (-) TimerEvent: {}
+[31.147473] (-) TimerEvent: {}
+[31.221088] (controller_manager_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[31.247584] (-) TimerEvent: {}
+[31.349929] (-) TimerEvent: {}
+[31.373018] (controller_manager_msgs) StdoutLine: {'line': b'[ 45%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c\n'}
+[31.400835] (controller_manager_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[31.450063] (-) TimerEvent: {}
+[31.551165] (-) TimerEvent: {}
+[31.651659] (-) TimerEvent: {}
+[31.752178] (-) TimerEvent: {}
+[31.852696] (-) TimerEvent: {}
+[31.953257] (-) TimerEvent: {}
+[32.053744] (-) TimerEvent: {}
+[32.154280] (-) TimerEvent: {}
+[32.254772] (-) TimerEvent: {}
+[32.355283] (-) TimerEvent: {}
+[32.455792] (-) TimerEvent: {}
+[32.556241] (-) TimerEvent: {}
+[32.656750] (-) TimerEvent: {}
+[32.757207] (-) TimerEvent: {}
+[32.857649] (-) TimerEvent: {}
+[32.950486] (controller_manager_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/set_hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[32.957790] (-) TimerEvent: {}
+[33.059060] (-) TimerEvent: {}
+[33.162958] (-) TimerEvent: {}
+[33.266949] (-) TimerEvent: {}
+[33.367436] (-) TimerEvent: {}
+[33.478950] (-) TimerEvent: {}
+[33.588989] (-) TimerEvent: {}
+[33.689469] (-) TimerEvent: {}
+[33.799008] (-) TimerEvent: {}
+[33.900197] (-) TimerEvent: {}
+[34.000705] (-) TimerEvent: {}
+[34.101910] (-) TimerEvent: {}
+[34.202383] (-) TimerEvent: {}
+[34.302870] (-) TimerEvent: {}
+[34.403347] (-) TimerEvent: {}
+[34.503817] (-) TimerEvent: {}
+[34.670885] (-) TimerEvent: {}
+[34.771345] (-) TimerEvent: {}
+[34.871806] (-) TimerEvent: {}
+[34.972262] (-) TimerEvent: {}
+[35.072725] (-) TimerEvent: {}
+[35.150901] (controller_manager_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[35.173174] (-) TimerEvent: {}
+[35.279426] (-) TimerEvent: {}
+[35.391101] (-) TimerEvent: {}
+[35.498736] (-) TimerEvent: {}
+[35.602780] (-) TimerEvent: {}
+[35.703773] (-) TimerEvent: {}
+[35.804652] (-) TimerEvent: {}
+[35.871055] (controller_manager_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o\x1b[0m\n'}
+[35.907099] (-) TimerEvent: {}
+[36.010966] (-) TimerEvent: {}
+[36.024291] (controller_manager_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/chain_connection__type_support.cpp.o\x1b[0m\n'}
+[36.111146] (-) TimerEvent: {}
+[36.163081] (controller_manager_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[36.214329] (-) TimerEvent: {}
+[36.284976] (controller_manager_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[36.318260] (-) TimerEvent: {}
+[36.420646] (-) TimerEvent: {}
+[36.425656] (controller_manager_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[36.522973] (-) TimerEvent: {}
+[36.587483] (controller_manager_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[36.624099] (-) TimerEvent: {}
+[36.724611] (-) TimerEvent: {}
+[36.754382] (controller_manager_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[36.830970] (-) TimerEvent: {}
+[36.932315] (-) TimerEvent: {}
+[36.960772] (controller_manager_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o\x1b[0m\n'}
+[37.037838] (-) TimerEvent: {}
+[37.122997] (controller_manager_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[37.141257] (-) TimerEvent: {}
+[37.254602] (-) TimerEvent: {}
+[37.335550] (controller_manager_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o\x1b[0m\n'}
+[37.354783] (-) TimerEvent: {}
+[37.386428] (controller_manager_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[37.455003] (-) TimerEvent: {}
+[37.483483] (controller_manager_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[37.555146] (-) TimerEvent: {}
+[37.612662] (controller_manager_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[37.657801] (-) TimerEvent: {}
+[37.737905] (controller_manager_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[37.758977] (-) TimerEvent: {}
+[37.862670] (-) TimerEvent: {}
+[37.863088] (controller_manager_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[37.962948] (-) TimerEvent: {}
+[37.993869] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[38.063107] (-) TimerEvent: {}
+[38.136207] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] Built target controller_manager_msgs__rosidl_typesupport_c\n'}
+[38.156844] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[38.163248] (-) TimerEvent: {}
+[38.264077] (-) TimerEvent: {}
+[38.364952] (-) TimerEvent: {}
+[38.465832] (-) TimerEvent: {}
+[38.568783] (-) TimerEvent: {}
+[38.669547] (-) TimerEvent: {}
+[38.770376] (-) TimerEvent: {}
+[38.871226] (-) TimerEvent: {}
+[38.971989] (-) TimerEvent: {}
+[39.072802] (-) TimerEvent: {}
+[39.173560] (-) TimerEvent: {}
+[39.274312] (-) TimerEvent: {}
+[39.376669] (-) TimerEvent: {}
+[39.415568] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[39.476849] (-) TimerEvent: {}
+[39.582987] (-) TimerEvent: {}
+[39.683651] (-) TimerEvent: {}
+[39.784266] (-) TimerEvent: {}
+[39.884871] (-) TimerEvent: {}
+[39.985765] (-) TimerEvent: {}
+[40.040874] (controller_manager_msgs) StdoutLine: {'line': b'[ 60%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[40.085919] (-) TimerEvent: {}
+[40.186517] (-) TimerEvent: {}
+[40.287090] (-) TimerEvent: {}
+[40.387521] (-) TimerEvent: {}
+[40.487995] (-) TimerEvent: {}
+[40.588549] (-) TimerEvent: {}
+[40.689001] (-) TimerEvent: {}
+[40.789449] (-) TimerEvent: {}
+[40.889904] (-) TimerEvent: {}
+[40.990352] (-) TimerEvent: {}
+[41.090864] (-) TimerEvent: {}
+[41.191291] (-) TimerEvent: {}
+[41.291719] (-) TimerEvent: {}
+[41.392162] (-) TimerEvent: {}
+[41.492600] (-) TimerEvent: {}
+[41.593039] (-) TimerEvent: {}
+[41.693483] (-) TimerEvent: {}
+[41.793947] (-) TimerEvent: {}
+[41.894426] (-) TimerEvent: {}
+[41.994911] (-) TimerEvent: {}
+[42.095479] (-) TimerEvent: {}
+[42.195973] (-) TimerEvent: {}
+[42.210584] (controller_manager_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o\x1b[0m\n'}
+[42.296138] (-) TimerEvent: {}
+[42.396592] (-) TimerEvent: {}
+[42.497024] (-) TimerEvent: {}
+[42.597606] (-) TimerEvent: {}
+[42.698203] (-) TimerEvent: {}
+[42.798779] (-) TimerEvent: {}
+[42.899365] (-) TimerEvent: {}
+[43.000145] (-) TimerEvent: {}
+[43.100757] (-) TimerEvent: {}
+[43.201368] (-) TimerEvent: {}
+[43.301991] (-) TimerEvent: {}
+[43.402618] (-) TimerEvent: {}
+[43.503300] (-) TimerEvent: {}
+[43.603946] (-) TimerEvent: {}
+[43.704623] (-) TimerEvent: {}
+[43.795681] (controller_manager_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp.o\x1b[0m\n'}
+[43.804790] (-) TimerEvent: {}
+[43.905484] (-) TimerEvent: {}
+[44.006172] (-) TimerEvent: {}
+[44.106966] (-) TimerEvent: {}
+[44.207738] (-) TimerEvent: {}
+[44.308487] (-) TimerEvent: {}
+[44.409586] (-) TimerEvent: {}
+[44.510275] (-) TimerEvent: {}
+[44.610781] (-) TimerEvent: {}
+[44.711320] (-) TimerEvent: {}
+[44.812166] (-) TimerEvent: {}
+[44.914978] (-) TimerEvent: {}
+[44.920175] (controller_manager_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[45.015107] (-) TimerEvent: {}
+[45.115583] (-) TimerEvent: {}
+[45.216149] (-) TimerEvent: {}
+[45.316659] (-) TimerEvent: {}
+[45.417222] (-) TimerEvent: {}
+[45.517752] (-) TimerEvent: {}
+[45.618325] (-) TimerEvent: {}
+[45.718874] (-) TimerEvent: {}
+[45.819434] (-) TimerEvent: {}
+[45.920273] (-) TimerEvent: {}
+[46.020838] (-) TimerEvent: {}
+[46.121368] (-) TimerEvent: {}
+[46.165040] (controller_manager_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp.o\x1b[0m\n'}
+[46.221535] (-) TimerEvent: {}
+[46.322001] (-) TimerEvent: {}
+[46.422500] (-) TimerEvent: {}
+[46.523021] (-) TimerEvent: {}
+[46.623537] (-) TimerEvent: {}
+[46.724073] (-) TimerEvent: {}
+[46.824644] (-) TimerEvent: {}
+[46.925179] (-) TimerEvent: {}
+[47.025747] (-) TimerEvent: {}
+[47.111213] (controller_manager_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp.o\x1b[0m\n'}
+[47.125916] (-) TimerEvent: {}
+[47.226380] (-) TimerEvent: {}
+[47.326875] (-) TimerEvent: {}
+[47.427402] (-) TimerEvent: {}
+[47.530977] (-) TimerEvent: {}
+[47.631883] (-) TimerEvent: {}
+[47.732760] (-) TimerEvent: {}
+[47.833627] (-) TimerEvent: {}
+[47.934503] (-) TimerEvent: {}
+[48.035421] (-) TimerEvent: {}
+[48.136473] (-) TimerEvent: {}
+[48.237249] (-) TimerEvent: {}
+[48.323496] (controller_manager_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o\x1b[0m\n'}
+[48.337402] (-) TimerEvent: {}
+[48.438150] (-) TimerEvent: {}
+[48.538879] (-) TimerEvent: {}
+[48.639577] (-) TimerEvent: {}
+[48.740557] (-) TimerEvent: {}
+[48.841336] (-) TimerEvent: {}
+[48.942105] (-) TimerEvent: {}
+[49.042888] (-) TimerEvent: {}
+[49.143650] (-) TimerEvent: {}
+[49.244360] (-) TimerEvent: {}
+[49.344966] (-) TimerEvent: {}
+[49.445534] (-) TimerEvent: {}
+[49.546079] (-) TimerEvent: {}
+[49.646605] (-) TimerEvent: {}
+[49.747344] (-) TimerEvent: {}
+[49.848067] (-) TimerEvent: {}
+[49.860916] (controller_manager_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o\x1b[0m\n'}
+[49.948349] (-) TimerEvent: {}
+[50.049227] (-) TimerEvent: {}
+[50.150093] (-) TimerEvent: {}
+[50.251034] (-) TimerEvent: {}
+[50.351528] (-) TimerEvent: {}
+[50.452235] (-) TimerEvent: {}
+[50.552936] (-) TimerEvent: {}
+[50.653474] (-) TimerEvent: {}
+[50.754019] (-) TimerEvent: {}
+[50.771642] (controller_manager_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_components__type_support.cpp.o\x1b[0m\n'}
+[50.854166] (-) TimerEvent: {}
+[50.954973] (-) TimerEvent: {}
+[51.056534] (-) TimerEvent: {}
+[51.157441] (-) TimerEvent: {}
+[51.265493] (-) TimerEvent: {}
+[51.366313] (-) TimerEvent: {}
+[51.467211] (-) TimerEvent: {}
+[51.568103] (-) TimerEvent: {}
+[51.668939] (-) TimerEvent: {}
+[51.769753] (-) TimerEvent: {}
+[51.870600] (-) TimerEvent: {}
+[51.971507] (-) TimerEvent: {}
+[52.072374] (-) TimerEvent: {}
+[52.173205] (-) TimerEvent: {}
+[52.275513] (-) TimerEvent: {}
+[52.378328] (-) TimerEvent: {}
+[52.408495] (controller_manager_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp.o\x1b[0m\n'}
+[52.478490] (-) TimerEvent: {}
+[52.579460] (-) TimerEvent: {}
+[52.680309] (-) TimerEvent: {}
+[52.782228] (-) TimerEvent: {}
+[52.882772] (-) TimerEvent: {}
+[52.983667] (-) TimerEvent: {}
+[53.084559] (-) TimerEvent: {}
+[53.185471] (-) TimerEvent: {}
+[53.286392] (-) TimerEvent: {}
+[53.387313] (-) TimerEvent: {}
+[53.488200] (-) TimerEvent: {}
+[53.589108] (-) TimerEvent: {}
+[53.689983] (-) TimerEvent: {}
+[53.784186] (controller_manager_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o\x1b[0m\n'}
+[53.790110] (-) TimerEvent: {}
+[53.891046] (-) TimerEvent: {}
+[53.991868] (-) TimerEvent: {}
+[54.092343] (-) TimerEvent: {}
+[54.194956] (-) TimerEvent: {}
+[54.295757] (-) TimerEvent: {}
+[54.396372] (-) TimerEvent: {}
+[54.499334] (-) TimerEvent: {}
+[54.599790] (-) TimerEvent: {}
+[54.700486] (-) TimerEvent: {}
+[54.801223] (-) TimerEvent: {}
+[54.894664] (controller_manager_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o\x1b[0m\n'}
+[54.901379] (-) TimerEvent: {}
+[55.002085] (-) TimerEvent: {}
+[55.102766] (-) TimerEvent: {}
+[55.203467] (-) TimerEvent: {}
+[55.304171] (-) TimerEvent: {}
+[55.404914] (-) TimerEvent: {}
+[55.505707] (-) TimerEvent: {}
+[55.606454] (-) TimerEvent: {}
+[55.707318] (-) TimerEvent: {}
+[55.810291] (-) TimerEvent: {}
+[55.911109] (-) TimerEvent: {}
+[56.011772] (-) TimerEvent: {}
+[56.057758] (controller_manager_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.cpp.o\x1b[0m\n'}
+[56.111901] (-) TimerEvent: {}
+[56.212611] (-) TimerEvent: {}
+[56.313348] (-) TimerEvent: {}
+[56.414233] (-) TimerEvent: {}
+[56.515195] (-) TimerEvent: {}
+[56.616252] (-) TimerEvent: {}
+[56.716803] (-) TimerEvent: {}
+[56.817288] (-) TimerEvent: {}
+[56.917809] (-) TimerEvent: {}
+[57.018352] (-) TimerEvent: {}
+[57.118907] (-) TimerEvent: {}
+[57.219411] (-) TimerEvent: {}
+[57.319925] (-) TimerEvent: {}
+[57.419989] (controller_manager_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o\x1b[0m\n'}
+[57.421304] (-) TimerEvent: {}
+[57.521718] (-) TimerEvent: {}
+[57.622393] (-) TimerEvent: {}
+[57.723106] (-) TimerEvent: {}
+[57.823842] (-) TimerEvent: {}
+[57.924687] (-) TimerEvent: {}
+[58.025425] (-) TimerEvent: {}
+[58.126161] (-) TimerEvent: {}
+[58.226932] (-) TimerEvent: {}
+[58.327645] (-) TimerEvent: {}
+[58.428429] (-) TimerEvent: {}
+[58.529235] (-) TimerEvent: {}
+[58.629927] (-) TimerEvent: {}
+[58.651622] (controller_manager_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o\x1b[0m\n'}
+[58.730084] (-) TimerEvent: {}
+[58.830558] (-) TimerEvent: {}
+[58.931052] (-) TimerEvent: {}
+[59.031542] (-) TimerEvent: {}
+[59.132048] (-) TimerEvent: {}
+[59.232575] (-) TimerEvent: {}
+[59.333069] (-) TimerEvent: {}
+[59.434582] (-) TimerEvent: {}
+[59.535135] (-) TimerEvent: {}
+[59.635671] (-) TimerEvent: {}
+[59.732372] (controller_manager_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[59.735816] (-) TimerEvent: {}
+[59.836654] (-) TimerEvent: {}
+[59.937537] (-) TimerEvent: {}
+[60.038029] (-) TimerEvent: {}
+[60.061807] (controller_manager_msgs) StdoutLine: {'line': b'[ 72%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp\n'}
+[60.138171] (-) TimerEvent: {}
+[60.239006] (-) TimerEvent: {}
+[60.339805] (-) TimerEvent: {}
+[60.440617] (-) TimerEvent: {}
+[60.541519] (-) TimerEvent: {}
+[60.642336] (-) TimerEvent: {}
+[60.743155] (-) TimerEvent: {}
+[60.843916] (-) TimerEvent: {}
+[60.944791] (-) TimerEvent: {}
+[61.007384] (controller_manager_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[61.009930] (controller_manager_msgs) StdoutLine: {'line': b'creating controller_manager_msgs.egg-info\n'}
+[61.011859] (controller_manager_msgs) StdoutLine: {'line': b'writing controller_manager_msgs.egg-info/PKG-INFO\n'}
+[61.013653] (controller_manager_msgs) StdoutLine: {'line': b'writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt\n'}
+[61.015881] (controller_manager_msgs) StdoutLine: {'line': b'writing top-level names to controller_manager_msgs.egg-info/top_level.txt\n'}
+[61.018236] (controller_manager_msgs) StdoutLine: {'line': b"writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'\n"}
+[61.025251] (controller_manager_msgs) StdoutLine: {'line': b"reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'\n"}
+[61.028024] (controller_manager_msgs) StdoutLine: {'line': b"writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'\n"}
+[61.044962] (-) TimerEvent: {}
+[61.118363] (controller_manager_msgs) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_build_controller_manager_msgs_egg\n'}
+[61.143301] (controller_manager_msgs) StdoutLine: {'line': b'[ 73%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[61.145110] (-) TimerEvent: {}
+[61.245894] (-) TimerEvent: {}
+[61.346811] (-) TimerEvent: {}
+[61.447649] (-) TimerEvent: {}
+[61.548453] (-) TimerEvent: {}
+[61.649253] (-) TimerEvent: {}
+[61.750098] (-) TimerEvent: {}
+[61.850912] (-) TimerEvent: {}
+[61.951672] (-) TimerEvent: {}
+[62.052132] (-) TimerEvent: {}
+[62.152586] (-) TimerEvent: {}
+[62.253334] (-) TimerEvent: {}
+[62.354025] (-) TimerEvent: {}
+[62.454703] (-) TimerEvent: {}
+[62.555426] (-) TimerEvent: {}
+[62.656134] (-) TimerEvent: {}
+[62.756763] (-) TimerEvent: {}
+[62.857402] (-) TimerEvent: {}
+[62.958094] (-) TimerEvent: {}
+[63.058810] (-) TimerEvent: {}
+[63.159515] (-) TimerEvent: {}
+[63.260192] (-) TimerEvent: {}
+[63.360864] (-) TimerEvent: {}
+[63.461683] (-) TimerEvent: {}
+[63.562533] (-) TimerEvent: {}
+[63.663360] (-) TimerEvent: {}
+[63.764210] (-) TimerEvent: {}
+[63.864998] (-) TimerEvent: {}
+[63.965785] (-) TimerEvent: {}
+[64.066655] (-) TimerEvent: {}
+[64.167490] (-) TimerEvent: {}
+[64.268143] (-) TimerEvent: {}
+[64.369210] (-) TimerEvent: {}
+[64.469908] (-) TimerEvent: {}
+[64.479638] (controller_manager_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o\x1b[0m\n'}
+[64.570064] (-) TimerEvent: {}
+[64.670519] (-) TimerEvent: {}
+[64.771044] (-) TimerEvent: {}
+[64.871555] (-) TimerEvent: {}
+[64.972061] (-) TimerEvent: {}
+[65.072590] (-) TimerEvent: {}
+[65.174351] (-) TimerEvent: {}
+[65.274961] (-) TimerEvent: {}
+[65.375495] (-) TimerEvent: {}
+[65.476080] (-) TimerEvent: {}
+[65.517523] (controller_manager_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/chain_connection__type_support_c.cpp.o\x1b[0m\n'}
+[65.576240] (-) TimerEvent: {}
+[65.676964] (-) TimerEvent: {}
+[65.777471] (-) TimerEvent: {}
+[65.878015] (-) TimerEvent: {}
+[65.978563] (-) TimerEvent: {}
+[66.079101] (-) TimerEvent: {}
+[66.179634] (-) TimerEvent: {}
+[66.280175] (-) TimerEvent: {}
+[66.380721] (-) TimerEvent: {}
+[66.396812] (controller_manager_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support_c.cpp.o\x1b[0m\n'}
+[66.480883] (-) TimerEvent: {}
+[66.581558] (-) TimerEvent: {}
+[66.682267] (-) TimerEvent: {}
+[66.782963] (-) TimerEvent: {}
+[66.883689] (-) TimerEvent: {}
+[66.984353] (-) TimerEvent: {}
+[67.085041] (-) TimerEvent: {}
+[67.185698] (-) TimerEvent: {}
+[67.240681] (controller_manager_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_interface__type_support_c.cpp.o\x1b[0m\n'}
+[67.285915] (-) TimerEvent: {}
+[67.386373] (-) TimerEvent: {}
+[67.486891] (-) TimerEvent: {}
+[67.587399] (-) TimerEvent: {}
+[67.687926] (-) TimerEvent: {}
+[67.788465] (-) TimerEvent: {}
+[67.889013] (-) TimerEvent: {}
+[67.989586] (-) TimerEvent: {}
+[68.090136] (-) TimerEvent: {}
+[68.166648] (controller_manager_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_controller__type_support_c.cpp.o\x1b[0m\n'}
+[68.190301] (-) TimerEvent: {}
+[68.291058] (-) TimerEvent: {}
+[68.391781] (-) TimerEvent: {}
+[68.492468] (-) TimerEvent: {}
+[68.595178] (-) TimerEvent: {}
+[68.695939] (-) TimerEvent: {}
+[68.796709] (-) TimerEvent: {}
+[68.897502] (-) TimerEvent: {}
+[68.998346] (-) TimerEvent: {}
+[69.102362] (-) TimerEvent: {}
+[69.203380] (-) TimerEvent: {}
+[69.304142] (-) TimerEvent: {}
+[69.323957] (controller_manager_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o\x1b[0m\n'}
+[69.404562] (-) TimerEvent: {}
+[69.506700] (-) TimerEvent: {}
+[69.608020] (-) TimerEvent: {}
+[69.709498] (-) TimerEvent: {}
+[69.810294] (-) TimerEvent: {}
+[69.911057] (-) TimerEvent: {}
+[70.011816] (-) TimerEvent: {}
+[70.112753] (-) TimerEvent: {}
+[70.213612] (-) TimerEvent: {}
+[70.314363] (-) TimerEvent: {}
+[70.375169] (controller_manager_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o\x1b[0m\n'}
+[70.414535] (-) TimerEvent: {}
+[70.515253] (-) TimerEvent: {}
+[70.615941] (-) TimerEvent: {}
+[70.716856] (-) TimerEvent: {}
+[70.817571] (-) TimerEvent: {}
+[70.918318] (-) TimerEvent: {}
+[71.019119] (-) TimerEvent: {}
+[71.119879] (-) TimerEvent: {}
+[71.220723] (-) TimerEvent: {}
+[71.321450] (-) TimerEvent: {}
+[71.331104] (controller_manager_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support_c.cpp.o\x1b[0m\n'}
+[71.421615] (-) TimerEvent: {}
+[71.522308] (-) TimerEvent: {}
+[71.622998] (-) TimerEvent: {}
+[71.723715] (-) TimerEvent: {}
+[71.824498] (-) TimerEvent: {}
+[71.925258] (-) TimerEvent: {}
+[72.026038] (-) TimerEvent: {}
+[72.126796] (-) TimerEvent: {}
+[72.227581] (-) TimerEvent: {}
+[72.272375] (controller_manager_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support_c.cpp.o\x1b[0m\n'}
+[72.327737] (-) TimerEvent: {}
+[72.428406] (-) TimerEvent: {}
+[72.528916] (-) TimerEvent: {}
+[72.629451] (-) TimerEvent: {}
+[72.729989] (-) TimerEvent: {}
+[72.830545] (-) TimerEvent: {}
+[72.931132] (-) TimerEvent: {}
+[73.031669] (-) TimerEvent: {}
+[73.132190] (-) TimerEvent: {}
+[73.203937] (controller_manager_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o\x1b[0m\n'}
+[73.232351] (-) TimerEvent: {}
+[73.332980] (-) TimerEvent: {}
+[73.433560] (-) TimerEvent: {}
+[73.534144] (-) TimerEvent: {}
+[73.634733] (-) TimerEvent: {}
+[73.735594] (-) TimerEvent: {}
+[73.836627] (-) TimerEvent: {}
+[73.937452] (-) TimerEvent: {}
+[74.038292] (-) TimerEvent: {}
+[74.118567] (controller_manager_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o\x1b[0m\n'}
+[74.138456] (-) TimerEvent: {}
+[74.238958] (-) TimerEvent: {}
+[74.339417] (-) TimerEvent: {}
+[74.439938] (-) TimerEvent: {}
+[74.540454] (-) TimerEvent: {}
+[74.640992] (-) TimerEvent: {}
+[74.741531] (-) TimerEvent: {}
+[74.842059] (-) TimerEvent: {}
+[74.942586] (-) TimerEvent: {}
+[74.998500] (controller_manager_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support_c.cpp.o\x1b[0m\n'}
+[75.042753] (-) TimerEvent: {}
+[75.143647] (-) TimerEvent: {}
+[75.244359] (-) TimerEvent: {}
+[75.345048] (-) TimerEvent: {}
+[75.445764] (-) TimerEvent: {}
+[75.546766] (-) TimerEvent: {}
+[75.647544] (-) TimerEvent: {}
+[75.748331] (-) TimerEvent: {}
+[75.849088] (-) TimerEvent: {}
+[75.904533] (controller_manager_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o\x1b[0m\n'}
+[75.930274] (controller_manager_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:360: CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o] Interrupt\n'}
+[75.930673] (controller_manager_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[75.930925] (controller_manager_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[75.933542] (controller_manager_msgs) JobEnded: {'identifier': 'controller_manager_msgs', 'rc': 'SIGINT'}
+[75.944856] (autonomous_exploration) JobSkipped: {'identifier': 'autonomous_exploration'}
+[75.945011] (joint_limits) JobSkipped: {'identifier': 'joint_limits'}
+[75.945065] (msgs) JobSkipped: {'identifier': 'msgs'}
+[75.945111] (navigation_module) JobSkipped: {'identifier': 'navigation_module'}
+[75.945154] (sample_package) JobSkipped: {'identifier': 'sample_package'}
+[75.945196] (rqt_controller_manager) JobSkipped: {'identifier': 'rqt_controller_manager'}
+[75.945236] (controller_interface) JobSkipped: {'identifier': 'controller_interface'}
+[75.945272] (transmission_interface) JobSkipped: {'identifier': 'transmission_interface'}
+[75.945309] (controller_manager) JobSkipped: {'identifier': 'controller_manager'}
+[75.945347] (ros2controlcli) JobSkipped: {'identifier': 'ros2controlcli'}
+[75.945386] (ros2_control) JobSkipped: {'identifier': 'ros2_control'}
+[75.945425] (-) EventReactorShutdown: {}

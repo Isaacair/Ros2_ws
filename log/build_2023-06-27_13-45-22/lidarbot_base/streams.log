@@ -1,0 +1,47 @@
+[0.039s] Invoking command in '/home/tony_stark/ros2_ws/build/lidarbot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble /usr/bin/cmake /home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base -DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/lidarbot_base
+[0.143s] -- The C compiler identification is GNU 11.3.0
+[0.241s] -- The CXX compiler identification is GNU 11.3.0
+[0.252s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.423s] -- Detecting CXX compiler ABI info
+[0.598s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.611s] -- Detecting CXX compile features
+[0.612s] -- Detecting CXX compile features - done
+[0.617s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.983s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.064s] -- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[4.602s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.305s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.614s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.477s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.665s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[16.704s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[17.394s] -- Looking for pthread.h
+[18.431s] -- Looking for pthread.h - found
+[18.442s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.642s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.645s] -- Found Threads: TRUE  
+[21.017s] -- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[21.199s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[21.387s] -- Configuring done
+[24.706s] -- Generating done
+[24.718s] -- Build files have been written to: /home/tony_stark/ros2_ws/build/lidarbot_base
+[24.760s] Invoked command in '/home/tony_stark/ros2_ws/build/lidarbot_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble /usr/bin/cmake /home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base -DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/lidarbot_base
+[24.761s] Invoking command in '/home/tony_stark/ros2_ws/build/lidarbot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble /usr/bin/cmake --build /home/tony_stark/ros2_ws/build/lidarbot_base -- -j2 -l2
+[24.859s] [  6%] [32mBuilding CXX object CMakeFiles/lidarbot_hardware.dir/src/lidarbot_hardware.cpp.o[0m
+[45.383s] In file included from [01m[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base/include/lidarbot_base/lidarbot_hardware.hpp:20[m[K,
+[45.385s]                  from [01m[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base/src/lidarbot_hardware.cpp:1[m[K:
+[45.387s] [01m[K/home/tony_stark/ros2_ws/src/lidarbot/lidarbot_base/include/lidarbot_base/motor_encoder.h:11:10:[m[K [01;31m[Kfatal error: [m[KwiringPi.h: No such file or directory
+[45.393s]    11 | #include [01;31m[K<wiringPi.h>[m[K
+[45.393s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[45.395s] compilation terminated.
+[45.397s] gmake[2]: *** [CMakeFiles/lidarbot_hardware.dir/build.make:76: CMakeFiles/lidarbot_hardware.dir/src/lidarbot_hardware.cpp.o] Error 1
+[45.399s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/lidarbot_hardware.dir/all] Error 2
+[45.399s] gmake: *** [Makefile:146: all] Error 2
+[45.405s] Invoked command in '/home/tony_stark/ros2_ws/build/lidarbot_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble /usr/bin/cmake --build /home/tony_stark/ros2_ws/build/lidarbot_base -- -j2 -l2

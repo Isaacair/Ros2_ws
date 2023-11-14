@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (fan_simulation) JobQueued: {'identifier': 'fan_simulation', 'dependencies': OrderedDict()}
+[0.000551] (gazebo_ros_motors) JobQueued: {'identifier': 'gazebo_ros_motors', 'dependencies': OrderedDict()}
+[0.000607] (msgs) JobQueued: {'identifier': 'msgs', 'dependencies': OrderedDict()}
+[0.000654] (sample_package) JobQueued: {'identifier': 'sample_package', 'dependencies': OrderedDict()}
+[0.000697] (fan_simulation) JobStarted: {'identifier': 'fan_simulation'}
+[0.095032] (-) TimerEvent: {}
+[0.195537] (-) TimerEvent: {}
+[0.296102] (-) TimerEvent: {}
+[0.396608] (-) TimerEvent: {}
+[0.471197] (gazebo_ros_motors) JobStarted: {'identifier': 'gazebo_ros_motors'}
+[0.500263] (-) TimerEvent: {}
+[0.600694] (-) TimerEvent: {}
+[0.701121] (-) TimerEvent: {}
+[0.801547] (-) TimerEvent: {}
+[0.903488] (-) TimerEvent: {}
+[1.003998] (-) TimerEvent: {}
+[1.104607] (-) TimerEvent: {}
+[1.205087] (-) TimerEvent: {}
+[1.305678] (-) TimerEvent: {}
+[1.406417] (-) TimerEvent: {}
+[1.506918] (-) TimerEvent: {}
+[1.607666] (-) TimerEvent: {}
+[1.708228] (-) TimerEvent: {}
+[1.808886] (-) TimerEvent: {}
+[1.909625] (-) TimerEvent: {}
+[2.012827] (-) TimerEvent: {}
+[2.026393] (gazebo_ros_motors) JobProgress: {'identifier': 'gazebo_ros_motors', 'progress': 'cmake'}
+[2.027909] (gazebo_ros_motors) Command: {'cmd': ['/usr/bin/cmake', '/home/tony_stark/ros2_ws/src/gazebo_ros_motors', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/gazebo_ros_motors'], 'cwd': '/home/tony_stark/ros2_ws/build/gazebo_ros_motors', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tony_stark'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony_stark'), ('OLDPWD', '/home/tony_stark'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tony_stark/ros2_ws/install:/home/tony_stark/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tony_stark'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony_stark'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/tony_stark/ros2_ws/src/my_gazebo_models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1495,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1495'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/179cac6a_cb54_419e_bc8c_f9c2ba86d519'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TTZY21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1510'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/fan_simulation:/home/tony_stark/install/sample_package:/home/tony_stark/install/msgs:/home/tony_stark/install/fan_simulation:/home/tony_stark/install/fan_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony_stark/ros2_ws/build/gazebo_ros_motors'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/install/msgs/lib/python3.10/site-packages:/home/tony_stark/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/install/fan_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.153553] (-) TimerEvent: {}
+[2.254267] (-) TimerEvent: {}
+[2.354998] (-) TimerEvent: {}
+[2.455674] (-) TimerEvent: {}
+[2.556267] (-) TimerEvent: {}
+[2.656772] (-) TimerEvent: {}
+[2.757307] (-) TimerEvent: {}
+[2.858843] (-) TimerEvent: {}
+[2.959665] (-) TimerEvent: {}
+[3.062119] (-) TimerEvent: {}
+[3.073041] (gazebo_ros_motors) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[3.073958] (gazebo_ros_motors) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[3.074755] (gazebo_ros_motors) StderrLine: {'line': b'  CMake.\n'}
+[3.075075] (gazebo_ros_motors) StderrLine: {'line': b'\n'}
+[3.075229] (gazebo_ros_motors) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[3.075420] (gazebo_ros_motors) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[3.075598] (gazebo_ros_motors) StderrLine: {'line': b'\n'}
+[3.075763] (gazebo_ros_motors) StderrLine: {'line': b'\x1b[0m\n'}
+[3.162325] (-) TimerEvent: {}
+[3.263271] (-) TimerEvent: {}
+[3.365871] (-) TimerEvent: {}
+[3.466761] (-) TimerEvent: {}
+[3.568141] (-) TimerEvent: {}
+[3.670250] (-) TimerEvent: {}
+[3.770901] (-) TimerEvent: {}
+[3.871573] (-) TimerEvent: {}
+[3.972744] (-) TimerEvent: {}
+[4.073280] (-) TimerEvent: {}
+[4.173986] (-) TimerEvent: {}
+[4.274727] (-) TimerEvent: {}
+[4.375193] (-) TimerEvent: {}
+[4.475731] (-) TimerEvent: {}
+[4.576183] (-) TimerEvent: {}
+[4.676831] (-) TimerEvent: {}
+[4.777762] (-) TimerEvent: {}
+[4.878235] (-) TimerEvent: {}
+[4.978825] (-) TimerEvent: {}
+[5.079320] (-) TimerEvent: {}
+[5.179795] (-) TimerEvent: {}
+[5.280307] (-) TimerEvent: {}
+[5.380933] (-) TimerEvent: {}
+[5.481387] (-) TimerEvent: {}
+[5.581816] (-) TimerEvent: {}
+[5.682264] (-) TimerEvent: {}
+[5.782750] (-) TimerEvent: {}
+[5.883363] (-) TimerEvent: {}
+[5.983946] (-) TimerEvent: {}
+[6.084380] (-) TimerEvent: {}
+[6.184856] (-) TimerEvent: {}
+[6.285286] (-) TimerEvent: {}
+[6.385819] (-) TimerEvent: {}
+[6.486263] (-) TimerEvent: {}
+[6.586758] (-) TimerEvent: {}
+[6.687793] (-) TimerEvent: {}
+[6.788489] (-) TimerEvent: {}
+[6.889840] (-) TimerEvent: {}
+[6.990296] (-) TimerEvent: {}
+[7.091028] (-) TimerEvent: {}
+[7.191610] (-) TimerEvent: {}
+[7.292579] (-) TimerEvent: {}
+[7.393021] (-) TimerEvent: {}
+[7.493607] (-) TimerEvent: {}
+[7.594264] (-) TimerEvent: {}
+[7.659727] (fan_simulation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fan_simulation', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/fan_simulation/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/fan_simulation/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/fan_simulation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1514', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install:/home/tony_stark/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1495,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1495', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/179cac6a_cb54_419e_bc8c_f9c2ba86d519', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TTZY21', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1510', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/fan_simulation:/home/tony_stark/install/sample_package:/home/tony_stark/install/msgs:/home/tony_stark/install/fan_simulation:/home/tony_stark/install/fan_sim:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/fan_simulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/fan_simulation/prefix_override:/home/tony_stark/ros2_ws/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/install/msgs/lib/python3.10/site-packages:/home/tony_stark/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/install/fan_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.694675] (-) TimerEvent: {}
+[7.795601] (-) TimerEvent: {}
+[7.896908] (-) TimerEvent: {}
+[7.998071] (-) TimerEvent: {}
+[8.098888] (-) TimerEvent: {}
+[8.201020] (-) TimerEvent: {}
+[8.301894] (-) TimerEvent: {}
+[8.402917] (-) TimerEvent: {}
+[8.503899] (-) TimerEvent: {}
+[8.604833] (-) TimerEvent: {}
+[8.705892] (-) TimerEvent: {}
+[8.807016] (-) TimerEvent: {}
+[8.907655] (-) TimerEvent: {}
+[9.008185] (-) TimerEvent: {}
+[9.047406] (fan_simulation) StdoutLine: {'line': b'running egg_info\n'}
+[9.048872] (fan_simulation) StdoutLine: {'line': b'writing ../../build/fan_simulation/fan_simulation.egg-info/PKG-INFO\n'}
+[9.086715] (fan_simulation) StdoutLine: {'line': b'writing dependency_links to ../../build/fan_simulation/fan_simulation.egg-info/dependency_links.txt\n'}
+[9.087070] (fan_simulation) StdoutLine: {'line': b'writing entry points to ../../build/fan_simulation/fan_simulation.egg-info/entry_points.txt\n'}
+[9.087454] (fan_simulation) StdoutLine: {'line': b'writing requirements to ../../build/fan_simulation/fan_simulation.egg-info/requires.txt\n'}
+[9.087786] (fan_simulation) StdoutLine: {'line': b'writing top-level names to ../../build/fan_simulation/fan_simulation.egg-info/top_level.txt\n'}
+[9.098323] (fan_simulation) StdoutLine: {'line': b"reading manifest file '../../build/fan_simulation/fan_simulation.egg-info/SOURCES.txt'\n"}
+[9.108391] (-) TimerEvent: {}
+[9.118750] (gazebo_ros_motors) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[9.143901] (fan_simulation) StdoutLine: {'line': b"writing manifest file '../../build/fan_simulation/fan_simulation.egg-info/SOURCES.txt'\n"}
+[9.145527] (fan_simulation) StdoutLine: {'line': b'running build\n'}
+[9.145984] (fan_simulation) StdoutLine: {'line': b'running build_py\n'}
+[9.149091] (fan_simulation) StdoutLine: {'line': b'running install\n'}
+[9.154639] (fan_simulation) StdoutLine: {'line': b'running install_lib\n'}
+[9.166253] (fan_simulation) StdoutLine: {'line': b'running install_data\n'}
+[9.169682] (fan_simulation) StdoutLine: {'line': b'copying launch/fanlaunch.launch.py -> /home/tony_stark/ros2_ws/install/fan_simulation/share/fan_simulation\n'}
+[9.208802] (-) TimerEvent: {}
+[9.214378] (fan_simulation) StdoutLine: {'line': b'copying launch/gazebo_fanlaunch.launch.py -> /home/tony_stark/ros2_ws/install/fan_simulation/share/fan_simulation\n'}
+[9.237409] (fan_simulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.251520] (fan_simulation) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/fan_simulation/lib/python3.10/site-packages/fan_simulation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.270847] (fan_simulation) StdoutLine: {'line': b'Copying ../../build/fan_simulation/fan_simulation.egg-info to /home/tony_stark/ros2_ws/install/fan_simulation/lib/python3.10/site-packages/fan_simulation-0.0.0-py3.10.egg-info\n'}
+[9.308904] (-) TimerEvent: {}
+[9.369694] (fan_simulation) StdoutLine: {'line': b'running install_scripts\n'}
+[9.409052] (-) TimerEvent: {}
+[9.507373] (fan_simulation) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/fan_simulation/install.log'\n"}
+[9.509248] (-) TimerEvent: {}
+[9.609853] (-) TimerEvent: {}
+[9.673347] (fan_simulation) CommandEnded: {'returncode': 0}
+[9.709993] (-) TimerEvent: {}
+[9.810551] (-) TimerEvent: {}
+[9.911998] (-) TimerEvent: {}
+[10.012767] (-) TimerEvent: {}
+[10.113474] (-) TimerEvent: {}
+[10.214390] (-) TimerEvent: {}
+[10.315065] (-) TimerEvent: {}
+[10.415517] (-) TimerEvent: {}
+[10.516135] (-) TimerEvent: {}
+[10.616915] (-) TimerEvent: {}
+[10.717615] (-) TimerEvent: {}
+[10.818317] (-) TimerEvent: {}
+[10.918746] (-) TimerEvent: {}
+[11.019202] (-) TimerEvent: {}
+[11.119859] (-) TimerEvent: {}
+[11.220572] (-) TimerEvent: {}
+[11.321030] (-) TimerEvent: {}
+[11.421516] (-) TimerEvent: {}
+[11.521960] (-) TimerEvent: {}
+[11.623335] (-) TimerEvent: {}
+[11.723833] (-) TimerEvent: {}
+[11.824389] (-) TimerEvent: {}
+[11.925118] (-) TimerEvent: {}
+[12.025822] (-) TimerEvent: {}
+[12.126549] (-) TimerEvent: {}
+[12.227145] (-) TimerEvent: {}
+[12.327742] (-) TimerEvent: {}
+[12.428265] (-) TimerEvent: {}
+[12.528957] (-) TimerEvent: {}
+[12.629540] (-) TimerEvent: {}
+[12.730264] (-) TimerEvent: {}
+[12.830753] (-) TimerEvent: {}
+[12.933003] (-) TimerEvent: {}
+[13.033653] (-) TimerEvent: {}
+[13.058364] (fan_simulation) JobEnded: {'identifier': 'fan_simulation', 'rc': 0}
+[13.060245] (msgs) JobStarted: {'identifier': 'msgs'}
+[13.133805] (-) TimerEvent: {}
+[13.225885] (gazebo_ros_motors) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[13.236118] (-) TimerEvent: {}
+[13.338701] (-) TimerEvent: {}
+[13.439369] (-) TimerEvent: {}
+[13.540050] (-) TimerEvent: {}
+[13.640541] (-) TimerEvent: {}
+[13.741032] (-) TimerEvent: {}
+[13.841544] (-) TimerEvent: {}
+[13.942258] (-) TimerEvent: {}
+[14.042724] (-) TimerEvent: {}
+[14.143203] (-) TimerEvent: {}
+[14.184053] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.243399] (-) TimerEvent: {}
+[14.344027] (-) TimerEvent: {}
+[14.444728] (-) TimerEvent: {}
+[14.545229] (-) TimerEvent: {}
+[14.645753] (-) TimerEvent: {}
+[14.746716] (-) TimerEvent: {}
+[14.847259] (-) TimerEvent: {}
+[14.947784] (-) TimerEvent: {}
+[15.126951] (-) TimerEvent: {}
+[15.228676] (-) TimerEvent: {}
+[15.329268] (-) TimerEvent: {}
+[15.429879] (-) TimerEvent: {}
+[15.530739] (-) TimerEvent: {}
+[15.631213] (-) TimerEvent: {}
+[15.731696] (-) TimerEvent: {}
+[15.832194] (-) TimerEvent: {}
+[15.932743] (-) TimerEvent: {}
+[16.033221] (-) TimerEvent: {}
+[16.133836] (-) TimerEvent: {}
+[16.234766] (-) TimerEvent: {}
+[16.335349] (-) TimerEvent: {}
+[16.437533] (-) TimerEvent: {}
+[16.539645] (-) TimerEvent: {}
+[16.586672] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[16.640630] (-) TimerEvent: {}
+[16.704034] (gazebo_ros_motors) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[16.723887] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[16.740796] (-) TimerEvent: {}
+[16.744496] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[16.794959] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.841043] (-) TimerEvent: {}
+[16.942685] (-) TimerEvent: {}
+[17.044624] (-) TimerEvent: {}
+[17.145105] (-) TimerEvent: {}
+[17.245921] (-) TimerEvent: {}
+[17.348310] (-) TimerEvent: {}
+[17.392639] (msgs) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/msgs', 'build', '--build-base', '/home/tony_stark/ros2_ws/build/msgs/build', 'install', '--record', '/home/tony_stark/ros2_ws/build/msgs/install.log', '--single-version-externally-managed'], 'cwd': '/home/tony_stark/ros2_ws/src/msgs', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'tony_stark', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tony_stark', 'OLDPWD': '/home/tony_stark', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1514', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tony_stark/ros2_ws/install:/home/tony_stark/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tony_stark', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tony_stark', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/tony_stark/ros2_ws/src/my_gazebo_models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/tony_stark/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tony-HP-245-G6-Notebook-PC:@/tmp/.ICE-unix/1495,unix/tony-HP-245-G6-Notebook-PC:/tmp/.ICE-unix/1495', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/179cac6a_cb54_419e_bc8c_f9c2ba86d519', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TTZY21', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1510', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/fan_simulation:/home/tony_stark/install/sample_package:/home/tony_stark/install/msgs:/home/tony_stark/install/fan_simulation:/home/tony_stark/install/fan_sim:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tony_stark/ros2_ws/build/msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tony_stark/ros2_ws/build/msgs/prefix_override:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages:/home/tony_stark/ros2_ws/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/install/sample_package/lib/python3.10/site-packages:/home/tony_stark/install/msgs/lib/python3.10/site-packages:/home/tony_stark/install/fan_simulation/lib/python3.10/site-packages:/home/tony_stark/install/fan_sim/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[17.448535] (-) TimerEvent: {}
+[17.550322] (-) TimerEvent: {}
+[17.553538] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[17.642560] (gazebo_ros_motors) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[17.647502] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[17.651974] (-) TimerEvent: {}
+[17.655628] (gazebo_ros_motors) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.752410] (-) TimerEvent: {}
+[17.854467] (-) TimerEvent: {}
+[17.955241] (-) TimerEvent: {}
+[18.059107] (-) TimerEvent: {}
+[18.160563] (-) TimerEvent: {}
+[18.252059] (gazebo_ros_motors) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[18.252409] (gazebo_ros_motors) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[18.252668] (gazebo_ros_motors) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[18.252860] (gazebo_ros_motors) StderrLine: {'line': b'  CMake did not find one.\n'}
+[18.253040] (gazebo_ros_motors) StderrLine: {'line': b'\n'}
+[18.253231] (gazebo_ros_motors) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[18.253647] (gazebo_ros_motors) StderrLine: {'line': b'  of the following names:\n'}
+[18.253834] (gazebo_ros_motors) StderrLine: {'line': b'\n'}
+[18.254036] (gazebo_ros_motors) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[18.254349] (gazebo_ros_motors) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[18.254529] (gazebo_ros_motors) StderrLine: {'line': b'\n'}
+[18.254697] (gazebo_ros_motors) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[18.254874] (gazebo_ros_motors) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[18.255037] (gazebo_ros_motors) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[18.255211] (gazebo_ros_motors) StderrLine: {'line': b'  installed.\n'}
+[18.255388] (gazebo_ros_motors) StderrLine: {'line': b'\n'}
+[18.255574] (gazebo_ros_motors) StderrLine: {'line': b'\x1b[0m\n'}
+[18.255759] (gazebo_ros_motors) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.255946] (gazebo_ros_motors) StdoutLine: {'line': b'See also "/home/tony_stark/ros2_ws/build/gazebo_ros_motors/CMakeFiles/CMakeOutput.log".\n'}
+[18.261050] (-) TimerEvent: {}
+[18.270901] (gazebo_ros_motors) CommandEnded: {'returncode': 1}
+[18.361434] (-) TimerEvent: {}
+[18.462547] (-) TimerEvent: {}
+[18.564232] (-) TimerEvent: {}
+[18.640318] (gazebo_ros_motors) JobEnded: {'identifier': 'gazebo_ros_motors', 'rc': 1}
+[18.664363] (-) TimerEvent: {}
+[18.764853] (-) TimerEvent: {}
+[18.865381] (-) TimerEvent: {}
+[18.965870] (-) TimerEvent: {}
+[19.066367] (-) TimerEvent: {}
+[19.166915] (-) TimerEvent: {}
+[19.254011] (msgs) StdoutLine: {'line': b'running egg_info\n'}
+[19.256011] (msgs) StdoutLine: {'line': b'writing ../../build/msgs/msgs.egg-info/PKG-INFO\n'}
+[19.256822] (msgs) StdoutLine: {'line': b'writing dependency_links to ../../build/msgs/msgs.egg-info/dependency_links.txt\n'}
+[19.258533] (msgs) StdoutLine: {'line': b'writing entry points to ../../build/msgs/msgs.egg-info/entry_points.txt\n'}
+[19.260092] (msgs) StdoutLine: {'line': b'writing requirements to ../../build/msgs/msgs.egg-info/requires.txt\n'}
+[19.260751] (msgs) StdoutLine: {'line': b'writing top-level names to ../../build/msgs/msgs.egg-info/top_level.txt\n'}
+[19.267070] (-) TimerEvent: {}
+[19.310117] (msgs) StdoutLine: {'line': b"reading manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[19.367235] (-) TimerEvent: {}
+[19.369360] (msgs) StdoutLine: {'line': b"writing manifest file '../../build/msgs/msgs.egg-info/SOURCES.txt'\n"}
+[19.369705] (msgs) StdoutLine: {'line': b'running build\n'}
+[19.369914] (msgs) StdoutLine: {'line': b'running build_py\n'}
+[19.370373] (msgs) StdoutLine: {'line': b'running install\n'}
+[19.372131] (msgs) StdoutLine: {'line': b'running install_lib\n'}
+[19.378995] (msgs) StdoutLine: {'line': b'running install_data\n'}
+[19.382581] (msgs) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.392239] (msgs) StdoutLine: {'line': b"removing '/home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[19.402910] (msgs) StdoutLine: {'line': b'Copying ../../build/msgs/msgs.egg-info to /home/tony_stark/ros2_ws/install/msgs/lib/python3.10/site-packages/msgs-0.0.0-py3.10.egg-info\n'}
+[19.458872] (msgs) StdoutLine: {'line': b'running install_scripts\n'}
+[19.467382] (-) TimerEvent: {}
+[19.558391] (msgs) StdoutLine: {'line': b'Installing floatlist script to /home/tony_stark/ros2_ws/install/msgs/lib/msgs\n'}
+[19.560496] (msgs) StdoutLine: {'line': b"writing list of installed files to '/home/tony_stark/ros2_ws/build/msgs/install.log'\n"}
+[19.567536] (-) TimerEvent: {}
+[19.668047] (-) TimerEvent: {}
+[19.681651] (msgs) JobEnded: {'identifier': 'msgs', 'rc': 'SIGINT'}
+[19.693233] (sample_package) JobSkipped: {'identifier': 'sample_package'}
+[19.693432] (-) EventReactorShutdown: {}

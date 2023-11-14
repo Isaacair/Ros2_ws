@@ -1,0 +1,46 @@
+[0.061s] Invoking command in '/home/tony_stark/ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble /usr/bin/cmake /home/tony_stark/ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/controller_manager_msgs
+[8.620s] -- The C compiler identification is GNU 11.3.0
+[8.908s] -- The CXX compiler identification is GNU 11.3.0
+[9.194s] -- Detecting C compiler ABI info
+[9.670s] -- Detecting C compiler ABI info - done
+[9.686s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.911s] -- Detecting C compile features
+[9.932s] -- Detecting C compile features - done
+[9.946s] -- Detecting CXX compiler ABI info
+[10.139s] -- Detecting CXX compiler ABI info - done
+[10.150s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.151s] -- Detecting CXX compile features
+[10.152s] -- Detecting CXX compile features - done
+[10.483s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.409s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[18.212s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[21.642s] Invoked command in '/home/tony_stark/ros2_ws/build/controller_manager_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony_stark/ros2_ws/install/sample_package:/home/tony_stark/ros2_ws/install/rosgpt:/home/tony_stark/ros2_ws/install/navigation_module:/home/tony_stark/ros2_ws/install/msgs:/home/tony_stark/ros2_ws/install/autonomous_exploration:/opt/ros/humble /usr/bin/cmake /home/tony_stark/ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/tony_stark/ros2_ws/install/controller_manager_msgs
+[22.429s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 112, in get_buildfile
+    if 'Ninja' in generator:
+TypeError: argument of type 'NoneType' is not iterable
